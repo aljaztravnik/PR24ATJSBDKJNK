@@ -63,6 +63,12 @@ class Data:
             'Latitude': [float(koordinata[1]) for koordinata in koordinate],
             'Longitude': [float(koordinata[2]) for koordinata in koordinate]
         })
+        self.years = np.unique([entry['Date'][-4:] for entry in self.podatki])
+        self.num_accidents = [np.sum([1 for entry in self.podatki if entry['Date'].endswith(year)]) for year in self.years]
+        self.num_passengers = np.array(
+            [np.sum([entry['Aboard'] for entry in self.podatki if entry['Date'].endswith(year)]) for year in self.years])
+        self.ratio = self.num_accidents / self.num_passengers * 100
+
     def get_geolocations(self):
         # ZEMLJEVID SVETA - Pridobivanje koordinat in shranjevanje v .csv datoteko
         # !! PROGRAM TEČE OKOLI 3 URE !! PODATKI SO ŽE V CSV DATOTEKI !!
@@ -99,17 +105,53 @@ class Data:
         crash_data.to_csv('podatki/koordinate.csv', index=False)
         """
     def crashes_over_time(self):
-        years = np.unique([entry['Date'][-4:] for entry in self.podatki])
-        num_accidents = [np.sum([1 for entry in self.podatki if entry['Date'].endswith(year)]) for year in years]
+
 
         plt.figure(figsize=(10, 6))
-        plt.plot(years, num_accidents, marker='o', linestyle='-')
+        plt.plot(self.years, self.num_accidents, marker='o', linestyle='-')
         plt.title('Number of Airplane Accidents Over Time')
         plt.xlabel('Year')
         plt.ylabel('Number of Accidents')
         plt.grid(True)
-        plt.xticks(years[::5], rotation=45)
+        plt.xticks(self.years[::5], rotation=45)
         plt.tight_layout()
+        plt.show()
+
+    def ratio_over_time(self):
+
+
+        plt.figure(figsize=(10, 6))
+        plt.plot(self.years, self.ratio, marker='o', linestyle='-')
+        plt.title('Fatalities / Total amount of passegers Ratio by Year')
+        plt.xlabel('Year')
+        plt.ylabel('Ratio (%)')
+        plt.grid(True)
+        plt.xticks(self.years[::5], rotation=45)
+        plt.tight_layout()
+        plt.show()
+
+    def fatilities_vs_ratio(self):
+        fig = plt.figure(figsize=(12, 6))
+        ax1 = fig.subplots()
+        ax1.plot(self.years, self.ratio, color='orange', marker=".", linewidth=1)
+        ax1.set_xlabel('Year', fontsize=11)
+        for label in ax1.xaxis.get_ticklabels():
+            label.set_rotation(45)
+        ax1.set_ylabel('Ratio (%)', color='orange', fontsize=11)
+        ax1.tick_params('y', colors='orange')
+        ax2 = ax1.twinx()
+        ax2.plot(self.years, self.num_accidents, color='red', marker=".", linewidth=1)
+        ax2.set_ylabel('Number of fatalities', color='red', fontsize=11)
+        ax2.tick_params('y', colors='r')
+        plt.title('Fatalities VS Ratio by Year', loc='Center', fontsize=14)
+
+        ax1.set_xticks(self.years[::5])
+        for label in ax1.xaxis.get_ticklabels()[::5]:
+            label.set_visible(True)
+        for label in ax1.xaxis.get_ticklabels()[1::5]:
+            label.set_visible(False)
+
+        fig.tight_layout()
         plt.show()
 
     def highest_crash_counts(self):
@@ -209,3 +251,23 @@ class Data:
         plt.title('Letalske nesreče po svetu')
         plt.show()
 
+
+
+    def wordcloud(self,field):
+        from PIL import Image
+        from wordcloud import WordCloud, STOPWORDS
+
+        text = str(self.podatki[field])
+        plane_mask = np.array(Image.open('assets/airplane_mask.jpg'))
+
+        stopwords = set(STOPWORDS)
+
+        wc = WordCloud(background_color="white", max_words=4000, mask=plane_mask,
+                       stopwords=stopwords)
+        wc.generate(text)
+
+        plt.figure(figsize=(10, 10))
+        plt.imshow(wc, interpolation='bilinear')
+        plt.axis("off")
+        plt.title(field, loc='Center', fontsize=14)
+        plt.show()
