@@ -99,15 +99,8 @@ class Data:
         crash_data.to_csv('podatki/koordinate.csv', index=False)
         """
     def crashes_over_time(self):
-        years = np.array([crash[0][:4] for crash in self.podatki])
-        unique_years, crash_counts = np.unique(years, return_counts=True)
-
-        sorted_indices = np.argsort(unique_years)
-        unique_years_sorted = unique_years[sorted_indices]
-        crash_counts_sorted = crash_counts[sorted_indices]
-
-        years = np.unique([entry['Date'][:4] for entry in self.podatki])
-        num_accidents = [np.sum([1 for entry in self.podatki if entry['Date'].startswith(year)]) for year in years]
+        years = np.unique([entry['Date'][-4:] for entry in self.podatki])
+        num_accidents = [np.sum([1 for entry in self.podatki if entry['Date'].endswith(year)]) for year in years]
 
         plt.figure(figsize=(10, 6))
         plt.plot(years, num_accidents, marker='o', linestyle='-')
