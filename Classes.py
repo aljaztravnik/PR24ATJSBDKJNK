@@ -28,7 +28,7 @@ class Data:
             ('Summary', 'U1000')  # Summary as string
         ]
 
-        with open("podatki\\Airplane_Crashes_and_Fatalities_Since_1908.csv", 'r', encoding='utf-8') as file:
+        with open("podatki/Airplane_Crashes_and_Fatalities_Since_1908.csv", 'r', encoding='utf-8') as file:
             csv_reader = DictReader(file)
             for row in csv_reader:
                 date = row['Date']
@@ -50,7 +50,7 @@ class Data:
         self.podatki = np.sort(np.array(self.podatki, dtype=dtype), order='Date')
 
         koordinate = []
-        with open("podatki\\koordinate.csv", 'r', encoding='utf-8') as file:
+        with open("podatki/koordinate.csv", 'r', encoding='utf-8') as file:
             csv_reader = DictReader(file)
             for row in csv_reader:
                 location = row['Location Name']
@@ -112,6 +112,31 @@ class Data:
         plt.tight_layout()
         plt.show()
 
+    def deaths_over_time(self):
+        years = np.array([int(entry[0][-4:]) for entry in self.podatki])  # Extract years from the date
+        fatalities = np.array([entry[10] for entry in self.podatki])  # Extract fatalities data
+
+        plt.figure(figsize=(18, 8))
+        plt.plot(fatalities, years, 'o')
+        plt.xlabel('Fatalities')
+        plt.ylabel('Years')
+        plt.show()
+
+
+    def ratio_between_aboard_fatal(self):
+        aboard = np.array([entry[9] for entry in self.podatki])
+        fatalities = np.array([entry[10] for entry in self.podatki])
+
+        survivors = aboard - fatalities
+
+        plt.figure(figsize=(8, 8))
+        labels = ['Survivors', 'Fatalities']
+        sizes = [np.sum(survivors), np.sum(fatalities)]
+        plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=140)
+        plt.title('Proportion of Survivors to Fatalities')
+        plt.axis('equal') 
+        plt.show()
+    
     def highest_crash_counts(self):
         registrations = np.array([crash[6] for crash in self.podatki])
 
