@@ -153,6 +153,30 @@ class Data:
 
         fig.tight_layout()
         plt.show()
+    
+    def deaths_over_time(self):
+        years = np.array([int(entry[0][-4:]) for entry in self.podatki])  # Extract years from the date
+        fatalities = np.array([entry[10] for entry in self.podatki])  # Extract fatalities data
+
+        plt.figure(figsize=(18, 8))
+        plt.plot(fatalities, years, 'o')
+        plt.xlabel('Fatalities')
+        plt.ylabel('Years')
+        plt.show()
+
+    def ratio_between_aboard_fatal(self):
+        aboard = np.array([entry[9] for entry in self.podatki])
+        fatalities = np.array([entry[10] for entry in self.podatki])
+
+        survivors = aboard - fatalities
+
+        plt.figure(figsize=(8, 8))
+        labels = ['Survivors', 'Fatalities']
+        sizes = [np.sum(survivors), np.sum(fatalities)]
+        plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=140)
+        plt.title('Proportion of Survivors to Fatalities')
+        plt.axis('equal') 
+        plt.show()
 
     def highest_crash_counts(self):
         registrations = np.array([crash[6] for crash in self.podatki])
