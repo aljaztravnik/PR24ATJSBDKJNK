@@ -6,6 +6,9 @@ import pandas as pd
 import cartopy.crs as ccrs
 import cartopy.feature as cfeature
 import warnings
+from PIL import Image
+from wordcloud import WordCloud, STOPWORDS
+
 warnings.filterwarnings("ignore")
 
 
@@ -64,9 +67,16 @@ class Data:
             'Longitude': [float(koordinata[2]) for koordinata in koordinate]
         })
         self.years = np.unique([entry['Date'][-4:] for entry in self.podatki])
-        self.num_accidents = [np.sum([1 for entry in self.podatki if entry['Date'].endswith(year)]) for year in self.years]
+        self.years_numeric = np.array([int(year) for year in self.years])
+        self.num_accidents = np.array(
+            [np.sum([1 for entry in self.podatki if entry['Date'].endswith(year)]) for year in self.years],
+            dtype=np.float64)
+        self.num_fatalities = np.array(
+            [np.sum([entry['Fatalities'] for entry in self.podatki if entry['Date'].endswith(year)]) for year in
+             self.years], dtype=np.float64)
         self.num_passengers = np.array(
-            [np.sum([entry['Aboard'] for entry in self.podatki if entry['Date'].endswith(year)]) for year in self.years])
+            [np.sum([entry['Aboard'] for entry in self.podatki if entry['Date'].endswith(year)]) for year in
+             self.years], dtype=np.float64)
         self.ratio = self.num_accidents / self.num_passengers * 100
 
     def get_geolocations(self):
@@ -104,9 +114,8 @@ class Data:
         # Shrani DataFrame v .csv datoteko
         crash_data.to_csv('podatki/koordinate.csv', index=False)
         """
+
     def crashes_over_time(self):
-
-
         plt.figure(figsize=(10, 6))
         plt.plot(self.years, self.num_accidents, marker='o', linestyle='-')
         plt.title('Number of Airplane Accidents Over Time')
@@ -117,16 +126,43 @@ class Data:
         plt.tight_layout()
         plt.show()
 
-    def ratio_over_time(self):
+    def crashes_over_time_regression(self):
+        plt.figure(figsize=(10, 6))
+        plt.scatter(self.years_numeric, self.num_accidents, marker='o')
 
+        p = np.poly1d(np.polyfit(self.years_numeric, self.num_accidents, 3))
+        plt.plot(self.years_numeric, p(self.years_numeric))
+        plt.title('Number of Airplane Accidents Over Time')
+        plt.xlabel('Year')
+        plt.ylabel('Number of Accidents')
+        plt.grid(True)
+        plt.xticks(self.years_numeric[::5], rotation=45)
+        plt.tight_layout()
+        plt.show()
+
+    def ratio_over_time(self):
 
         plt.figure(figsize=(10, 6))
         plt.plot(self.years, self.ratio, marker='o', linestyle='-')
-        plt.title('Fatalities / Total amount of passegers Ratio by Year')
+        plt.title('Number of accidents / Total amount of passegers Ratio by Year')
         plt.xlabel('Year')
         plt.ylabel('Ratio (%)')
         plt.grid(True)
         plt.xticks(self.years[::5], rotation=45)
+        plt.tight_layout()
+        plt.show()
+
+    def ratio_over_time_regression(self):
+        plt.figure(figsize=(10, 6))
+        plt.scatter(self.years_numeric, self.ratio, marker='o')
+
+        p = np.poly1d(np.polyfit(self.years_numeric, self.ratio, 3))
+        plt.plot(self.years_numeric, p(self.years_numeric))
+        plt.title('Number of accidents / Total amount of passegers Ratio by Year')
+        plt.xlabel('Year')
+        plt.ylabel('Ratio (%)')
+        plt.grid(True)
+        plt.xticks(self.years_numeric[::5], rotation=45)
         plt.tight_layout()
         plt.show()
 
@@ -143,9 +179,39 @@ class Data:
         ax2.plot(self.years, self.num_accidents, color='red', marker=".", linewidth=1)
         ax2.set_ylabel('Number of fatalities', color='red', fontsize=11)
         ax2.tick_params('y', colors='r')
-        plt.title('Fatalities VS Ratio by Year', loc='Center', fontsize=14)
+        plt.title('Accidents VS Ratio by Year', loc='Center', fontsize=14)
 
         ax1.set_xticks(self.years[::5])
+        for label in ax1.xaxis.get_ticklabels()[::5]:
+            label.set_visible(True)
+        for label in ax1.xaxis.get_ticklabels()[1::5]:
+            label.set_visible(False)
+
+        fig.tight_layout()
+        plt.show()
+
+    def fatilities_vs_ratio_regression(self):
+        fig = plt.figure(figsize=(12, 6))
+        ax1 = fig.subplots()
+
+        plt.scatter(self.years_numeric, self.ratio, marker='o',color='orange')
+        p = np.poly1d(np.polyfit(self.years_numeric, self.ratio, 3))
+        plt.plot(self.years_numeric, p(self.years_numeric),color='orange')
+        ax1.set_xlabel('Year', fontsize=11)
+        for label in ax1.xaxis.get_ticklabels():
+            label.set_rotation(45)
+        ax1.set_ylabel('Ratio (%)', color='orange', fontsize=11)
+        ax1.tick_params('y', colors='orange')
+        ax2 = ax1.twinx()
+
+        plt.scatter(self.years_numeric, self.num_accidents, marker='o', color='red')
+        p = np.poly1d(np.polyfit(self.years_numeric, self.num_accidents, 3))
+        plt.plot(self.years_numeric, p(self.years_numeric), color='red')
+        ax2.set_ylabel('Number of fatalities', color='red', fontsize=11)
+        ax2.tick_params('y', colors='r')
+        plt.title('Accidents VS Ratio by Year', loc='Center', fontsize=14)
+
+        ax1.set_xticks(self.years_numeric[::5])
         for label in ax1.xaxis.get_ticklabels()[::5]:
             label.set_visible(True)
         for label in ax1.xaxis.get_ticklabels()[1::5]:
@@ -184,9 +250,9 @@ class Data:
 
     def extract_data_from_summary(self, include, exclude):
         extracted = np.array([entry for entry in self.podatki if
-                            any(inc in entry["Summary"].lower() for inc in include)
-                            and not
-                            any(exc in entry["Summary"].lower() for exc in exclude)])
+                              any(inc in entry["Summary"].lower() for inc in include)
+                              and not
+                              any(exc in entry["Summary"].lower() for exc in exclude)])
         return extracted
 
     def operator_performance(self):
@@ -245,18 +311,27 @@ class Data:
         ax.add_feature(cfeature.LAND)
         ax.add_feature(cfeature.OCEAN)
 
-        plt.scatter(self.crash_data['Longitude'], self.crash_data['Latitude'], color='red', marker='o', label='nesreče po svetu',
+        plt.scatter(self.crash_data['Longitude'], self.crash_data['Latitude'], color='red', marker='o',
+                    label='nesreče po svetu',
                     s=1)
         plt.legend()
         plt.title('Letalske nesreče po svetu')
         plt.show()
 
+    def passanger_and_fatalities_over_time(self):
 
+        plt.figure(figsize=(10, 6))
+        plt.bar(self.years, self.num_passengers, color='black')
+        plt.bar(self.years, self.num_passengers - self.num_fatalities,
+                color=[(np.random.random(), np.random.random(), np.random.random()) for _ in range(len(self.years))])
+        plt.title('Passangers and Fatalities over time')
+        plt.xlabel('Year')
+        plt.ylabel('Number of Accidents')
+        plt.xticks(self.years[::5], rotation=45)
+        plt.tight_layout()
+        plt.show()
 
-    def wordcloud(self,field):
-        from PIL import Image
-        from wordcloud import WordCloud, STOPWORDS
-
+    def wordcloud(self, field):
         text = str(self.podatki[field])
         plane_mask = np.array(Image.open('assets/airplane_mask.jpg'))
 
