@@ -3,16 +3,16 @@ from csv import DictReader
 import numpy as np
 from datetime import datetime
 import pandas as pd
-import cartopy.crs as ccrs
-import cartopy.feature as cfeature
+#import cartopy.crs as ccrs
+#import cartopy.feature as cfeature
 import warnings
 from PIL import Image
-from wordcloud import WordCloud, STOPWORDS
+#from wordcloud import WordCloud, STOPWORDS
 from collections import Counter
 import re
 from collections import defaultdict
 from sklearn.decomposition import PCA
-import seaborn as sns
+#import seaborn as sns
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 import numpy as np
