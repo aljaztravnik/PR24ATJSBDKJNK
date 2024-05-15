@@ -10,6 +10,7 @@ from PIL import Image
 from wordcloud import WordCloud, STOPWORDS
 from collections import Counter
 import re
+from collections import defaultdict
 
 warnings.filterwarnings("ignore")
 
@@ -406,3 +407,30 @@ class Data:
         top_operators = operator_counts.most_common(n)
 
         return top_operators
+    
+    def count_of_accidents_by_year_operator(self):
+        accidents_by_year = defaultdict(int)
+
+
+        for row in self.podatki:
+            date = row['Date']
+            operator = row['Operator']
+
+            if 'Aeroflot' in operator:
+                year = date.split('/')[-1]
+                accidents_by_year[year] +=1
+
+        accidents_by_year = dict(sorted(accidents_by_year.items()))
+
+        years = list(accidents_by_year.keys())
+        counts = list(accidents_by_year.values())
+
+        plt.figure(figsize=(10, 6))
+        plt.plot(years, counts, marker='o', linestyle='-')
+        plt.title('Count of Accidents by Year for Aeroflot Operator')
+        plt.xlabel('Year')
+        plt.ylabel('Accident Count')
+        plt.grid(True)
+        plt.xticks(rotation=45)  # Rotate x-axis labels for better readability
+        plt.tight_layout()
+        plt.show()
