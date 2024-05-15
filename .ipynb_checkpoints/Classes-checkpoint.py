@@ -3,16 +3,16 @@ from csv import DictReader
 import numpy as np
 from datetime import datetime
 import pandas as pd
-import cartopy.crs as ccrs
-import cartopy.feature as cfeature
+#import cartopy.crs as ccrs
+#import cartopy.feature as cfeature
 import warnings
 from PIL import Image
-from wordcloud import WordCloud, STOPWORDS
+#from wordcloud import WordCloud, STOPWORDS
 from collections import Counter
 import re
 from collections import defaultdict
 from sklearn.decomposition import PCA
-import seaborn as sns
+#import seaborn as sns
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 import numpy as np
@@ -565,19 +565,7 @@ class Data:
                              'while',
                              'too',
                              'of',
-                             'at',
-                             'off',
-                             'after',
-                             'shortly',
-                             'from',
-                             'an',
-                             'en',
-                             'into',
-                             'during',
-                             'failure',
-                             'route',
-                             'taking',
-                             'approach']
+                             'at']
 
 
         # Convert descriptions into TF-IDF vectors
@@ -602,7 +590,7 @@ class Data:
             top_keyword_indices = centroid.argsort()[-5:][::-1]  # Get indices of top 5 keywords
             top_keywords.append([vectorizer.get_feature_names_out()[index] for index in top_keyword_indices])
 
-        # Collect example descriptions for each cluster
+            # Collect example descriptions for each cluster
         examples_per_cluster = defaultdict(list)
         for i, label in enumerate(kmeans.labels_):
             examples_per_cluster[label].append(descriptions[i])
@@ -610,78 +598,6 @@ class Data:
         # Plot the clusters on a 2D scatter plot
         plt.figure(figsize=(10, 6))
         sns.scatterplot(x=X_pca[:, 0], y=X_pca[:, 1], hue=kmeans.labels_, palette='viridis', legend='full')
-        plt.title('Clustering of Crashes by Reason')
-        plt.xlabel('Principal Component 1')
-        plt.ylabel('Principal Component 2')
-
-        # Add legend with top keywords for each cluster
-        for i, keywords in enumerate(top_keywords):
-            keywords_str = ', '.join(keywords)
-            plt.text(X_pca[kmeans.labels_ == i, 0].mean(), X_pca[kmeans.labels_ == i, 1].mean(),
-                     f'Cluster {i}: {keywords_str}', color='black', fontsize=10)
-            
-        for label, examples in examples_per_cluster.items():
-            print(f"Cluster {label}:")
-            for example in examples[:5]:  # Print up to 5 examples per cluster
-                print(example)
-            print()
-
-        plt.tight_layout()
-        plt.show()
-
-    def cluster_crashes_by_reason_vsi(self):
-        # Extract descriptions from the data
-        descriptions = [row['Summary'] for row in self.podatki]
-
-        custom_stop_words = ['airport', 
-                             'aircraft', 
-                             'flight', 
-                             'crashed', 
-                             'flight', 
-                             'english', 
-                             'the', 
-                             'to', 
-                             'was', 
-                             'and', 
-                             'on', 
-                             'in', 
-                             'while',
-                             'too',
-                             'of',
-                             'at',
-                             'off',]
-
-
-        # Convert descriptions into TF-IDF vectors
-        vectorizer = TfidfVectorizer(max_features=1000, stop_words=custom_stop_words)
-        X = vectorizer.fit_transform(descriptions)
-
-        # Apply PCA to reduce the dimensionality to 2D
-        pca = PCA(n_components=2)
-        X_pca = pca.fit_transform(X.toarray())
-
-        # Apply K-means clustering
-        num_clusters = 3  # You can adjust the number of clusters as needed
-        kmeans = KMeans(n_clusters=num_clusters, random_state=42)
-        kmeans.fit(X)
-
-        # Get cluster centroids
-        cluster_centers = kmeans.cluster_centers_
-
-        # Get top keywords for each cluster
-        top_keywords = []
-        for i, centroid in enumerate(cluster_centers):
-            top_keyword_indices = centroid.argsort()[-5:][::-1]  # Get indices of top 5 keywords
-            top_keywords.append([vectorizer.get_feature_names_out()[index] for index in top_keyword_indices])
-
-        # Collect example descriptions for each cluster
-        examples_per_cluster = defaultdict(list)
-        for i, label in enumerate(kmeans.labels_):
-            examples_per_cluster[label].append(descriptions[i])
-
-        # Plot the clusters on a 2D scatter plot
-        plt.figure(figsize=(10, 6))
-        sns.scatterplot(x=X_pca[:, 0], y=X_pca[:, 1], hue=kmeans.labels_, palette='viridis', legend='full', s=10)
         plt.title('Clustering of Crashes by Reason')
         plt.xlabel('Principal Component 1')
         plt.ylabel('Principal Component 2')
