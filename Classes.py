@@ -8,6 +8,8 @@ import cartopy.feature as cfeature
 import warnings
 from PIL import Image
 from wordcloud import WordCloud, STOPWORDS
+from collections import Counter
+import re
 
 warnings.filterwarnings("ignore")
 
@@ -370,3 +372,37 @@ class Data:
         plt.axis("off")
         plt.title(field, loc='Center', fontsize=14)
         plt.show()
+
+    def countrycloud(self, field):
+
+        countries = []
+        for location in self.podatki[field]:
+            country = location.split(",")[-1].strip()
+            country = re.sub(r'[^a-zA-Z\s]', '', country)
+            if country:
+                countries.append(country)
+
+        text = ' '.join(countries)
+        plane_mask = np.array(Image.open('assets/airplane_mask.jpg'))
+
+        stopwords = set(STOPWORDS)
+        stopwords.add('nan')
+        stopwords.add('Near')
+
+        wc = WordCloud(background_color="white", max_words=2000, mask=plane_mask,
+                    stopwords=stopwords)
+        
+        wc.generate(text)
+
+        plt.figure(figsize=(10,10))
+        plt.imshow(wc, interpolation='bilinear')
+        plt.axis("off")
+        plt.title('Location of Accident', loc='Center', fontsize=14)
+        plt.show()
+
+    def top_operators(self, field, n=3):
+
+        operator_counts = Counter(self.podatki[field])
+        top_operators = operator_counts.most_common(n)
+
+        return top_operators
