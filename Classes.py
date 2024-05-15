@@ -17,6 +17,18 @@ warnings.filterwarnings("ignore")
 
 class Data:
     def __init__(self):
+        self.aeroflot_podatki = []
+        adtype = [
+            ('Date', 'U10'), # Date as string
+            ('Location', 'U100'), # Location as string
+            ('Aircraft', 'U100'), # Aircraft as string
+            ('Tail number', 'U100'), #Tail number as string
+            ('Airline division', 'U100'), #Airline division as string
+            ('Aircraft damage', 'U100'), #Aircraft damage as string,
+            ('Fatalities', 'U100'), #Fatalities as string,
+            ('Description', 'U1000'), #Description as string,
+            ('Refs', 'U100') #Refs as string
+        ]
         self.podatki = []
         dtype = [
             ('Date', 'U10'),  # Date as string
@@ -55,6 +67,25 @@ class Data:
                      ground, summary))
         self.podatki = np.sort(np.array(self.podatki, dtype=dtype), order='Date')
 
+
+        with open("podatki\\aeroflot_accidents_1970s.csv", 'r', encoding='utf-8') as file:
+            csv_reader = DictReader(file)
+            for row in csv_reader:
+                date = row['Date']
+                location = row['Location']
+                aircraft = row['Aircraft']
+                tail_number = row['Tail number']
+                airline_division = row['Airline division']
+                aircraft_damage = row['Aircraft damage']
+                fatalities = row['Fatalities']
+                description = row['Description']
+                refs = row['Refs']
+                self.aeroflot_podatki.append(
+                    (date, location, aircraft, tail_number, airline_division, aircraft_damage, fatalities, description, refs)
+                )
+        self.aeroflot_podatki = np.sort(np.array(self.aeroflot_podatki, dtype=adtype), order='Date')
+
+
         koordinate = []
         with open("podatki\\koordinate.csv", 'r', encoding='utf-8') as file:
             csv_reader = DictReader(file)
@@ -81,6 +112,9 @@ class Data:
             [np.sum([entry['Aboard'] for entry in self.podatki if entry['Date'].endswith(year)]) for year in
              self.years], dtype=np.float64)
         self.ratio = self.num_accidents / self.num_passengers * 100
+
+
+
 
     def get_geolocations(self):
         # ZEMLJEVID SVETA - Pridobivanje koordinat in shranjevanje v .csv datoteko
@@ -275,12 +309,13 @@ class Data:
         plt.tight_layout()
         plt.show()
 
-    def extract_data_from_summary(self, include, exclude):
+    def extract_data_from_summary(self, include, exclude, column):
         extracted = np.array([entry for entry in self.podatki if
-                              any(inc in entry["Summary"].lower() for inc in include)
+                              any(inc in entry[column].lower() for inc in include)
                               and not
-                              any(exc in entry["Summary"].lower() for exc in exclude)])
+                              any(exc in entry[column].lower() for exc in exclude)])
         return extracted
+    
 
     def operator_performance(self):
         # Izračunamo izraz (število žrtev * število potnikov) - število letal za vsako letalsko podjetje
