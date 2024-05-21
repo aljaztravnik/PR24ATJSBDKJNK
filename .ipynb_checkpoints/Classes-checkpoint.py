@@ -92,7 +92,7 @@ class Data:
 
 
         koordinate = []
-        with open("podatki\\koordinate.csv", 'r', encoding='utf-8') as file:
+        with open("podatki\\koordinate_old.csv", 'r', encoding='utf-8') as file:
             csv_reader = DictReader(file)
             for row in csv_reader:
                 location = row['Location Name']
@@ -154,7 +154,7 @@ class Data:
             'Longitude': [float(koordinata['lon']) for koordinata in koordinate]
         })
         # Shrani DataFrame v .csv datoteko
-        crash_data.to_csv('podatki/koordinate.csv', index=False)
+        crash_data.to_csv('podatki/koordinate_old.csv', index=False)
         """
 
     def crashes_over_time(self):
