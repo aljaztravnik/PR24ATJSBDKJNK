@@ -1,5 +1,5 @@
 Location Name,Date,Latitude,Longitude
-"Nulato, Unorganized Borough, Alaska, 99765, United States",01/01/1970,64.69221300000001,-158.26596371421948
+"Nulato, Unorganized Borough, Alaska, 99765, United States",01/01/1970,64.7194444,-158.1030556
 "Torino, Piemonte, Italia",01/01/1974,45.0677551,7.6824892
 "مطار القيصومة, 85, القيصومة, محافظة حفر الباطن, المنطقة الشرقية, السعودية",01/01/1976,28.34587605,46.12029863114418
 "Bandra, Bandra Skywalk, Garib Nagar, H/W Ward, Zone 3, Mumbai, Mumbai Suburban District, Maharashtra, 400050, India",01/01/1978,19.0549792,72.8402203
@@ -24,7 +24,7 @@ Ayiti,01/02/1980,19.1399952,-72.3570972
 "Москва, Центральный федеральный округ, Россия",01/03/1975,55.625578,37.6063916
 "Thành phố Nha Trang, Tỉnh Khánh Hòa, Việt Nam",01/03/1975,12.2431693,109.1898675
 "Москва, Центральный федеральный округ, Россия",01/03/1976,55.625578,37.6063916
-"Anchorage, Alaska, United States",01/03/1976,61.1758781,-149.1107333
+"Anchorage, Alaska, 99501, United States",01/03/1976,61.2163129,-149.894852
 "Abidjan, Le Plateau, Abidjan, Côte d’Ivoire",01/03/1987,5.320357,-4.016107
 "Gabriels, Town of Brighton, Franklin County, New York, 12939, United States",01/03/1992,44.4319972,-74.1809887
 "شرم الشيخ, رأس أم سد, شبة جزيرة سيناء, 46619, مصر",01/03/2004,27.8644422,34.295447
@@ -43,7 +43,7 @@ Ayiti,01/02/1980,19.1399952,-72.3570972
 "Okeechobee County, Florida, United States",01/05/1994,27.3923408,-80.8873655
 "اصفهان, بخش مرکزی شهرستان اصفهان, شهرستان اصفهان, استان اصفهان, ایران",01/05/1995,32.6707877,51.6650002
 "Abuja, Municipal Area Council, Federal Capital Territory, 223140, Nigeria",01/05/2000,9.0643305,7.4892974
-"Kodiak, Kodiak Island, Alaska, United States",01/05/2008,57.79,-152.407222
+"Kodiak, Kodiak Island, Alaska, United States",01/05/2008,57.7916467,-152.41058452251687
 "Birmingham, Jefferson County, Alabama, United States",01/06/1946,33.5206824,-86.8024326
 "Paris, Île-de-France, France métropolitaine, France",01/06/1948,48.8588897,2.3200410217200766
 "Ruislip, Greater London, England, HA4 7TJ, United Kingdom",01/06/1948,51.5775626,-0.4278453
@@ -63,7 +63,7 @@ Ayiti,01/02/1980,19.1399952,-72.3570972
 "Paris, Île-de-France, France métropolitaine, France",01/07/1939,48.8588897,2.3200410217200766
 "Savannah, Chatham County, Georgia, United States",01/07/1948,32.0790074,-81.0921335
 "Fish Haven, Bear Lake County, Idaho, 83287, United States",01/07/1953,42.0368759,-111.3963177
-"Issaquah, King County, Washington, 98129, United States",01/07/1953,47.5348778,-122.043297
+"Issaquah, King County, Washington, United States",01/07/1953,47.5348778,-122.043297
 "Helena, Lewis and Clark County, Montana, United States",01/07/1982,46.5927425,-112.036277
 "Столовая СССР, Первомайская улица, Магилат, Геленджик, городской округ Геленджик, Краснодарский край, Южный федеральный округ, 353460, Россия",01/07/1982,44.5596261,38.0795853
 "Columbus, Franklin County, Ohio, United States",01/07/1994,39.9622601,-83.0007065
@@ -75,7 +75,7 @@ Ayiti,01/02/1980,19.1399952,-72.3570972
 "Mount Holston Road, Barnetts, Sullivan County, East Tennessee, Tennessee, 37618, United States",01/08/1959,36.463392,-82.196953
 "San Diego, San Diego County, California, United States",01/08/1968,32.7174202,-117.162772
 "Tanana, Unorganized Borough, Alaska, 99777, United States",01/08/1968,65.1730015,-152.0699875547645
-"Đường Lê Quang Đạo, Phường Mễ Trì, Quận Nam Từ Liêm, Thành phố Hà Nội, 10074, Việt Nam",01/08/1968,21.0097387,105.773423
+"Đường Lê Quang Đạo, Phường Mễ Trì, Quận Nam Từ Liêm, Thành phố Hà Nội, 10161, Việt Nam",01/08/1968,21.0066181,105.7740116
 "Doncello, El Doncello, Caquetá, RAP Amazonía, Colombia",01/08/1975,1.6912778,-75.2923889
 "Mactan, Lapu-Lapu, Cebu, Central Visayas, Pilipinas",01/08/1976,10.288094300000001,123.97229133429869
 "Monroe, Ouachita Parish, Louisiana, United States",01/08/1988,32.5102427,-92.1032411
@@ -128,7 +128,7 @@ Ayiti,01/02/1980,19.1399952,-72.3570972
 "Ixopo, Ubuhlebezwe Local Municipality, Sisonke District Municipality, KwaZulu-Natal, South Africa",01/12/1951,-30.151389,30.061111
 "Frederick Henry Bay, Tasmania, Australia",01/12/1956,-42.91702,147.60205
 "Villia Chloe, Μυκόνου - Αγίου Στεφάνου, Παραδείσια, Κοινότητα Μυκονίων, Άγιος Στέφανος, Δήμος Μυκόνου, Περιφερειακή Ενότητα Μυκόνου, Περιφέρεια Νοτίου Αιγαίου, Αποκεντρωμένη Διοίκηση Αιγαίου, 846 00, Ελλάς",01/12/1970,37.4700941,25.3225098
-"Toronto, Golden Horseshoe, Ontario, Canada",01/12/1987,43.6534817,-79.3839347
+"Old Toronto, Toronto, Golden Horseshoe, Ontario, Canada",01/12/1987,43.6534817,-79.3839347
 "Dayton, Montgomery County, Ohio, United States",01/12/1989,39.7589478,-84.1916069
 "Pleasanton, Alameda County, California, United States",01/12/1995,37.6624312,-121.8746789
 "Van Nuys Neighborhood Council District, Los Angeles City Council District 6, Los Angeles, California, 91411, United States",01/12/2007,34.1866193,-118.4486675
@@ -338,7 +338,7 @@ France,01/22/1928,46.603354,1.8883335
 "Sìnnia/Sinnai, Casteddu/Cagliari, Sardigna/Sardegna, 09048, Italia",01/26/1953,39.3042403,9.2035381
 "Bathurst Island, Northern Territory, Australia",01/26/1960,-11.577301949999999,130.41773967150868
 "Kotzebue, Northwest Arctic, Alaska, United States",01/26/1963,66.8982057,-162.5977621
-"İzmir, Ege Bölgesi, Türkiye",01/26/1974,38.23166,27.02997
+"İzmir, Konak, İzmir, Ege Bölgesi, 35240, Türkiye",01/26/1974,38.4237433,27.1428019
 "الرطبة, ناحية مرکز قضاء االرطبة, قضاء الرطبة, محافظة الأنبار, العراق",01/26/2005,33.0367407,40.2876459
 "Malinau, Hulu Sungai Selatan, Kalimantan Selatan, Kalimantan, Indonesia",01/26/2008,-2.8600732,115.4150282
 "Almería, Andalucía, España",01/27/1928,36.8414197,-2.4628135
@@ -385,7 +385,7 @@ France,01/22/1928,46.603354,1.8883335
 "Port Washington, Town of North Hempstead, Nassau County, New York, United States",01/30/1949,40.8257072,-73.6958069
 "Patuxent River, Maryland, United States",01/30/1963,38.8142728,-76.7117773
 "Pago Pago, Maʻopūtasi County, Eastern District, American Samoa, United States",01/30/1974,-14.2754786,-170.7048298
-"İstanbul, Marmara Bölgesi, Türkiye",01/30/1975,41.0766019,29.052495
+"İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34122, Türkiye",01/30/1975,41.006381,28.9758715
 "Santo Domingo de Guzmán, Distrito Nacional, República Dominicana",01/30/1975,18.4801972,-69.942111
 "Бишкек шаары, Кыргызстан",01/30/1976,42.8777895,74.6066926
 "Terre Haute, Vigo County, Indiana, United States",01/30/1984,39.4667025,-87.4139119
@@ -406,7 +406,7 @@ France,01/22/1928,46.603354,1.8883335
 "Sumatera, Indonesia",01/31/1993,0.1498584,102.8197858481398
 "Yola, Yola North, Adamawa, Nigeria",01/31/1997,9.2089255,12.4802485
 "Point Mugu, Ventura County, California, United States",01/31/2000,34.0854138,-119.060992
-"Yopal, Casanare, RAP Llanos, Colombia",01/31/2001,5.3356662,-72.3936931
+"Perímetro Urbano Yopal, Yopal, Casanare, RAP Llanos, Colombia",01/31/2001,5.3356662,-72.3936931
 "Baucau, Baukau, Timor-Leste",01/31/2003,-8.4650462,126.4585621
 "Miami, Miami-Dade County, Florida, United States",02/01/1932,25.7741728,-80.19362
 "Lisboa, Portugal",02/01/1947,38.7077507,-9.1365919
@@ -555,7 +555,7 @@ North Sea / Nordsee / Noordzee / Nordsøen / Nordsjøen / Mer du Nord,02/02/1950
 "Lebec, Kern County, California, 93243, United States",02/10/2005,34.8416435,-118.8648189
 "Elizabeth, Union County, New Jersey, United States",02/11/1952,40.6639916,-74.2107006
 "ວຽງຈັນ, ເມືອງຈັນທະບູລີ, ນະຄອນຫຼວງວຽງຈັນ, ປະເທດລາວ",02/11/1972,17.9640988,102.6133707
-"Bratislava, Bratislavský kraj, Slovensko",02/11/1977,48.1516988,17.1093063
+"Bratislava, Bratislavský kraj, Slovensko",02/11/1977,48.15926025,17.139658691421687
 "Cranbrook, Regional District of East Kootenay, British Columbia, Canada",02/11/1978,49.5107477,-115.7672772
 "City of White Plains, Westchester County, New York, United States",02/11/1981,41.0339862,-73.7629097
 "کندهار, کندهار ولسوالۍ, کندهار ولايت, 3801, افغانستان",02/11/1996,31.6205738,65.7157573
@@ -590,7 +590,7 @@ Gibraltar,02/15/1921,36.1285933,-5.3474761
 "Lagoa Santa, Região Geográfica Imediata de Rio Verde, Região Geográfica Intermediária de Rio Verde, Goiás, Região Centro-Oeste, Brasil",02/15/1945,-19.1832417,-51.3998026
 "Terracina, Latina, Lazio, Italia",02/15/1947,41.2871196,13.2492009
 "Bogotá, Bogotá, Distrito Capital, RAP (Especial) Central, Colombia",02/15/1947,4.6533816,-74.0836333
-"Bruxelles - Brussel, Ville de Bruxelles - Stad Brussel, Brussel-Hoofdstad - Bruxelles-Capitale, Région de Bruxelles-Capitale - Brussels Hoofdstedelijk Gewest, België / Belgique / Belgien",02/15/1961,50.8465573,4.351697
+"Ville de Bruxelles - Stad Brussel, Brussel-Hoofdstad - Bruxelles-Capitale, Région de Bruxelles-Capitale - Brussels Hoofdstedelijk Gewest, België / Belgique / Belgien",02/15/1961,50.8550018,4.3512333761166175
 "Detroit, Wayne County, Michigan, United States",02/15/1964,42.3315509,-83.0466403
 "Youngstown, Mahoning County, Ohio, United States",02/15/1967,41.1035786,-80.6520161
 "Santo Domingo de Guzmán, Distrito Nacional, República Dominicana",02/15/1970,18.4801972,-69.942111
@@ -738,8 +738,8 @@ Indian Ocean,02/28/1942,-9.9999999,69.9999999
 "Mactan, Lapu-Lapu, Cebu, Central Visayas, Pilipinas",02/28/1967,10.288094300000001,123.97229133429869
 "Nabire, Kabupaten Nabire, Papua Tengah, Western New Guinea, 98811, Indonesia",02/28/1973,-3.360285,135.5023653
 "Семей, Семей қалалық әкімшілігі, Абай облысы, Қазақстан",02/28/1973,50.404377,80.2496637
-"Szczecin, województwo zachodniopomorskie, Polska",02/28/1973,53.42968095,14.592912670292268
-"Szczecin, województwo zachodniopomorskie, Polska",02/28/1973,53.42968095,14.592912670292268
+"Szczecin, województwo zachodniopomorskie, Polska",02/28/1973,53.4301818,14.5509623
+"Szczecin, województwo zachodniopomorskie, Polska",02/28/1973,53.4301818,14.5509623
 "مهرآباد, دهستان کاکاوندشرقی, بخش کاکاوند, شهرستان دلفان, استان لرستان, ایران",02/28/1974,34.1748517,47.7481875
 "Solvang, Santa Barbara County, California, United States",02/28/1978,34.595887,-120.139071
 "John F. Kennedy International Airport, JFK Access Road, Queens, City of New York, New York, 11430, United States",02/28/1984,40.642947899999996,-73.7793733748521
@@ -800,7 +800,7 @@ Indian Ocean,02/28/1942,-9.9999999,69.9999999
 "Detroit, Wayne County, Michigan, United States",03/04/1987,42.3315509,-83.0466403
 "Fontainebleau, Seine-et-Marne, Île-de-France, France métropolitaine, 77300, France",03/04/1988,48.4049375,2.7015872
 "Lake Simcoe, York Region, Golden Horseshoe, Ontario, L4N 6E9, Canada",03/04/1997,44.398033600000005,-79.34412949331733
-"Tienen, Leuven, Vlaams-Brabant, Vlaanderen, 3300, België / Belgique / Belgien",03/05/1915,50.8074825,4.9371775
+"Tienen, Leuven, Vlaams-Brabant, Vlaanderen, 3300, België / Belgique / Belgien",03/05/1915,50.80843175,4.946429213429422
 "Drayton, Cherwell, Oxfordshire, England, United Kingdom",03/05/1957,52.0727328,-1.375292
 "Managua (Municipio), Managua, 10000 (codigo maestro), Nicaragua",03/05/1959,12.1544035,-86.2737642
 "Rue Marseille, Villas Of The Arbor, Kettering, Montgomery County, Ohio, 45429, United States",03/05/1967,39.682024,-84.17059
@@ -836,7 +836,7 @@ Indian Ocean,02/28/1942,-9.9999999,69.9999999
 "Labiano, Aranguren, Iruñerria / Comarca de Pamplona, España",03/07/2006,42.76359325,-1.552991351746351
 "Daerah Istimewa Yogyakarta, Jawa, Indonesia",03/07/2007,-7.9778383999999996,110.36722565020224
 "Staaken, Spandau, Berlin, 13591, Deutschland",03/08/1926,52.5322705,13.1433666
-"Illinois Avenue, Marine Villa, Saint Louis, Missouri, 63118, United States",03/08/1932,38.5852679,-90.2236333
+"Illinois Avenue, Benton Park, Saint Louis, Missouri, 63118, United States",03/08/1932,38.5963807,-90.220909
 "Somerton, Tamworth Regional Council, New South Wales, 2340, Australia",03/08/1938,-30.9392349,150.6406221
 "Cordillera, Buriticá, Occidente, Antioquia, RAP del Agua y la Montaña, Colombia",03/08/1947,6.8308862,-75.9211591
 "Mascota, Región Sierra Occidental, Jalisco, México",03/08/1955,20.5533013,-104.76338164381983
@@ -863,9 +863,9 @@ Indian Ocean,02/28/1942,-9.9999999,69.9999999
 "Tamworth, Tamworth Regional Council, New South Wales, 2340, Australia",03/09/1994,-31.0900743,150.9290159
 "Mesones Muro, Manuel Antonio Mesones Muro, Ferreñafe, Lambayeque, Perú",03/09/1996,-6.6444834,-79.7392234
 "Москва, Центральный федеральный округ, Россия",03/09/2000,55.625578,37.6063916
-"Monte Rotondo, Marradi, Unione Montana dei Comuni del Mugello, Firenze, Toscana, 50034, Italia",03/09/2002,44.0635716,11.6339426
+"Monte Rotondo, Pontassieve, Unione di Comuni Valdarno e Valdisieve, Firenze, Toscana, Italia",03/09/2002,43.8739135,11.40546
 "La Paz, Pedro Domingo Murillo, La Paz, Bolivia",03/09/2006,-16.4955455,-68.1336229
-"Lake Victoria, Kampala, Central Region, Uganda",03/09/2009,0.2804216,32.6567708
+"Lake Victoria, Mukono, Central Region, Uganda",03/09/2009,0.179837,32.8674889
 "New Paris, Elkhart County, Indiana, United States",03/10/1920,41.504546500000004,-85.82410851437608
 "Perimetro Urbano Pereira, Pereira, Risaralda, RAP Eje Cafetero, Colombia",03/10/1934,4.8143159,-75.6946778
 "Hobart, City of Hobart, Tasmania, Australia",03/10/1946,-42.8825088,147.3281233
@@ -907,14 +907,14 @@ Indian Ocean,02/28/1942,-9.9999999,69.9999999
 "Spokane, Spokane County, Washington, United States",03/13/1987,47.6571934,-117.42351
 "Punto Fijo, Parroquia Carirubana, Municipio Carirubana, Falcón, 4102, Venezuela",03/13/1996,11.6931716,-70.1917178
 "شهر مشهد, بخش مرکزی شهرستان مشهد, شهرستان مشهد, استان خراسان رضوی, ایران",03/13/1997,36.2974945,59.6059232
-"Haren, Ville de Bruxelles - Stad Brussel, Brussel-Hoofdstad - Bruxelles-Capitale, Région de Bruxelles-Capitale - Brussels Hoofdstedelijk Gewest, België / Belgique / Belgien",03/14/1939,50.8909441,4.4157553
+"Haren, Ville de Bruxelles - Stad Brussel, Brussel-Hoofdstad - Bruxelles-Capitale, Région de Bruxelles-Capitale - Brussels Hoofdstedelijk Gewest, 1110, België / Belgique / Belgien",03/14/1939,50.8909441,4.4157553
 "昆明市, 云南省, 中国",03/14/1942,25.0363006,102.7086139
 "Résidence les Moucherolles, Les Maréchaux, Les Traverses, Corrençon-en-Vercors, Grenoble, Isère, Auvergne-Rhône-Alpes, France métropolitaine, 38250, France",03/14/1947,45.0367303,5.5298791
 "Mackay, Mackay Regional, Queensland, 4740, Australia",03/14/1954,-21.141956,149.1865149
 "Manchester, Greater Manchester, England, United Kingdom",03/14/1957,53.4794892,-2.2451148
 "فجيرة, الإمارات العربية المتحدة",03/14/1972,25.336728100000002,56.172704258882646
 "Whitelake School, Lamos Road, Fruitland Township, Muskegon County, Michigan, United States",03/14/1978,43.3655661,-86.3978456
-"مطار الدوحة الدولي, محمد اقبال, المطار القديم, الدوحة, قطر",03/14/1979,25.257550600000002,51.57199947270161
+"مطار الدوحة الدولي, قيس بن سعد, المطار القديم, الدوحة, قطر",03/14/1979,25.257550600000002,51.57199947270161
 "北京市, 东城区, 北京市, 100010, 中国",03/14/1979,39.9057136,116.3912972
 "Warszawa, województwo mazowieckie, Polska",03/14/1980,52.2337172,21.071432235636493
 "Yenice, Çorum Merkez, Çorum, Karadeniz Bölgesi, Türkiye",03/14/1980,40.430603,34.8252381
@@ -925,7 +925,7 @@ Indian Ocean,02/28/1942,-9.9999999,69.9999999
 "العريش, 40, Arish, شبة جزيرة سيناء, مصر",03/15/1935,31.1515017,33.8310891
 "Villa Pinzón, Comuna 3 - San Simón, Perímetro Urbano Ibagué, Ibagué, Centro, Tolima, RAP (Especial) Central, 730002, Colombia",03/15/1948,4.4466742,-75.2159368
 "Berlin, Deutschland",03/15/1949,52.5170365,13.3888599
-"El Refugio, Tumaco, Pacífico Sur, Nariño, RAP Pacífico, Colombia",03/15/1960,1.4942439,-78.6835459
+"El Refugio, Comuna del Trapiche, Piedecuesta, Santander, RAP Gran Santander, 681011, Colombia",03/15/1960,6.9958522,-73.0601744
 "Adak, Aleutians West Census Area, Alaska, 99546, United States",03/15/1962,51.8736127,-176.6390321
 "Charaña, Municipio Charaña, Provincia Pacajes, La Paz, Bolivia",03/15/1963,-17.593033,-69.4464289
 "Hyderabad, Bahadurpura mandal, Hyderabad District, Telangana, India",03/15/1973,17.360589,78.4740613
@@ -939,7 +939,7 @@ Indian Ocean,02/28/1942,-9.9999999,69.9999999
 "東京都, 日本",03/16/1960,35.6821936,139.762221
 "Kodiak, Kodiak Island, Alaska, United States",03/16/1967,57.79,-152.407222
 "Maracaibo, Parroquia Cacique Mara, Municipio Maracaibo, Zulia, 4012, Venezuela",03/16/1969,10.6498095,-71.6443596
-"Đường sắt cao tốc Bắc - Nam, Hoàng Văn Thái, Phường Hòa Khánh Nam, Xã Hòa Sơn, Huyện Hòa Vang, Thành phố Đà Nẵng, 84236, Việt Nam",03/16/1970,16.0321703,108.1145398
+"Đường sắt cao tốc Bắc - Nam, Đường Tránh Nam Hải Vân-Túy Loan, Xã Hòa Sơn, Huyện Hòa Vang, Thành phố Đà Nẵng, Việt Nam",03/16/1970,16.0321703,108.1145398
 "Barito, Avenida 60, La Plata, Partido de La Plata, Buenos Aires, B1904DVC, Argentina",03/16/1975,-34.9157207,-57.9361978
 "San Borja, General José Ballivián Segurola, Beni, Bolivia",03/16/1984,-14.8582125,-66.7474736
 "Malanje, Angola",03/16/1991,-9.535332,16.9364293
@@ -957,14 +957,14 @@ Indian Ocean,02/28/1942,-9.9999999,69.9999999
 "Dr. Babasaheb Ambedkar International Airport, Wardha Road, Nagpur City, Nagpur Urban Taluka, Nagpur District, Maharashtra, 440025, India",03/17/1994,21.09090785,79.05467886098818
 "Key West, Monroe County, Florida, United States",03/17/1996,24.5548262,-81.8020722
 "Museum of Kuna Cultura, Vía Nusagandi, Cartí, Narganá, Distrito Gaigirgordub, Guna Yala, Panamá",03/17/2000,9.4708308,-78.9600918
-"Ennadai Lake, ᑭᕙᓪᓕᖅ Kivalliq Region, ᓄᓇᕗᑦ Nunavut, Canada",03/17/2000,60.912416300000004,-101.17022385353053
+"Ennadai Lake, ᑭᕙᓪᓕᖅ Kivalliq Region, ᓄᓇᕗᑦ Nunavut, Canada",03/17/2000,61.0943811,-100.84701394509237
 "Lubango, Huíla, Angola",03/17/2001,-14.9195617,13.4897509
 "Самара, городской округ Самара, Самарская область, Приволжский федеральный округ, 443028, Россия",03/17/2007,53.2194648,50.2039316
-"Adler Court, Washington County, Florida, United States",03/18/1939,30.532088,-85.617308
+"North Adler Avenue, Farmington, Washington County, Arkansas, 72730, United States",03/18/1939,36.0476481,-94.2421737
 "Negombo, Gampaha District, Western Province, 11500, ශ්‍රී ලංකාව இலங்கை",03/18/1947,7.2094282,79.833117
 "Waikanae, Kāpiti Coast District, Wellington, 5036, New Zealand / Aotearoa",03/18/1949,-40.8758432,175.0643045
 "Random Island, Newfoundland, Newfoundland and Labrador, Canada",03/18/1953,48.1446647,-53.73042469301693
-"Ovejeria Sayari, Municipio Arque, Arque, Cochabamba, Bolivia",03/18/1957,-17.7357223,-66.4780803
+"Yurac Sayari, Municipio Arque, Arque, Cochabamba, Bolivia",03/18/1957,-17.7388069,-66.4680126
 "القاهرة, مصر",03/18/1966,30.0443879,31.2357257
 "Singa, Al Fasher, ولاية شمال دارفور, السودان",03/18/1975,13.0161778,24.8516253
 "Havana Cuba, 倫斯泰特大馬路 Avenida Sir Anders Ljungstedt, 新口岸填海區 Zona de Aterros do Porto Exterior, 新口岸新填海區(皇朝區) Zona Nova de Aterros do Porto Exterior, 大堂區 Sé, 澳門 Macau, 999078, 中国",03/18/1976,22.1883069,113.5493076
@@ -982,7 +982,7 @@ Indian Ocean,02/28/1942,-9.9999999,69.9999999
 "Lothian, Anne Arundel County, Maryland, 20711, United States",03/19/1954,38.8297276,-76.6159457
 "Córdoba, RAP Caribe, Colombia",03/19/1960,8.3344713,-75.6666238
 "Kansas City, Wyandotte County, Kansas, United States",03/19/1969,39.1134562,-94.626497
-"Leesburg, Lake County, Florida, United States",03/19/1982,28.810823,-81.8778582
+"Leesburg, Lake County, Florida, 34738, United States",03/19/1982,28.810823,-81.8778582
 "Woodstock, McHenry County, Illinois, 60098, United States",03/19/1982,42.3147529,-88.4474302
 "Dagali, Hol, Viken, Norge",03/19/1993,60.4114528,8.4408805
 "Davis Inlet, Labrador, Newfoundland and Labrador, Canada",03/19/1999,55.8852051,-60.8961284
@@ -990,23 +990,23 @@ Indian Ocean,02/28/1942,-9.9999999,69.9999999
 "Alvarado, Union City, Alameda County, California, 94587, United States",03/20/1953,37.5964872,-122.0789268
 "Mississippi Avenue, Springfield, Lane County, Oregon, 97477, United States",03/20/1955,44.042885,-123.0348192
 Algérie ⵍⵣⵣⴰⵢⴻⵔ الجزائر,03/20/1962,28.0000272,2.9999825
-"Monte Matto, Bagolino, Comunità montana della Valle Sabbia, Brescia, Lombardia, Italia",03/20/1963,45.8556421,10.3976599
+"Monte Matto, Bagolino, Comunità montana della Valle Sabbia, Brescia, Lombardia, 25072, Italia",03/20/1963,45.8556421,10.3976599
 "Danbury, Stokes County, North Carolina, United States",03/20/1964,36.4093047,-80.2058831
 "Asunción, Distrito Capital, Región Oriental, Paraguay / Paraguái",03/20/1966,-25.2800459,-57.6343814
 "أسوان, 81511, مصر",03/20/1969,24.091071,32.897306
 "New Orleans, Orleans Parish, Louisiana, United States",03/20/1969,29.9759983,-90.0782127
 "Quilcene, Jefferson County, Washington, United States",03/20/1975,47.843813299999994,-122.91229323530104
-"Bandar Udara Radin Inten II, Jalan Raya Natar, Bumisari, Lampung Selatan, Lampung, Sumatera, 35362, Indonesia",03/20/1982,-5.24672045,105.18205915548504
+"Bandar Udara Radin Inten II, Gang Anggrek, Lampung Selatan, Lampung, Sumatera, Indonesia",03/20/1982,-5.24672045,105.18205915548504
 "Naha, Kepulauan Sangihe, Sulawesi Utara, Sulawesi, Indonesia",03/20/1986,3.6888671,125.5353146
 "포항시, 경상북도, 대한민국",03/20/1989,36.0189315,129.3429384
 "New South Wales, Australia",03/21/1931,-31.8759835,147.2869493
 "Steubenville, Jefferson County, Ohio, 43952, United States",03/21/1932,40.3600714,-80.6151034
 "Corozal, Sabanas, Sucre, RAP Caribe, Colombia",03/21/1951,9.2045175,-75.27619980073368
 "Tezpur, Sonitpur District, Assam, 784001, India",03/21/1956,26.6229928,92.7976082
-"Macaé, Região Geográfica Imediata de Macaé-Rio das Ostras, Região Geográfica Intermediária de Macaé-Rio das Ostras-Cabo Frio, Rio de Janeiro, Região Sudeste, Brasil",03/21/1980,-22.3712958,-41.7866922
+"Macaé, Região Geográfica Imediata de Macaé-Rio das Ostras, Região Geográfica Intermediária de Macaé-Rio das Ostras-Cabo Frio, Rio de Janeiro, Região Sudeste, Brasil",03/21/1980,-22.28283055,-41.96490906592897
 "Houston, Harris County, Texas, United States",03/21/1980,29.7589382,-95.3676974
 "Guarulhos, Região Imediata de São Paulo, Região Metropolitana de São Paulo, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, Brasil",03/21/1989,-23.4675941,-46.5277704
-"Las Mesitas, San Francisco del Valle, Ocotepeque, Honduras",03/21/1990,14.4249905,-88.9660592
+"Las Mesitas, Sensenti, Ocotepeque, Honduras",03/21/1990,14.4834187,-88.8973324
 "رأس المشب, 611, المشعاب, الخفجي, محافظة الخفجي, المنطقة الشرقية, السعودية",03/21/1991,28.0761026,48.61357487036152
 "San Diego, San Diego County, California, United States",03/21/1991,32.7174202,-117.162772
 "Weipa, Weipa Town, Queensland, 4874, Australia",03/21/1994,-12.6386641,141.8710861
@@ -1022,7 +1022,7 @@ Algérie ⵍⵣⵣⴰⵢⴻⵔ الجزائر,03/20/1962,28.0000272,2.9999825
 "Riverside County, California, United States",03/22/1978,33.7219991,-116.0372472
 "Nightmute, Unorganized Borough, Alaska, United States",03/22/1979,60.496669499999996,-164.81855537072101
 "Республика Саха (Якутия), Дальневосточный федеральный округ, Россия",03/22/1992,66.941626,129.642371
-"LaGuardia Airport, 24th Avenue, Queens County, City of New York, New York, 11371, United States",03/22/1992,40.7757145,-73.87336398511545
+"LaGuardia Airport, Bowery Bay Boulevard, Queens County, City of New York, New York, 11371, United States",03/22/1992,40.7757145,-73.87336398511545
 "Reno, Washoe County, Nevada, United States",03/22/1995,39.5261206,-119.8126581
 "Bacolod, Western Visayas, 6100, Pilipinas",03/22/1998,10.6762836,122.9513786
 "Butte, Silver Bow County, Montana, United States",03/22/2009,46.0131505,-112.536508
@@ -1035,7 +1035,7 @@ Algérie ⵍⵣⵣⴰⵢⴻⵔ الجزائر,03/20/1962,28.0000272,2.9999825
 "Междуреченск, Междуреченский городской округ, Кемеровская область, Сибирский федеральный округ, 652870, Россия",03/23/1994,53.6863763,88.0703443
 "Fayetteville, Cumberland County, North Carolina, United States",03/23/1994,35.0525759,-78.878292
 "Mwanza, Nyamagana, Mwanza, Lake Zone, 33214, Tanzania",03/23/2005,-2.5196915,32.9014417
-"Muqdisho مقديشو, Hamar Weyne حي حمروين, Banaadir بنادر, Soomaaliya الصومال",03/23/2007,2.0349312,45.3419183
+"Muqdisho مقديشو, Hamar Weyne حي حمروين, Banaadir بنادر, BN 09010, Soomaaliya الصومال",03/23/2007,2.0349312,45.3419183
 "東京都, 日本",03/23/2009,35.6821936,139.762221
 "Tambo, Blackall Tambo Regional, Queensland, Australia",03/24/1927,-24.9071275,146.33124025447535
 "Ouroux, Deux-Grosnes, Villefranche-sur-Saône, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, 69860, France",03/24/1937,46.2306703,4.5943391
@@ -1050,11 +1050,11 @@ Algérie ⵍⵣⵣⴰⵢⴻⵔ الجزائر,03/20/1962,28.0000272,2.9999825
 "Cuenca, Azuay, Ecuador",03/24/2006,-2.8974072,-79.0041726
 "Hayward, Alameda County, California, United States",03/25/1933,37.6688205,-122.080796
 "Clifton Township, Lackawanna County, Pennsylvania, United States",03/25/1937,41.2228616,-75.5476872
-"Ankara, Çankaya, Ankara, İç Anadolu Bölgesi, 06420, Türkiye",03/25/1950,39.9207759,32.8540497
+"Ankara, İç Anadolu Bölgesi, Türkiye",03/25/1950,39.7160439,32.7059948
 "Miami, Miami-Dade County, Florida, United States",03/25/1958,25.7741728,-80.19362
 "Natal, Região Geográfica Imediata de Natal, Região Geográfica Intermediária de Natal, Rio Grande do Norte, Região Nordeste, Brasil",03/25/1961,-5.805398,-35.2080905
 "San Juan, Puerto Rico, United States",03/25/1965,18.465299,-66.116666
-"Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India",03/25/1991,12.98815675,77.62260003796
+"Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, 560001, India",03/25/1991,12.9767936,77.590082
 "Huambo, Angola",03/25/2000,-12.6076318,15.7411039
 "Oklahoma City, Oklahoma County, Oklahoma, United States",03/26/1939,35.4729886,-97.5170536
 "Río Grande, Municipio de Río Grande, Departamento Río Grande, Tierra del Fuego, 9420, Argentina",03/26/1951,-53.7856766,-67.7016369
@@ -1065,7 +1065,7 @@ Algérie ⵍⵣⵣⴰⵢⴻⵔ الجزائر,03/20/1962,28.0000272,2.9999825
 "Volta Redonda, Região Geográfica Imediata de Volta Redonda-Barra Mansa, Região Geográfica Intermediária de Volta Redonda-Barra Mansa, Rio de Janeiro, Região Sudeste, Brasil",03/26/1978,-22.521856,-44.1040128
 "Luanda, Município de Luanda, Luanda, Angola",03/26/1979,-8.8272699,13.2439512
 "Redzikowo, gmina Redzikowo, powiat słupski, województwo pomorskie, 76-204, Polska",03/26/1981,54.4710926,17.1160575
-"Archerfield Airport, Beaufighter Avenue, Archerfield, Greater Brisbane, Queensland, 4108, Australia",03/27/1943,-27.569485999999998,153.00872543991687
+"Archerfield Airport, Transition Drive, Archerfield, Greater Brisbane, Queensland, 4108, Australia",03/27/1943,-27.569485999999998,153.00872543991687
 "Monte Cardo, Venaco, Corte, Haute-Corse, Corse, France métropolitaine, 20231, France",03/27/1948,42.2302979,9.1202731
 "Itapebi, Região Geográfica Imediata de Eunápolis - Porto Seguro, Região Geográfica Intermediária de Ilhéus-Itabuna, Bahia, Região Nordeste, 45855-000, Brasil",03/27/1953,-15.9693064,-39.5316476
 "Bridgeport, Wise County, Texas, 76426, United States",03/27/1958,33.2101155,-97.7547552
@@ -1079,8 +1079,8 @@ Algérie ⵍⵣⵣⴰⵢⴻⵔ الجزائر,03/20/1962,28.0000272,2.9999825
 "Eagle County, Colorado, United States",03/27/1987,39.6161124,-106.7172844
 "Cuíto, Bié, Angola",03/27/1990,-12.3831319,16.9425484
 "کابل, کابل ښاروالۍ, ولایت كابل, 1001, افغانستان",03/27/1990,34.5260109,69.1776838
-"Mulia, Pohuwato, Gorontalo, Sulawesi, Indonesia",03/27/2003,0.65,121.8604
-"Diksmuide, West-Vlaanderen, Vlaanderen, 8600, België / Belgique / Belgien",03/28/1933,51.0333408,2.8647185
+"Mulia, Teluk Keramat, Sambas, Kalimantan Barat, Kalimantan, Indonesia",03/27/2003,1.5645945,109.2036524
+"Diksmuide, West-Vlaanderen, België / Belgique / Belgien",03/28/1933,51.03411425,2.8625853147266254
 "Elands Bay Close, Wentworth, eThekwini Ward 66, Durban, eThekwini Metropolitan Municipality, KwaZulu-Natal, 4052, South Africa",03/28/1941,-29.9229494,31.0019582
 "Lège-Cap-Ferret, Arcachon, Gironde, Nouvelle-Aquitaine, France métropolitaine, France",03/28/1950,44.7951052,-1.1472098
 "Largs, Ludlow Lane, Fulbourn, South Cambridgeshire, Cambridgeshire, Cambridgeshire and Peterborough, England, CB21 5BL, United Kingdom",03/28/1956,52.1814012,0.2214248
@@ -1124,7 +1124,7 @@ Algérie ⵍⵣⵣⴰⵢⴻⵔ الجزائر,03/20/1962,28.0000272,2.9999825
 "Pittsburgh, Allegheny County, Pennsylvania, United States",04/01/1956,40.4416941,-79.9900861
 "Phelan, San Bernardino County, California, United States",04/01/1967,34.426298,-117.5725026
 "Thành phố Phú Quốc, Tỉnh Kiên Giang, Việt Nam",04/01/1968,10.2162807,103.9875395
-"Новосибирск, Новосибирская область, Сибирский федеральный округ, 630000, Россия",04/01/1970,54.96781445,82.95159894278376
+"городской округ Новосибирск, Новосибирская область, Сибирский федеральный округ, Россия",04/01/1970,55.0288307,82.9226887
 "Casablanca ⵜⵉⴳⵎⵉ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء, Sidi Belyout ⵙⵉⴷⵉ ⴱⵍⵢⵓⵟ سيدي بليوط, arrondissement de Sidi Belyout مقاطعة سيدي بليوط, préfecture d'arrondissements de Casablanca-Anfa عمالة مقاطعات الدار البيضاء أنفا, Préfecture de Casablanca عمالة الدار البيضاء, Casablanca-Settat ⵜⵉⴳⵎⵉ ⵜⵓⵎⵍⵉⵍⵜ-ⵙⵟⵟⴰⵜ الدار البيضاء-سطات, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",04/01/1970,33.5945144,-7.6200284
 "Anchorage, Alaska, United States",04/01/1987,61.1758781,-149.1107333
 "San Pedro Town, Belize District, Belize",04/01/1991,17.9204087,-87.9621768
@@ -1139,7 +1139,7 @@ Algérie ⵍⵣⵣⴰⵢⴻⵔ الجزائر,03/20/1962,28.0000272,2.9999825
 "Quito, Pichincha, 170130, Ecuador",04/02/1958,-0.2201641,-78.5123274
 "Lima Metropolitana, Lima, Perú",04/02/1967,-12.0621065,-77.0365256
 "Zawoja, gmina Zawoja, powiat suski, województwo małopolskie, Polska",04/02/1969,49.6600228,19.5579106
-"Đường Lê Quang Đạo, Phường Mễ Trì, Quận Nam Từ Liêm, Thành phố Hà Nội, 10074, Việt Nam",04/02/1969,21.0115575,105.7717687
+"Đường Lê Quang Đạo, Phường Mễ Trì, Quận Nam Từ Liêm, Thành phố Hà Nội, 10074, Việt Nam",04/02/1969,21.0097387,105.773423
 "New Providence, The Bahamas",04/02/1969,25.0302511,-77.39603414176767
 "Cambridge, Dorchester County, Maryland, 21613, United States",04/02/1970,38.5714624,-76.0763177
 "Puerto Asis, Yavaraté, Vaupés, RAP Amazonía, Colombia",04/02/1976,0.8875425,-69.9794511
@@ -1149,7 +1149,7 @@ Algérie ⵍⵣⵣⴰⵢⴻⵔ الجزائر,03/20/1962,28.0000272,2.9999825
 "Isla de Margarita, Municipio Díaz, Nueva Esparta, Venezuela",04/02/1993,11.0205596,-63.90739842745219
 "Hemkenrode, Cremlingen, Landkreis Wolfenbüttel, Niedersachsen, Deutschland",04/03/1933,52.226706899999996,10.710483448136292
 "Marrakech ⵎⵕⵕⴰⴽⵯⵛ مراكش, arrondissement de Marrakech-Medina مراكش المدينة, Pachalik de Marrakech, Préfecture de Marrakech عمالة مراكش, Marrakech-Safi ⵎⵕⵕⴰⴽⵛ-ⴰⵙⴼⵉ مراكش-أسفي, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",04/03/1939,31.6258257,-7.9891608
-"Adana, Akdeniz Bölgesi, Türkiye",04/03/1954,37.1438001,35.4984094
+"Adana, Seyhan, Adana, Akdeniz Bölgesi, 01010, Türkiye",04/03/1954,36.9863599,35.3252861
 "Llico, Arauco, Provincia de Arauco, Región del Biobío, Chile",04/03/1961,-37.1981493,-73.5648656
 "Lexington, Fayette County, Kentucky, United States",04/03/1967,38.0464066,-84.4970393
 "广州市, 广东省, 中国",04/03/1983,23.1301964,113.2592945
@@ -1176,7 +1176,7 @@ Algérie ⵍⵣⵣⴰⵢⴻⵔ الجزائر,03/20/1962,28.0000272,2.9999825
 "Siuna, Siuna (Municipio), Costa Caribe Norte, 72400, Nicaragua",04/05/1960,13.7341305,-84.7789494
 "Ketchikan, Ketchikan Gateway, Alaska, 99901, United States",04/05/1976,55.3430696,-131.6466819
 "Saint Thomas, Charlotte Amalie, Saint Thomas - Saint John District, United States Virgin Islands, United States",04/05/1978,18.34290815,-64.91889970060265
-"Brunswick, Glynn County, Georgia, United States",04/05/1991,31.1499528,-81.4914894
+"Brunswick, Glynn County, Georgia, 32523, United States",04/05/1991,31.1499528,-81.4914894
 "Петропавловск, Петропавловский национальный наслег, Усть-Майский улус, Республика Саха (Якутия), Дальневосточный федеральный округ, 678631, Россия",04/05/1996,60.372566,134.459961
 "Marianna, Jackson County, Florida, 32447, United States",04/05/2000,30.7743596,-85.2268735
 "Point Cook, Melbourne, City of Wyndham, Victoria, 3030, Australia",04/06/1921,-37.9064862,144.7533059
@@ -1184,7 +1184,7 @@ Algérie ⵍⵣⵣⴰⵢⴻⵔ الجزائر,03/20/1962,28.0000272,2.9999825
 "Nome, Unorganized Borough, Alaska, United States",04/06/1944,64.4975098,-165.4061701
 "Freeland, Tittabawassee Township, Saginaw County, Michigan, 48623, United States",04/06/1958,43.5250265,-84.1227598
 "Villavicencio, Meta, RAP (Especial) Central, Colombia",04/06/1962,4.11145945,-73.4967836258948
-"San Fernando, Parroquia Pedregal, Municipio Democracia, Falcón, Venezuela",04/06/1972,11.0511188,-70.1911809
+"San Fernando, Parroquia Hernández, Municipio Maldonado, Táchira, Venezuela",04/06/1972,8.3758394,-71.8487289
 "Juiz de Fora, Região Geográfica Imediata de Juiz de Fora, Região Geográfica Intermediária de Juiz de Fora, Minas Gerais, Região Sudeste, Brasil",04/06/1990,-21.7609533,-43.3501129
 "Ambato, Tungurahua, Ecuador",04/06/1994,-1.2422413,-78.6287594
 "Umujyi wa Kigali, Rwanda",04/06/1994,-1.8859597,30.1296751
@@ -1195,7 +1195,7 @@ Algérie ⵍⵣⵣⴰⵢⴻⵔ الجزائر,03/20/1962,28.0000272,2.9999825
 "Illiniza, Santa Cecilia, Sangolquí, Sangolqui, Pichincha, 171104, Ecuador",04/07/1958,-0.3334419,-78.4552114
 "Sept-Îles, Sept-Rivières, Côte-Nord, Québec, Canada",04/07/1969,50.2109579,-66.3790642
 "Cincinnati, Hamilton County, Ohio, United States",04/07/1981,39.1014537,-84.5124602
-"Selawik, Northwest Arctic, Alaska, 99770, United States",04/07/1983,66.596318,-160.00678931616415
+"Selawik, Northwest Arctic, Alaska, 99770, United States",04/07/1983,66.6023978,-160.0113003
 "مطار معطن السارة, الكفرة, ليبيا",04/07/1992,21.688273000000002,21.829568854895903
 "Ceyhan, Adana, Akdeniz Bölgesi, Türkiye",04/07/1999,37.0288825,35.8124428
 "Ribeirão Preto, Região Imediata de Ribeirão Preto, Região Metropolitana de Ribeirão Preto, Região Geográfica Intermediária de Ribeirão Preto, São Paulo, Região Sudeste, Brasil",04/07/1999,-21.1776315,-47.8100983
@@ -1203,11 +1203,11 @@ Algérie ⵍⵣⵣⴰⵢⴻⵔ الجزائر,03/20/1962,28.0000272,2.9999825
 "Caracas, Parroquia Catedral, Municipio Libertador, Distrito Capital, Venezuela",04/08/1947,10.5060934,-66.9146008
 "Charleston, Kanawha County, West Virginia, United States",04/08/1951,38.3505995,-81.6332812
 "Moose Jaw, Division No. 7, Saskatchewan, Canada",04/08/1954,50.401515,-105.542908
-"Stromboli, Lipari, Messina, Sicilia, Italia",04/08/1954,38.7930274,15.2108512
+"Isola di Stromboli, Lipari, Messina, Sicilia, Italia",04/08/1954,38.791796250000004,15.211175249544858
 "Alger ⴷⵣⴰⵢⴻⵔ الجزائر, Alger-Centre, Daïra Sidi M'Hamed, Alger, 16007, Algérie ⵍⵣⵣⴰⵢⴻⵔ الجزائر",04/08/1957,36.7753606,3.0601882
 "서울특별시, 대한민국",04/08/1967,37.5666791,126.9782914
 "Coyhaique, Provincia de Coyhaique, Región Aysén del General Carlos Ibáñez del Campo, Chile",04/08/1968,-45.5711804,-72.0684863
-"Hilton Garden Inn London Heathrow Terminals 2 and 3, Cirrus Road, London Borough of Hillingdon, London, Greater London, England, TW6 1AH, United Kingdom",04/08/1968,51.4697822,-0.4535253824196082
+"London Heathrow Airport, Western Perimeter Road, London Borough of Hillingdon, London, Greater London, England, TW6 2GD, United Kingdom",04/08/1968,51.46773895,-0.4587800741571181
 "Friday Harbor, San Juan County, Washington, 98250, United States",04/08/1976,48.5342662,-123.017124
 "Aspen, Pitkin County, Colorado, United States",04/08/1976,39.1911128,-106.82356
 "Malaga, Parque Industrial, AMCO, Area Metropolitana Centro Occidente, Pereira, Risaralda, RAP Eje Cafetero, Colombia",04/08/1999,4.8264779,-75.7288284977983
@@ -1228,12 +1228,12 @@ Algérie ⵍⵣⵣⴰⵢⴻⵔ الجزائر,03/20/1962,28.0000272,2.9999825
 "Hochwald, Bezirk Dorneck, Amtei Dorneck-Thierstein, Solothurn, 4146, Schweiz/Suisse/Svizzera/Svizra",04/10/1973,47.4562417,7.6402192
 "Col de Tourniol, Léoncel, Die, Drôme, Auvergne-Rhône-Alpes, France métropolitaine, 26190, France",04/10/1989,44.9185137,5.1844674
 "蘭嶼 Ponso no Tao, 蘭嶼鄉 Ponso no Tao, 臺東縣, 臺灣",04/10/1992,22.04384985,121.54224333795878
-"Wainwright, North Slope, Alaska, 99782, United States",04/10/1997,70.661009,-159.98733390705198
+"Wainwright, North Slope, Alaska, 99782, United States",04/10/1997,70.6369444,-160.038333
 "Marsabit, Eastern, Kenya",04/10/2006,2.85795825,37.715489185900395
 "Heller Field, Homerlea Avenue, Hopatcong, Sussex County, New Jersey, 07843, United States",04/11/1920,40.9354609,-74.6611513311839
 "Hyatt Regency Trinidad, 1, Wrightson Road, Downtown, Port of Spain, 150123, Trinidad and Tobago",04/11/1936,10.650603499999999,-61.51657370448787
 "Tamanrasset, Algérie ⵍⵣⵣⴰⵢⴻⵔ الجزائر",04/11/1967,24.3753438,4.3208436
-"Tanana, Unorganized Borough, Alaska, 99777, United States",04/11/1982,65.1719444,-152.078888
+"Tanana, Unorganized Borough, Alaska, 99777, United States",04/11/1982,65.1730015,-152.0699875547645
 "Salta, Argentina",04/11/1985,-25.1076701,-64.3494964
 "Cheyenne, Laramie County, Wyoming, United States",04/11/1996,41.139981,-104.820246
 "Formia, Latina, Lazio, 04023, Italia",04/12/1938,41.259308,13.6080209
@@ -1241,16 +1241,16 @@ Algérie ⵍⵣⵣⴰⵢⴻⵔ الجزائر,03/20/1962,28.0000272,2.9999825
 "Hargeysa هرجيسا, وقويي جالبيد Woqooyi Galbeed, Soomaaliland أرض الصومال, Soomaaliya الصومال",04/12/1964,9.561733,44.061803
 "Rio de Janeiro, Região Geográfica Imediata do Rio de Janeiro, Região Metropolitana do Rio de Janeiro, Região Geográfica Intermediária do Rio de Janeiro, Rio de Janeiro, Região Sudeste, Brasil",04/12/1972,-22.9110137,-43.2093727
 "Sunnyvale, Santa Clara County, California, United States",04/12/1973,37.3688301,-122.036349
-"Carrizozo, Lincoln County, New Mexico, United States",04/12/1979,33.6451866,-105.8775111
+"Carrizozo, Lincoln County, New Mexico, 88301, United States",04/12/1979,33.6451866,-105.8775111
 "Florianópolis, Região Geográfica Imediata de Florianópolis, Região Geográfica Intermediária de Florianópolis, Santa Catarina, Região Sul, Brasil",04/12/1980,-27.5973002,-48.5496098
 "Hennenman, Matjhabeng Local Municipality, Lejweleputswa District Municipality, Free State, 9445, South Africa",04/12/1988,-27.973769,27.027854
 "Værøy helikopterhavn, Røstnesvågen, Torvvågan, Røssnesvågen, Sørland, Værøy, Nordland, 8063, Norge",04/12/1990,67.6548119,12.726179187235747
 "Palma, Illes Balears, España",04/12/2002,39.5695818,2.6500745
 "Enarotali, Paniai, Papua Tengah, Western New Guinea, 98700, Indonesia",04/12/2005,-3.9284498,136.3766675
-"Brooklands, Wilmington, Hawley, Dartford, Kent, England, DA1 1JG, United Kingdom",04/13/1922,51.433229,0.2237122
+"Brooklands, Broughton, Milton Keynes, City of Milton Keynes, England, MK10 7NA, United Kingdom",04/13/1922,52.0440707,-0.6744013
 "Dakar, Région de Dakar, Sénégal",04/13/1947,14.693425,-17.447938
 "Santiago, Provincia de Santiago, Región Metropolitana de Santiago, Chile",04/13/1954,-33.4377756,-70.6504502
-"Erzurum, Yakutiye, Erzurum, Doğu Anadolu Bölgesi, 25700, Türkiye",04/13/1982,39.90632,41.2727715
+"Erzurum, Doğu Anadolu Bölgesi, Türkiye",04/13/1982,39.7581897,41.4032241
 "Athens, Claiborne Parish, Louisiana, 71003, United States",04/13/1985,32.6504281,-93.025717
 "Kansas City, Wyandotte County, Kansas, United States",04/13/1987,39.1134562,-94.626497
 "Letschenbach, Bliesmengen-Bolchen, Mandelbachtal, Saarpfalz-Kreis, Saarland, Deutschland",04/14/1931,49.1635031,7.1228272
@@ -1270,7 +1270,7 @@ Algérie ⵍⵣⵣⴰⵢⴻⵔ الجزائر,03/20/1962,28.0000272,2.9999825
 "Mérida, Yucatán, México",04/15/1957,20.9670759,-89.6237402
 "청진시, 함경북도, 조선민주주의인민공화국",04/15/1969,41.783248,129.8206615
 "San Jose, Tarlac, Central Luzon, 2318, Pilipinas",04/15/1971,15.4775949,120.4639721
-"Palm Desert, Riverside County, California, United States",04/15/1976,33.71880025,-116.38443895745498
+"Palm Desert, Riverside County, California, United States",04/15/1976,33.7288179,-116.382571
 "จังหวัดภูเก็ต, ประเทศไทย",04/15/1985,7.9366015,98.3529292
 "Goroka, Goroka District, Eastern Highlands, Highlands Region, Papua Niugini",04/15/1992,-6.0730028,145.3932891
 "부산광역시, 대한민국",04/15/2002,35.1799528,129.0752365
@@ -1315,18 +1315,18 @@ Schweiz/Suisse/Svizzera/Svizra,04/17/1936,46.7985624,8.2319736
 "鳥羽市, 三重県, 517-0011, 日本",04/19/1983,34.4714464,136.8293576
 "Ленинакан, Краснокрымское сельское поселение, Мясниковский район, Ростовская область, Южный федеральный округ, 346815, Россия",04/19/1983,47.3079286,39.6433401
 "Tuba City, Coconino County, Arizona, 86045, United States",04/19/1985,36.123307,-111.24218755955015
-"Perímetro Urbano Cúcuta, Cúcuta, Oriental, Norte de Santander, RAP Gran Santander, Colombia",04/19/1989,7.8971458,-72.5080387
+"Cúcuta, Oriental, Norte de Santander, RAP Gran Santander, Colombia",04/19/1989,8.07761875,-72.46890019811272
 "Zwingle, Dubuque County, Iowa, United States",04/19/1993,42.2975404,-90.6875607
 "Tanjung Pandan, Belitung, Kepulauan Bangka Belitung, Sumatera, 33411, Indonesia",04/19/1997,-2.7422808,107.6544753
-"Pepa, Tanganyika, République démocratique du Congo",04/19/2000,-7.0770001,29.724444
+"Pepa, Tanganyika, République démocratique du Congo",04/19/2000,-7.715167,29.7698062
 "Samal Island, Siasi, Sulu, Bangsamoro, Pilipinas",04/19/2000,5.5,120.95
 "Popayán, Centro, Cauca, RAP Pacífico, Colombia",04/19/2002,2.4422295,-76.6072368
 "Sweetwater, Nolan County, Texas, 79556, United States",04/20/1945,32.4709519,-100.405938
 "San Francisco Bay, San Mateo County, California, United States",04/20/1953,37.71402905,-122.30779415179862
 "Hickory, Catawba County, North Carolina, United States",04/20/1960,35.7333312,-81.3442915
 "Λευκωσία - Lefkoşa, Δήμος Λευκωσίας, Λευκωσία - Lefkoşa, Επαρχία Λευκωσίας, Κύπρος, 1011, Κύπρος - Kıbrıs",04/20/1967,35.1746503,33.3638783
-"Kayenta, Navajo County, Arizona, United States",04/20/1971,36.7218463,-110.253872
-"Moyobamba, San Martín, 22001, Perú",04/20/1972,-5.8647644,-77.0357666
+"Kayenta, Navajo County, Arizona, United States",04/20/1971,36.715009499999994,-110.24609078813896
+"Moyobamba, Playa Hermosa, Moyobamba, San Martín, Perú",04/20/1972,-5.90969945,-76.99447517847963
 "Мурманск, городской округ Мурманск, Мурманская область, Северо-Западный федеральный округ, Россия",04/20/1978,68.970665,33.07497
 "Kulusuk, Ammasalik, Sermersooq, Kalaallit Nunaat",04/20/1985,65.5756356,-37.1869257
 "Santa Rosa, Municipio Urubichá, Provincia Guarayos, Santa Cruz, Bolivia",04/20/1985,-15.2740541,-63.0110171
@@ -1347,17 +1347,17 @@ Schweiz/Suisse/Svizzera/Svizra,04/17/1936,46.7985624,8.2319736
 "Floh, Floh-Seligenthal, Landkreis Schmalkalden-Meiningen, Thüringen, 98593, Deutschland",04/22/1927,50.770890449999996,10.496178825357095
 "Goshen, Elkhart County, Indiana, United States",04/22/1927,41.5850394,-85.8344491
 "Loch Lomond, Balmaha, Stirling, Alba / Scotland, G83 8QZ, United Kingdom",04/22/1940,56.15619625,-4.656210521106075
-"University of Papua New Guinea, Waigani Campus, Seventh Street, Waigani, Port Moresby, National Capital District, Southern Region, 000, Papua Niugini",04/22/1943,-9.40997445,147.17343971106237
+"University of Papua New Guinea, Waigani Campus, 3, Waigani, Port Moresby, National Capital District, Southern Region, 000, Papua Niugini",04/22/1943,-9.40997445,147.17343971106237
 "Columbus, Muscogee County, Georgia, United States",04/22/1947,32.4610708,-84.9880449
 "Bunia, Ituri, République démocratique du Congo",04/22/1960,1.5620529,30.2478844
 "Ardmore, Carter County, Oklahoma, United States",04/22/1966,34.1729273,-97.1309119
 "Москва, Центральный федеральный округ, Россия",04/22/1968,55.625578,37.6063916
 "Manchester, Hillsborough County, New Hampshire, United States",04/22/1971,42.9956397,-71.4547891
-"banjar grogak gede, desa delod peken, Tabanan, Bali, Nusa Tenggara, Indonesia",04/22/1974,-8.5509257,115.1245796931718
+"banjar grogak tengah, desa delod peken, Tabanan, Bali, Nusa Tenggara, Indonesia",04/22/1974,-8.5424459,115.12612131262217
 "Goleta, Santa Barbara County, California, 93117, United States",04/22/1975,34.4358295,-119.8276389
 "Perris Valley Cemetery, Vista Creek, Perris, Riverside County, California, United States",04/22/1992,33.794701,-117.22384554884275
 "Haleakalā Observatories, Maui County, Hawaii, United States",04/22/1992,20.7076743,-156.2575841
-"Via del Lago Terrione, Municipio Roma XIII, Roma, Roma Capitale, Lazio, 00165, Italia",04/23/1933,41.8961698,12.4538826
+"Via del Lago Terrione, Municipio Roma XIII, Roma, Roma Capitale, Lazio, 00165, Italia",04/23/1933,41.8950764,12.4531979
 "Van, Doğu Anadolu Bölgesi, Türkiye",04/23/1959,38.3249599,43.6589825
 "Seattle, King County, Washington, United States",04/23/1965,47.6038321,-122.330062
 Golfo de México,04/23/1976,25.2834459,-89.9066163
@@ -1375,7 +1375,7 @@ Golfo de México,04/23/1976,25.2834459,-89.9066163
 "Alacant / Alicante, l'Alacantí, Alacant / Alicante, Comunitat Valenciana, España",04/25/1925,38.3436365,-0.4881708
 "Montréal, Agglomération de Montréal, Montréal (région administrative), Québec, Canada",04/25/1944,45.5031824,-73.5698065
 "Key West, Monroe County, Florida, United States",04/25/1951,24.5548262,-81.8020722
-"Nantucket Island, Nantucket, Massachusetts, United States",04/25/1967,41.315731400000004,-70.00901408779944
+"Nantucket, Massachusetts, United States",04/25/1967,41.2727997,-70.0951867
 "จังหวัดนครราชสีมา, ประเทศไทย",04/25/1969,15.2241917,101.9313754
 "Rivolto, Galeata, Unione di Comuni della Romagna Forlivese, Forlì-Cesena, Emilia-Romagna, 47010, Italia",04/25/1970,44.0015511,11.9045338
 "Tenerife, Canarias, España",04/25/1980,28.2935785,-16.621447121144122
@@ -1387,17 +1387,17 @@ Golfo de México,04/23/1976,25.2834459,-89.9066163
 "Baranquilla Cuidad Educadora, Calle 58, Modelo, Localidad Norte - Centro Histórico, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, 080003, Colombia",04/26/1989,10.99773435,-74.7911478441537
 "Manila, Capital District, Metro Manila, Pilipinas",04/26/1990,14.5906346,120.9799964
 "ساوه, بخش مرکزی شهرستان ساوه, شهرستان ساوه, استان مرکزی, ایران",04/26/1992,35.0196331,50.3652364
-"Aurangabad, Aurangabad District, Bihar, India",04/26/1993,24.786306,84.41448983395554
+"Aurangabad, Aurangabad District, Bihar, 824103, India",04/26/1993,24.75,84.5
 "小牧市, 愛知県, 中部地方, 日本",04/26/1994,35.3066073,136.934098
 "Washington, District of Columbia, United States",04/27/1945,38.8950368,-77.0365427
 "Tomas, Yauyos, Lima, Perú",04/27/1966,-12.2383101,-75.7460249
 "Malaybalay, Bukidnon, Northern Mindanao, Pilipinas",04/27/1967,8.1550421,125.1305726
-"Carpenteria, Lower Peters Canyon, Irvine, Orange County, California, 92602, United States",04/27/1968,33.7274177,-117.7680934
-"Санкт-Петербург, Северо-Западный федеральный округ, Россия",04/27/1974,59.9606739,30.1586551
+"Carpenteria, Lower Peters Canyon, Irvine, Orange County, California, United States",04/27/1968,33.726361350000005,-117.7666737138781
+"Санкт-Петербург, Северо-Западный федеральный округ, Россия",04/27/1974,59.938732,30.316229
 "Anaktuvuk Pass, North Slope, Alaska, 99721, United States",04/27/1976,68.15012875,-151.71568535164766
 "Saint Thomas, Charlotte Amalie, Saint Thomas - Saint John District, United States Virgin Islands, United States",04/27/1976,18.34290815,-64.91889970060265
 "Ciudad de Guatemala, Departamento de Guatemala, Guatemala",04/27/1977,14.6424667,-90.5131361
-"ดอนเมือง, ถนนวิภาวดีรังสิต, แขวงสนามบิน, เขตดอนเมือง, กรุงเทพมหานคร, 10210, ประเทศไทย",04/27/1980,13.9147803,100.59791636703622
+"ดอนเมือง, ถนนกำแพงเพชร 6, แขวงดอนเมือง, เขตดอนเมือง, กรุงเทพมหานคร, 10210, ประเทศไทย",04/27/1980,13.9147803,100.59791636703622
 "Saravena, Arauca, RAP Llanos, 815010, Colombia",04/27/1986,6.9068188,-71.83613345742756
 "ولسوالی خولم, ولایت بلخ, افغانستان",04/27/1993,36.814534,67.743267
 "Stratford, Greater Bridgeport Planning Region, Connecticut, United States",04/27/1994,41.1845415,-73.1331651
@@ -1427,7 +1427,7 @@ Golfo de México,04/23/1976,25.2834459,-89.9066163
 "Basel, Basel-Stadt, Schweiz/Suisse/Svizzera/Svizra",04/30/1936,47.5581077,7.5878261
 "Delhi, India",04/30/1952,28.6273928,77.1716954
 "Kolkata, Kolkata District, West Bengal, India",04/30/1954,22.5726459,88.3638953
-"London, Greater London, England, United Kingdom",04/30/1956,51.4893335,-0.14405508452768728
+"London, Greater London, England, United Kingdom",04/30/1956,51.5074456,-0.1277653
 "Galveston County, Texas, United States",04/30/1974,29.3872254,-94.992736
 Gulf of Thailand,04/30/1982,9.8762687,102.06908954680432
 "Jacksonville, Duval County, Florida, United States",04/30/1983,30.3321838,-81.655651
@@ -1442,8 +1442,8 @@ Moçambique,05/01/1939,-19.302233,34.9144977
 "Mallorca, Illes Balears, España",05/02/1959,39.613432,2.8829184529439633
 "Virgin Islands, Saint Croix District, United States Virgin Islands, United States",05/02/1970,17.7289564,-64.75901597858353
 "Baños, Tungurahua, Ecuador",05/02/1974,-1.33191575,-78.26252853850661
-"Aéroport Lyon Saint-Exupéry, Rue de Bulgarie, Colombier-Saugnieu, Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, 69124, France",05/02/2000,45.72442685,5.086515135250837
-"Milpillas, Aramberri, Nuevo León, México",05/02/2004,24.3579362,-99.7950946
+"Aéroport Lyon Saint-Exupéry, Rose de Mesure Localizer 35R, Saugnieu, Colombier-Saugnieu, Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, 69124, France",05/02/2000,45.72442685,5.086515135250837
+"Milpillas, Chínipas, Chihuahua, México",05/02/2004,27.2052418,-108.6444651
 "Taranaki, New Zealand / Aotearoa",05/02/2005,-39.3848064,174.19735050943854
 "Episcopal Church of South Sudan, Juba-Rumbek-Bentiu Highway, Liyoba, Mundri West, Western Equatoria, South Sudan جنوب السودان",05/02/2008,5.347842,30.3194529
 "Portland, Multnomah County, Oregon, United States",05/03/1932,45.5202471,-122.674194
@@ -1481,7 +1481,7 @@ Moçambique,05/01/1939,-19.302233,34.9144977
 "Hindhead, Waverley, Surrey, England, GU26 6AA, United Kingdom",05/06/1945,51.1132995,-0.7332662
 "Albuquerque, Bernalillo County, New Mexico, United States",05/06/1951,35.0841034,-106.650985
 "Portsmouth, England, United Kingdom",05/06/1962,50.800031,-1.0906023
-"Neah Bay, Clallam County, Washington, 98357, United States",05/06/1966,48.359207999999995,-124.6108055
+"Neah Bay, Clallam County, Washington, 98357, United States",05/06/1966,48.365339,-124.615534
 "Muqdisho مقديشو, Hamar Weyne حي حمروين, Banaadir بنادر, BN 09010, Soomaaliya الصومال",05/06/1970,2.0349312,45.3419183
 "Coolidge, Pinal County, Arizona, United States",05/06/1971,32.977839,-111.517624
 "Nürnberg, Bayern, Deutschland",05/06/1974,49.453872,11.077298
@@ -1517,9 +1517,67 @@ English Channel / La Manche,05/09/1934,50.4924668,1.054682
 "Iligan, Northern Mindanao, 9200, Pilipinas",05/09/1970,8.2281556,124.2411508
 "Pellston, McKinley Township, Emmet County, Michigan, United States",05/09/1970,45.552789,-84.783936
 "محافظة عدن, اليمن",05/09/1982,12.833333,44.916667
-"Warszawa, województwo mazowieckie, Polska",05/09/1987,52.2319581,21.0067249
+"Warszawa, województwo mazowieckie, Polska",05/09/1987,52.2337172,21.071432235636493
 "Grand Hotel Tainjin, 广东路, 越秀路街道, 河西区, 天津市, 300201, 中国",05/09/1989,39.0948375,117.210518
-"Sulawesi, Indonesia",05/09/1991,-1.0074826,121.47984106635917
+"Sulawesi, Indonesia",05/09/1991,-1.9758004,120.29488558399481
+"Cerro San Jeronimo, Paime, Provincia de Rionegro, RAP (Especial) Central, Colombia",05/09/1995,5.380295,-74.1138612
+"Terrace, Regional District of Kitimat-Stikine, British Columbia, Canada",05/09/1996,54.5172715,-128.599548
+"Helgoland, Kreis Pinneberg, Schleswig-Holstein, 27498, Deutschland",05/10/1918,54.18004525,7.885362101180695
+"Buenos Aires, Comuna 1, Ciudad Autónoma de Buenos Aires, Argentina",05/10/1930,-34.6037181,-58.38153
+"Mangere Island, Chatham Islands, New Zealand / Aotearoa",05/10/1938,-44.265432,-176.29344
+"Munson, Santa Rosa County, Florida, United States",05/10/1946,30.8576858,-86.8730163
+"Stah Guentis ⵙⵟⴻⵃ ⴳⴻⵏⵜⵉⵙ سطح قنطيس, daïra El Ogla, Tébessa, Algérie ⵍⵣⵣⴰⵢⴻⵔ الجزائر",05/10/1961,34.8335854,7.499788406734089
+"Sân vận động Quốc gia Mỹ Đình, 1, Đường Lê Đức Thọ, Phường Mỹ Đình 1, Quận Nam Từ Liêm, Thành phố Hà Nội, 10057, Việt Nam",05/10/1972,21.02050265,105.76392711668353
+"Cape Paterson, Bass Coast Shire, Victoria, 3995, Australia",05/10/1975,-38.6717208,145.6160882
+"أريحا, منطقة أ, הגדה המערבית, الأراضي الفلسطينية",05/10/1977,31.855991,35.4598851
+"Tuxtla Gutiérrez, Chiapas, 29019, México",05/10/1990,16.753801,-93.115959
+"Otáez, Durango, México",05/10/1996,24.71218845,-105.91786968093132
+"Kaunakakai, Maui County, Hawaii, United States",05/10/2000,21.0906247,-157.0208436
+"Delaware Bay, Cumberland County, New Jersey, United States",05/11/1947,39.11380655,-75.14868800418526
+"Prince Rupert, North Coast Regional District, British Columbia, Canada",05/11/1953,54.3126572,-130.32549
+"Ciudad de Guatemala, Departamento de Guatemala, Guatemala",05/11/1971,14.6424667,-90.5131361
+"Greenville, Piscataquis County, Maine, 04441, United States",05/11/1973,45.458955,-69.5916835
+"Pickle Lake Township, Kenora District, Northwestern Ontario, Ontario, P0V 3A0, Canada",05/11/1987,51.4648142,-90.1925284
+"Manila, Capital District, Metro Manila, Pilipinas",05/11/1990,14.5906346,120.9799964
+"Mount Emerald, Mareeba Shire, Queensland, Australia",05/11/1990,-17.2038889,145.4061111
+"Würzburg, Bayern, Deutschland",05/11/1990,49.7933723,9.9309779
+"Suva, Rewa, Central, Viti",05/11/1993,-18.1415884,178.4421662
+"Ransom Everglades School, Royal Road, Miami, Miami-Dade County, Florida, 33133, United States",05/11/1996,25.7227736,-80.2443158527994
+"الدلنج, Salara, Dilling, ولاية جنوب كردفان, السودان",05/11/2004,12.0315831,29.6516649
+"Oskaloosa, Mahaska County, Iowa, United States",05/12/1920,41.2951037,-92.6448451
+"Dearborn Court, Presidents, Edina, Hennepin County, Minnesota, 55343, United States",05/12/1928,44.9200398,-93.3906923
+"Miles City, Custer County, Montana, 59301, United States",05/12/1942,46.4085273,-105.840981
+"Charleston, Kanawha County, West Virginia, United States",05/12/1959,38.3505995,-81.6332812
+"Chase, Baltimore County, Maryland, 21027, United States",05/12/1959,39.3634413,-76.3710704
+"شارع عرب العيايدة, حلوان, القاهرة, 11918, مصر",05/12/1963,29.8363004,31.3022868
+"Chile, Tamarindos I, Distrito El Plumerillo, Departamento Las Heras, Mendoza, M5539HSQ, Argentina",05/12/1967,-32.8380885,-68.8077714
+"Khâm Đức, Huyện Phước Sơn, Tỉnh Quảng Nam, Việt Nam",05/12/1968,15.4399678,107.7898857
+"Savoonga, Unorganized Borough, Alaska, 99769, United States",05/12/1975,63.6941667,-170.4788889
+"Judsonia, White County, Arkansas, United States",05/12/1982,35.270085,-91.6398575
+"النعمة, الحوض الشرقي, موريتانيا",05/12/1998,16.6173344,-7.2663798
+"São Paulo, Região Imediata de São Paulo, Região Metropolitana de São Paulo, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, Brasil",05/13/1952,-23.5506507,-46.6333824
+"San Carlos de Bariloche, Municipio de San Carlos de Bariloche, Departamento Bariloche, Río Negro, 8400, Argentina",05/13/1957,-41.1334421,-71.3098425
+"New Delhi District, Delhi, India",05/13/1957,28.6138954,77.2090057
+"จังหวัดสกลนคร, ประเทศไทย",05/13/1975,17.1904453,103.9730898
+"Campinas, Região Imediata de Campinas, Região Metropolitana de Campinas, Região Geográfica Intermediária de Campinas, São Paulo, Região Sudeste, Brasil",05/13/1980,-22.9056391,-47.059564
+"Varadero, Matanzas, Cuba",05/13/1980,23.149578,-81.260025
+"Sayre, Bradford County, Pennsylvania, 18840, United States",05/13/1987,41.9789631,-76.515499
+"Boise, Ada County, Idaho, United States",05/13/1995,43.6166163,-116.200886
+"Monsures, Amiens, Somme, Hauts-de-France, France métropolitaine, 80160, France",05/14/1923,49.7095701,2.1701394
+"Lusaka Province, Zambia",05/14/1977,-15.357609,29.1653092
+"Manaus, Região Geográfica Imediata de Manaus, Região Geográfica Intermediária de Manaus, Amazonas, Região Norte, 69000-000, Brasil",05/14/2004,-3.1316333,-59.9825041
+"La Ronge, Division No. 18, Saskatchewan, S0J 1L0, Canada",05/14/2006,55.1005283,-105.2900485
+"Vrede, Phumelela Local Municipality, Thabo Mofutsanyana District Municipality, Free State, 9835, South Africa",05/15/1948,-27.4264699,29.1637064
+"काठमाडौं, काठमाडौँ महानगरपालिका, काठमाडौं, बाग्मती प्रदेश, 46000, नेपाल",05/15/1956,27.708317,85.3205817
+"Orléans, Ottawa, Eastern Ontario, Ontario, Canada",05/15/1956,45.40683715,-75.52745676171389
+"New Delhi District, Delhi, India",05/15/1958,28.6138954,77.2090057
+"Jebel Marra, Kabkabiya, ولاية شمال دارفور, السودان",05/15/1960,14.0718638,24.3456057
+"القاهرة, مصر",05/15/1962,30.0443879,31.2357257
+"Cape Dyer, ᕿᑭᖅᑖᓗᒃ Qikiqtaaluk Region, ᓄᓇᕗᑦ Nunavut, Canada",05/15/1967,66.666667,-61.366667
+"Ushuaia, Departamento Ushuaia, Tierra del Fuego, Argentina",05/15/1984,-54.806115899999995,-68.3184972880496
+"Vilanculos, Vilankulo, Inhambane, 1304, Moçambique",05/15/1985,-21.998996,35.3204753
+"Cancún, Benito Juárez, Quintana Roo, 77514, México",05/15/1993,21.1618955,-86.8514988
+"Burbank, California, United States",05/16/1932,34.1812089,-118.307201
 "Mount Waverley, Waverley Rail Trail, Mount Waverley, Melbourne, City of Monash, Victoria, 3149, Australia",05/16/1936,-37.8752637,145.1281258
 "Saugus, Santa Clarita, California, 91350, United States",05/16/1938,34.4493489,-118.5168257
 "Richmond, Virginia, United States",05/16/1946,37.5385087,-77.43428
@@ -1532,7 +1590,7 @@ English Channel / La Manche,05/09/1934,50.4924668,1.054682
 "Malatya, Battalgazi, Malatya, Doğu Anadolu Bölgesi, 44000, Türkiye",05/16/2001,38.3487153,38.3190674
 "Rock Springs, Sweetwater County, Wyoming, 82901, United States",05/17/1921,41.5860557,-109.2194544
 "Marshall, Harrison County, Texas, United States",05/17/1953,32.5447756,-94.3661004
-"Nairobi, Starehe, Nairobi, Kenya",05/17/1962,-1.3026148499999999,36.82884201813725
+"Central Business District, CBD division, Starehe, Nairobi, 46464, Kenya",05/17/1962,-1.2832533,36.8172449
 "Moanda, Haut-Ogooué, Gabon",05/17/2000,-1.554004,13.220574
 "شهر ساری, بخش مرکزی, شهرستان ساری, استان مازندران, ایران",05/17/2001,36.5659626,53.0586327
 "Mendoza, Argentina",05/17/2001,-34.787093049999996,-68.43818677312292
@@ -1557,7 +1615,7 @@ Djibouti جيبوتي,05/18/1986,11.8145966,42.8453061
 "Починковское городское поселение, Починковский район, Смоленская область, Центральный федеральный округ, Россия",05/19/1978,54.404776,32.4407898
 "Sarasota, Sarasota County, Florida, United States",05/19/1980,27.3365805,-82.5308545
 "Santa Cruz, Bolivia",05/19/1987,-17.333333,-61.5
-"Medellín, Valle de Aburrá, Antioquia, RAP del Agua y la Montaña, 0500, Colombia",05/19/1993,6.2697018,-75.60252574475943
+"Perímetro Urbano Medellín, Medellín, Valle de Aburrá, Antioquia, RAP del Agua y la Montaña, Colombia",05/19/1993,6.2443382,-75.573553
 "Loch of Griesta, Shetland Islands, Alba / Scotland, United Kingdom",05/19/1996,60.176798500000004,-1.2654889084668182
 "Stuttgart, Baden-Württemberg, Deutschland",05/20/1937,48.7784485,9.1800132
 "Bovingdon, Dacorum, Hertfordshire, England, United Kingdom",05/20/1948,51.7234367,-0.5327056
@@ -1605,7 +1663,7 @@ Djibouti جيبوتي,05/18/1986,11.8145966,42.8453061
 "Amsterdam, Noord-Holland, Nederland",05/25/1953,52.3730796,4.8924534
 "Gurugram District, Haryana, India",05/25/1958,28.4646148,77.0299194
 "Reggio di Calabria, Reggio Calabria, Italia",05/25/1969,38.1035389,15.6397556
-"West Higgins Road, O'Hare, Chicago, Jefferson Township, Cook County, Illinois, 60631, United States",05/25/1979,41.988449,-87.8509129
+"West Higgins Road, O'Hare, Chicago, Jefferson Township, Cook County, Illinois, 60631, United States",05/25/1979,41.9864299,-87.8369166
 "Bullen Point, North Slope, Alaska, United States",05/25/1979,70.1831824,-146.8563082
 Brasil,05/25/1982,-10.3333333,-53.2
 "Ilaga, Puncak, Papua Tengah, Western New Guinea, Indonesia",05/25/1987,-3.9746136,137.6404363
@@ -1636,14 +1694,14 @@ Deutschland,05/27/1938,51.1638175,10.4478313
 "La Habana, La Habana Vieja, La Habana, 10000, Cuba",05/27/1977,23.135305,-82.3589631
 "Dakar, Région de Dakar, Sénégal",05/27/1979,14.693425,-17.447938
 "Maywood, Proviso Township, Cook County, Illinois, 60153, United States",05/28/1935,41.8789942,-87.8436412
-"Mumbai, Mumbai Suburban District, Maharashtra, India",05/28/1968,19.08157715,72.88662753964906
+"Mumbai City District, Maharashtra, India",05/28/1968,18.9733536,72.82810491917377
 "Roanoke, Virginia, United States",05/28/1971,37.270973,-79.9414313
 "Gran Canaria, Canarias, España",05/28/1980,27.9580004,-15.6062305376665
 "Avalon, California, 90704, United States",05/28/1981,33.34221,-118.3272612
 "Cabimas, Parroquia San Benito, Municipio Cabimas, Zulia, 4013, Venezuela",05/28/1985,10.395075,-71.4414049
 "Villavicencio, Meta, RAP (Especial) Central, Colombia",05/28/1994,4.11145945,-73.4967836258948
-"Talkeetna, Matanuska-Susitna, Alaska, 99676, United States",05/28/2003,62.3234762,-150.1125699
-"LaGuardia Airport, Bowery Bay Boulevard, Queens County, City of New York, New York, 11371, United States",05/29/1947,40.7757145,-73.87336398511545
+"Talkeetna, Matanuska-Susitna, Alaska, 99676, United States",05/28/2003,62.267644,-150.02952875707462
+"LaGuardia Airport, 94th Street, Queens County, City of New York, New York, 11371, United States",05/29/1947,40.7757145,-73.87336398511545
 "厚木, 厚木駅こ線人道橋, 1丁目, 河原口, 海老名市, 神奈川県, 243-0421, 日本",05/29/1947,35.4433894,139.3783891
 Singapore,05/29/1961,1.357107,103.8194992
 "Cruzeiro do Sul, Região Geográfica Imediata de Cruzeiro do Sul, Região Geográfica Intermediária de Cruzeiro do Sul, Acre, Região Norte, Brasil",05/29/1972,-7.6362478,-72.6691649
@@ -1675,7 +1733,7 @@ English Channel / La Manche,05/31/1926,50.4924668,1.054682
 Nicaragua,06/01/1959,12.6090157,-85.2936911
 "Vidalia, Toombs County, Georgia, United States",06/01/1968,32.2176855,-82.4134614
 "طرابلس, ليبيا",06/01/1970,32.896672,13.1777923
-"Valdez, Unorganized Borough, Alaska, 99686, United States",06/01/1972,61.1396165,-146.3841484864219
+"Valdez, Unorganized Borough, Alaska, 99686, United States",06/01/1972,61.1299396,-146.349363
 "São Luís, Região Geográfica Imediata de São Luís, Região Geográfica Intermediária de São Luís, Maranhão, Região Nordeste, Brasil",06/01/1973,-2.5295265,-44.2963942
 "성남시, 경기도, 대한민국",06/01/1982,37.4201556,127.1262092
 "Little Rock, Pulaski County, Arkansas, United States",06/01/1999,34.7465071,-92.2896267
@@ -1686,7 +1744,7 @@ Nicaragua,06/01/1959,12.6090157,-85.2936911
 "Guadalajara, Región Centro, Jalisco, México",06/02/1958,20.6720375,-103.338396
 "Manila, Capital District, Metro Manila, Pilipinas",06/02/1958,14.5906346,120.9799964
 "Roxas, Capiz, Western Visayas, 5800, Pilipinas",06/02/1970,11.5895171,122.7500577
-"Tanjung Karang, Nunukan, Kalimantan Utara, Kalimantan, Indonesia",06/02/1983,4.0640689,117.9184516
+"Tanjung Karang, Putussibau Utara, Kapuas Hulu, Kalimantan Barat, Kalimantan, Indonesia",06/02/1983,0.867744,113.0045036
 "Campbeltown, Argyll and Bute, Alba / Scotland, PA28 6AD, United Kingdom",06/02/1994,55.4241858,-5.6051005
 "N'dalatando, Cuanza Norte, Angola",06/02/2002,-9.2984831,14.9144981
 "Groton, Southeastern Connecticut Planning Region, Connecticut, United States",06/02/2006,41.3501598,-72.0761998
@@ -1740,7 +1798,7 @@ Nicaragua,06/01/1959,12.6090157,-85.2936911
 "Rua Cidade de Florianpolis, Parque das Algarobas, Jequié, Região Geográfica Imediata de Jequié, Região Geográfica Intermediária de Vitória da Conquista, Bahia, Região Nordeste, 45208-209, Brasil",06/07/1949,-13.8544021,-40.0606614
 "New Haven, South Central Connecticut Planning Region, Connecticut, United States",06/07/1971,41.3082138,-72.9250518
 "Leh, Leh Tehsil, Leh District, Ladakh, India",06/07/1979,34.1642029,77.5848133
-"Centrum, Paramaribo, Suriname",06/07/1989,5.8241764499999995,-55.16628130970069
+"Paramaribo, Centrum, Paramaribo, Suriname",06/07/1989,5.8247628,-55.1703941
 "Mayagüez, Puerto Rico, United States",06/07/1992,18.2011161,-67.1391124
 "Bi’r Gwarar-awe, سنكات, البحر الأحمر, السودان",06/07/1993,18.7,35.6
 "Yeco, Mariquina, Provincia de Valdivia, Región de Los Ríos, Chile",06/07/2008,-39.4506114,-73.1286108
@@ -1758,7 +1816,7 @@ Nicaragua,06/01/1959,12.6090157,-85.2936911
 "Libreville, Estuaire, Gabon",06/08/2004,0.4086518,9.4418849
 "Mullan, Shoshone County, Idaho, 83846, United States",06/08/2006,47.4702078,-115.8018253
 "Huntsville, Walker County, Texas, United States",06/08/2008,30.7235263,-95.5507771
-"Mongaup Mountain, Ulster County, New York, United States",06/09/1934,41.9909235,-74.6840456
+"Mongaup Mountain, Ulster County, New York, United States",06/09/1934,41.9934945,-74.6993963
 "Malmö, Malmö kommun, Skåne län, Sverige",06/09/1936,55.6052931,13.0001566
 "Taboga, Distrito Taboga, Panamá",06/09/1946,8.7895216,-79.56073999876523
 "Abẹ́òkúta, Abeokuta South, Ogun, 111101, Nigeria",06/09/1946,7.1547129,3.3467344
@@ -1771,7 +1829,7 @@ Nicaragua,06/01/1959,12.6090157,-85.2936911
 "Coron, Palawan, Mimaropa, 5316, Pilipinas",06/09/1999,11.9985507,120.2051611
 "Juneau, Alaska, United States",06/09/1999,58.3019496,-134.419734
 "Santiago de Cuba, Cuba",06/10/1929,20.0214637,-75.8294928
-"Vlissingen, Zeeland, Nederland",06/10/1939,51.49433865,3.415005767601362
+"Vlissingen, Zeeland, Nederland",06/10/1939,51.4480929,3.5697992
 "Isle of Man, Middle, Isle of Man",06/10/1948,54.23592075,-4.514766902315387
 "Mackay, Mackay Regional, Queensland, 4740, Australia",06/10/1960,-21.141956,149.1865149
 "Yunnan, AH2, မိူင်းပွၼ်, လွိုင်လင်, လွိုင်လင်ခရိုင်, ရှမ်းပြည်နယ်တောင်ပိုင်း, ရှမ်းပြည်နယ်, မြန်မာ",06/10/1963,20.8105287,97.4544056
@@ -1784,7 +1842,7 @@ Nicaragua,06/01/1959,12.6090157,-85.2936911
 "الخرطوم, ولاية الخرطوم, السودان",06/10/2008,15.5635972,32.5349123
 "Walbridge, Wood County, Ohio, United States",06/11/1931,41.5795195,-83.4924358983687
 "Junín, Partido de Junín, Buenos Aires, Argentina",06/11/1934,-34.5934412,-60.9461678
-"Natal, Nueva Pompeya, Buenos Aires, Comuna 4, Ciudad Autónoma de Buenos Aires, C1437DAA, Argentina",06/11/1947,-34.646183,-58.4290017
+"Natal, Nueva Pompeya, Buenos Aires, Comuna 4, Ciudad Autónoma de Buenos Aires, C1437DAA, Argentina",06/11/1947,-34.6438129,-58.4299206
 "جدة, محافظة جدة, منطقة مكة المكرمة, 23434, السعودية",06/11/1967,21.5810088,39.1653612
 "خوست ولايت, افغانستان",06/11/1987,33.4014634,69.8912294
 "Vereda el Salitre, San Luis, Centro, Tolima, RAP (Especial) Central, Colombia",06/11/1989,4.2634682,-75.14092266748051
@@ -1881,7 +1939,7 @@ Nicaragua,06/01/1959,12.6090157,-85.2936911
 "Palma, Illes Balears, España",06/21/1964,39.5695818,2.6500745
 "Wake Island, United States",06/21/1977,19.28988935,166.64921739111432
 "ဟဲဟိုး, ကလော, တောင်ကြီးခရိုင, ရှမ်းပြည်နယ်တောင်ပိုင်း, ရှမ်းပြည်နယ်, မြန်မာ",06/21/1987,20.7187712,96.8269218
-"上海市, 中国",06/21/1996,31.2312707,121.4700152
+"上海市, 黄浦区, 上海市, 200001, 中国",06/21/1996,31.2323437,121.4691024
 "Cuiabá, Região Geográfica Imediata de Cuiabá, Região Geográfica Intermediária de Cuiabá, Mato Grosso, Região Centro-Oeste, Brasil",06/21/2000,-15.5986686,-56.0991301
 "Kamina, Haut-Lomami, République démocratique du Congo",06/21/2007,-8.7351826,25.0032201
 "Lebo, Coffey County, Kansas, United States",06/22/1928,38.4166818,-95.8530441
@@ -1925,6 +1983,41 @@ Nicaragua,06/01/1959,12.6090157,-85.2936911
 "Aeropuerto Internacional de Maiquetía Simón Bolívar, Calle Real de Playa Verde, Playa Verde, Parroquia Urimare, Municipio Vargas, La Guaira, 1162, Venezuela",06/26/1948,10.60316215,-66.99667670060362
 "York, Shire Of York, Western Australia, 6302, Australia",06/26/1950,-31.8889034,116.7691483
 "Detmold, Kreis Lippe, Nordrhein-Westfalen, Deutschland",06/26/1963,51.936284,8.8791526
+"Toledo, Lucas County, Ohio, United States",06/26/1975,41.6529143,-83.5378173
+"Bergen, Vestland, Norge",06/26/1978,60.3943055,5.3259192
+"Old Toronto, Toronto, Golden Horseshoe, Ontario, Canada",06/26/1978,43.6534817,-79.3839347
+"Nailstone, Hinckley and Bosworth, Leicestershire, England, CV13 0QY, United Kingdom",06/26/1981,52.6608317,-1.383562
+"Baguio, Cordillera Administrative Region, 2600, Pilipinas",06/26/1987,16.4119905,120.5933719
+"Habsheim, Mulhouse, Haut-Rhin, Grand Est, France métropolitaine, 68440, France",06/26/1988,47.7286566,7.4164754
+"Abidjan, Le Plateau, Abidjan, Côte d’Ivoire",06/26/1994,5.320357,-4.016107
+"Rooisand Desert Ranch, C26, Kos, Khomas Region, Namibia",06/26/2003,-23.2890911,16.1120293
+"Chicopee Falls, Chicopee, Hampden County, Massachusetts, 01104, United States",06/27/1958,42.1520377,-72.5759218
+"Ashland, Clay County, Alabama, United States",06/27/1966,33.2737256,-85.8360741
+"Long Beach, Harrison County, Mississippi, 39560, United States",06/27/1966,30.3504751,-89.1528176
+"Garberville, Humboldt County, California, 95542, United States",06/27/1971,40.100569,-123.796139
+"Entebbe City, Central Region, Uganda",06/27/1976,0.0611715,32.4698564
+"高雄市, 臺灣",06/27/1989,22.6203348,120.3120375
+"La Romana, 22000, República Dominicana",06/27/1995,18.4272786,-68.9734597
+"株式会社シマノ, 堺区, 堺市, 大阪府, 540-8570, 日本",06/27/2000,34.55947825,135.46549030148077
+"Sudan Interior Church Primary School, Nyikango Road, Malakal, Makal Shilluk Island, Malakal, Upper Nile, South Sudan جنوب السودان",06/27/2008,9.5200246,31.65972249667214
+"Адлер, Адлерский внутригородской район, Сочи, городской округ Сочи, Краснодарский край, Южный федеральный округ, Россия",06/28/1962,43.4253834,39.9237036
+"San Francisco, California, United States",06/28/1965,37.7792588,-122.4193286
+"Vichy, Maries County, Missouri, 65580, United States",06/28/1968,38.1114322,-91.7604389
+"Las Vegas, Clark County, Nevada, United States",06/28/1983,36.1672559,-115.148516
+"Base Aeronaval de São Pedro da Aldeia, São Pedro da Aldeia, Região Geográfica Imediata de Cabo Frio, Região Geográfica Intermediária de Macaé-Rio das Ostras-Cabo Frio, Rio de Janeiro, Região Sudeste, Brasil",06/28/1984,-22.7998245,-42.07959022858671
+"Charlotte, Mecklenburg County, North Carolina, United States",06/28/1985,35.2272086,-80.8430827
+"Communauté urbaine de Yaoundé, Mfoundi, Centre, Cameroun",06/28/1989,3.8689867,11.5213344
+"Saint Thomas, Charlotte Amalie, Saint Thomas - Saint John District, United States Virgin Islands, United States",06/28/1992,18.34290815,-64.91889970060265
+"Yengema, Moyamba District, Southern Province, Sierra Leone",06/28/2004,8.173869,-12.697442
+"M'banza Congo, Zaire, Angola",06/28/2007,-6.2678204,14.2417957
+"Columbus, Franklin County, Ohio, United States",06/29/1929,39.9622601,-83.0007065
+"Bodensee Panorama, Hohrüti, Speicher, Mittelland, Appenzell Ausserrhoden, 9042, Schweiz/Suisse/Svizzera/Svizra",06/29/1929,47.4168537,9.4389655
+"Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, 560001, India",06/29/1945,12.9767936,77.590082
+"Malaya, Jaitpur Tahsil, Shahdol District, Madhya Pradesh, India",06/29/1946,23.4078376,81.64988449203865
+"Pau, Pyrénées-Atlantiques, Nouvelle-Aquitaine, France métropolitaine, 64000, France",06/29/1946,43.2957547,-0.3685668
+"Agra, Agra District, Uttar Pradesh, India",06/29/1969,27.1752554,78.0098161
+"Blackpool, England, FY1 1DL, United Kingdom",06/29/1972,53.8179442,-3.0509812
+"Appleton, Outagamie County, Wisconsin, United States",06/29/1972,44.2613967,-88.4069744
 "Cartersville, Bartow County, Georgia, 30120, United States",06/29/1989,34.1652304,-84.7997613
 "لوگر ولايت, افغانستان",06/29/1994,34.0653595,69.160172
 "Flagstaff, Coconino County, Arizona, United States",06/29/2008,35.1987522,-111.651822
@@ -1973,12 +2066,12 @@ Nicaragua,06/01/1959,12.6090157,-85.2936911
 Gibraltar,07/04/1943,36.1285933,-5.3474761
 "Northolt, Mandeville Road, London Borough of Ealing, London, Greater London, England, UB5 4AA, United Kingdom",07/04/1948,51.5484582,-0.3695247
 "Auckland, Waitematā, Auckland, 1010, New Zealand / Aotearoa",07/04/1966,-36.852095,174.7631803
-"Yopal, Casanare, RAP Llanos, Colombia",07/04/1991,5.3356662,-72.3936931
+"Perímetro Urbano Yopal, Yopal, Casanare, RAP Llanos, Colombia",07/04/1991,5.3356662,-72.3936931
 "Villavicencio, Meta, RAP (Especial) Central, Colombia",07/04/1999,4.11145945,-73.4967836258948
 "Иркутская область, Сибирский федеральный округ, Россия",07/04/2001,56.6370122,104.719221
 "Bangui, Ködörösêse tî Bêafrîka / République centrafricaine",07/04/2002,4.3635118,18.5835913
 "San Dimas, California, 91773, United States",07/04/2002,34.1065404,-117.8069361
-"Toronto, Golden Horseshoe, Ontario, Canada",07/05/1970,43.6534817,-79.3839347
+"Old Toronto, Toronto, Golden Horseshoe, Ontario, Canada",07/05/1970,43.6534817,-79.3839347
 "San Francisco, California, United States",07/05/1972,37.7792588,-122.4193286
 "Skwentna, Matanuska-Susitna, Alaska, 99667, United States",07/05/1997,61.9325455,-151.21378064937863
 "Macaé, Região Geográfica Imediata de Macaé-Rio das Ostras, Região Geográfica Intermediária de Macaé-Rio das Ostras-Cabo Frio, Rio de Janeiro, Região Sudeste, Brasil",07/05/2003,-22.28283055,-41.96490906592897
@@ -1990,7 +2083,7 @@ Gibraltar,07/04/1943,36.1285933,-5.3474761
 "Monroe County, Georgia, United States",07/06/1969,33.0142344,-83.9044159
 "Las Palmas, Canarias, España",07/06/1972,27.9580004,-15.6062305376665
 "Saint Louis, Missouri, United States",07/06/1977,38.6280278,-90.1910154
-"Москва, Центральный федеральный округ, Россия",07/06/1982,55.7505412,37.6174782
+"Москва, Центральный федеральный округ, Россия",07/06/1982,55.625578,37.6063916
 "Barranquilla, Atlántico, RAP Caribe, Colombia",07/06/1988,11.0101922,-74.8231794084391
 "Очамчыра, Очамчыра араион, აფხაზეთის ავტონომიური რესპუბლიკა - Аҧсны Автономтә Республика, Абхазия - Аԥсны, საქართველო",07/06/1993,42.7121136,41.4721354
 "Pensacola, Escambia County, Florida, United States",07/06/1996,30.421309,-87.2169149
@@ -2093,10 +2186,10 @@ Gibraltar,07/04/1943,36.1285933,-5.3474761
 "بئر فضل, مديرية المنصورة, مدينة عدن, محافظة عدن, اليمن",07/14/1992,12.865,44.9625
 "Naxçıvan Hava Limanı, M8, Babək rayonu, Naxçıvan Muxtar Respublikası, 7000, Azərbaycan",07/14/1992,39.1868399,45.456902448435805
 "Hanalei, Kauaʻi County, Hawaii, 96714, United States",07/14/1994,22.2029937,-159.4956949
-"Москва, Центральный федеральный округ, Россия",07/14/2001,55.7505412,37.6174782
+"Москва, Центральный федеральный округ, Россия",07/14/2001,55.625578,37.6063916
 "Vichy, Allier, Auvergne-Rhône-Alpes, France métropolitaine, 03200, France",07/15/1947,46.1239268,3.4203712
 "Jima, East Wellega, ኦሮሚያ ክልል / Oromia, ኢትዮጵያ",07/15/1960,9.28333,37.1
-"لاہور, تحصیل لاہور شہر, ضلع لاہور, لاہور ڈویژن, پنجاب, 54500, پاکستان",07/15/1962,31.5656822,74.3141829
+"لاہور, ضلع لاہور, لاہور ڈویژن, پنجاب, 54500, پاکستان",07/15/1962,31.5656822,74.3141829
 "Farafangana, Atsimo-Atsinanana, Province de Fianarantsoa, 309, Madagasikara / Madagascar",07/15/1963,-22.8217524,47.8307127
 "Saint Thomas, Charlotte Amalie, Saint Thomas - Saint John District, United States Virgin Islands, United States",07/15/1965,18.34290815,-64.91889970060265
 پاکستان,07/15/1966,30.3308401,71.247499
@@ -2110,13 +2203,13 @@ Gibraltar,07/04/1943,36.1285933,-5.3474761
 "Biak Numfor, Papua, Western New Guinea, Indonesia",07/16/1957,-1.1836086,136.0816321
 "Richmond, Virginia, United States",07/16/1964,37.5385087,-77.43428
 "Córdoba, Municipio de Córdoba, Pedanía Capital, Departamento Capital, Córdoba, X5000, Argentina",07/16/1998,-31.4166867,-64.1834193
-"Martha's Vineyard, West Tisbury, Dukes County, Massachusetts, United States",07/16/1999,41.39204545,-70.62081381546194
+"Martha's Vineyard, Aquinnah, West Tisbury, Dukes County, Massachusetts, United States",07/16/1999,41.39204545,-70.62081381546194
 "Baney, Bioko Norte, Región Insular, Guinea Ecuatorial",07/16/2005,3.7014833,8.9094224
-"Cuenca, Azuay, Ecuador",07/17/1946,-2.8974072,-79.0041726
+"Cuenca, Luis Cordero, Alcaldia, El Sagrario, Cuenca, Azuay, 010101, Ecuador",07/17/1946,-2.8974072,-79.0041726
 "Milton, Santa Rosa County, Florida, 32572, United States",07/17/1953,30.6324149,-87.0396881
 "Chicago, Cook County, Illinois, United States",07/17/1955,41.8755616,-87.6244212
 "ເມືອງປາກທາ, ບໍ່ແກ້ວ, ປະເທດລາວ",07/17/1963,19.995933,100.63944758619968
-"銚子旭線, 野尻町, 銚子市, 千葉県, 288-0862, 日本",07/17/1965,35.767458,140.7580918
+"銚子旭線, 猿田町, 銚子市, 千葉県, 288-0862, 日本",07/17/1965,35.7493684,140.7387253
 "Fort-de-France, Martinique, France",07/17/1994,14.6027962,-61.0676724
 "Teluk Bintuni, Papua Barat, Western New Guinea, Indonesia",07/17/1995,-2.1138854,133.5287755
 "Playa del Carmen, Solidaridad, Quintana Roo, México",07/17/1996,20.6308643,-87.0779503
@@ -2130,7 +2223,7 @@ Gibraltar,07/04/1943,36.1285933,-5.3474761
 "Bocoio, Benguela, Angola",07/18/1950,-12.4690414,14.1370622
 Chile,07/18/1968,-31.7613365,-71.3187697
 "Երևան, Հայաստան",07/18/1981,40.1777112,44.5126233
-"Antananivo, Sofia, Province de Mahajanga, Madagasikara / Madagascar",07/18/1995,-15.4104895,47.9596207
+"Antananivo, Sofia, Province de Mahajanga, Madagasikara / Madagascar",07/18/1995,-14.2423689,48.5205176
 "Dix Run Road, Union Township, Centre County, Pennsylvania, 16844, United States",07/19/1919,40.907199,-77.938042
 "Seattle, King County, Washington, United States",07/19/1949,47.6038321,-122.330062
 "Goma, Nord-Kivu, République démocratique du Congo",07/19/1960,-1.6665685,29.225652
@@ -2145,13 +2238,28 @@ Chile,07/18/1968,-31.7613365,-71.3187697
 "Batian, Manyatta, Embu, Eastern, Kenya",07/19/2003,-0.152707,37.3092138
 "Roses, Alt Empordà, Girona, Catalunya, 17480, España",07/20/1925,42.2632018,3.1755328
 "Pian San Giacomo, Mesocco, Moësa, Graubünden/Grischun/Grigioni, 6565, Schweiz/Suisse/Svizzera/Svizra",07/20/1935,46.4203657,9.2269445
-"Konstanz, Bärtiswil, Rothenburg, Luzern, 6023, Schweiz/Suisse/Svizzera/Svizra",07/20/1939,47.096913,8.2712723
+"Konstanz, Bärtiswil, Rothenburg, Luzern, 6023, Schweiz/Suisse/Svizzera/Svizra",07/20/1939,47.0959746,8.271853
 "Llanfair, Stoke Road, Pattons, Taunton, Somerset, England, TA3 5BZ, United Kingdom",07/20/1942,50.99609075,-3.048310519969391
 "Κέρκυρα, Περιφερειακή Ενότητα Κέρκυρας, Περιφέρεια Ιονίων Νήσων, Αποκεντρωμένη Διοίκηση Πελοποννήσου, Δυτικής Ελλάδας και Ιονίου, Ελλάς",07/20/1972,39.591337,19.859618918733858
 "Jima, East Wellega, ኦሮሚያ ክልል / Oromia, ኢትዮጵያ",07/20/1977,9.28333,37.1
 "Honolulu, Honolulu County, Hawaii, United States",07/20/1979,21.304547,-157.855676
-"Muqdisho مقديشو, Hamar Weyne حي حمروين, Banaadir بنادر, BN 09010, Soomaaliya الصومال",07/20/1981,2.0349312,45.3419183
+"Muqdisho مقديشو, Hamar Weyne حي حمروين, Banaadir بنادر, Soomaaliya الصومال",07/20/1981,2.0349312,45.3419183
 "Golden Meadow, Lafourche Parish, Louisiana, United States",07/20/1988,29.3791112,-90.2600787
+"თბილისი, საქართველო",07/20/1992,41.6934591,44.8014495
+"Russian Mission, Unorganized Borough, Alaska, 99657, United States",07/20/1996,61.785,-161.3202778
+"Bluefields, Costa Caribe Sur, 81000, Nicaragua",07/20/1999,11.6038399,-83.56138138247925
+"Nassau, New Providence, The Bahamas",07/20/2000,25.0782266,-77.3383438
+"Centralia, Marion County, Illinois, 62801, United States",07/21/1931,38.5250491,-89.1334037
+"Sitka, Alaska, 99835, United States",07/21/1951,57.0524973,-135.337612
+"Shemya Island, Unorganized Borough, Alaska, United States",07/21/1961,52.72274555,174.1003202448324
+"Anchorage, Alaska, United States",07/21/1971,61.1758781,-149.1107333
+"Ruby, Unorganized Borough, Alaska, United States",07/21/1977,64.7169375,-155.50476832906566
+"Tusayan, Coconino County, Arizona, 86023, United States",07/21/1980,35.958315,-112.12357362603495
+"Ouzinkie, Kodiak Island, Alaska, 99644, United States",07/21/1984,57.9236111,-152.502222
+"Taʻū, Siʻufaga, Taʻū County, Manuʻa District, American Samoa, United States",07/21/1984,-14.24198965,-169.46459907332468
+"Lagos, Lagos Island, Lagos, 100242, Nigeria",07/21/1988,6.4550575,3.3941795
+"Manila, Capital District, Metro Manila, Pilipinas",07/21/1989,14.5906346,120.9799964
+"จังหวัดระนอง, ประเทศไทย",07/21/1997,10.0469546,98.6870133
 "Maui, Maui County, Hawaii, United States",07/21/2000,20.802956799999997,-156.31068331602177
 "Honolulu, Honolulu County, Hawaii, United States",07/22/1962,21.304547,-157.855676
 "Rond Point Jacques Chirac, Tarahoi, Papeʻete, Îles du Vent, Polynésie Française, 98714, France",07/22/1973,-17.5411989,-149.5716342
@@ -2159,7 +2267,7 @@ Chile,07/18/1968,-31.7613365,-71.3187697
 "Macaé, Região Geográfica Imediata de Macaé-Rio das Ostras, Região Geográfica Intermediária de Macaé-Rio das Ostras-Cabo Frio, Rio de Janeiro, Região Sudeste, Brasil",07/22/2004,-22.28283055,-41.96490906592897
 "海南岛, 海南省, 中国",07/23/1954,19.1602864,109.62889143756746
 "Saint Louis, Missouri, United States",07/23/1973,38.6280278,-90.1910154
-"بيروت, البسطة التحتا, باشورة, محافظة بيروت, لبنان",07/23/1979,33.88922645,35.50255852895232
+"بيروت, محافظة بيروت, 2034 1111, لبنان",07/23/1979,33.8959203,35.47843
 "Kansas City, Wyandotte County, Kansas, United States",07/23/1981,39.1134562,-94.626497
 "Castaic, California, 91384, United States",07/23/1982,34.4826899,-118.6307097
 "Gimli, Rural Municipality of Gimli, Manitoba, R0C 1B0, Canada",07/23/1983,50.6323125,-96.9881076
@@ -2179,7 +2287,7 @@ Chile,07/18/1968,-31.7613365,-71.3187697
 "Munster, North Township, Lake County, Indiana, 46321, United States",07/24/1966,41.5644798,-87.5125412
 "Sparrevohn LRRS Airport, Unorganized Borough, Alaska, United States",07/24/1969,61.09604365,-155.57460505433366
 "Lincoln County, New Mexico, United States",07/24/1970,33.7525727,-105.4158806
-"Bamako, Mali",07/24/1971,12.649319,-8.000337
+"Bamako, Cercle de Kati, Koulikoro, Mali",07/24/1971,12.61326555,-7.984739136241295
 "Honolulu, Honolulu County, Hawaii, United States",07/24/1973,21.304547,-157.855676
 "Bogotá, Bogotá, Distrito Capital, RAP (Especial) Central, Colombia",07/24/1974,4.6533816,-74.0836333
 "Huntsville, Randolph County, Missouri, 65259, United States",07/24/1976,39.4405891,-92.5451834
@@ -2187,7 +2295,7 @@ Chile,07/18/1968,-31.7613365,-71.3187697
 "Nairobi, Starehe, Nairobi, Kenya",07/24/1978,-1.3026148499999999,36.82884201813725
 "Saint Croix, Christiansted, Saint Croix District, United States Virgin Islands, United States",07/24/1979,17.7289564,-64.75901597858353
 Madagasikara / Madagascar,07/24/1981,-18.9249604,46.4416422
-"Sitka, Alaska, 99835, United States",07/24/1982,57.4086082,-135.4596206
+"Sitka, Alaska, 99835, United States",07/24/1982,57.0524973,-135.337612
 "Leticia, Amazonas, RAP Amazonía, Colombia",07/24/1985,-4.2129211,-69.9425963
 "Genève, Schweiz/Suisse/Svizzera/Svizra",07/24/1987,46.2047169,6.1423106290939335
 "Скопје, Општина Центар, Град Скопје, Скопски СР, Северна Македонија",07/24/1992,41.9961816,21.4319213
@@ -2200,7 +2308,7 @@ Madagasikara / Madagascar,07/24/1981,-18.9249604,46.4416422
 "Libacao, Aklan, Western Visayas, Pilipinas",07/25/1965,11.480692,122.3024183
 "ຫຼວງພະບາງ, ເມືອງຫຼວງພະບາງ, ຫລວງພະບາງ, 10000, ປະເທດລາວ",07/25/1967,19.8887438,102.135898
 "ຫຼວງພະບາງ, ເມືອງຫຼວງພະບາງ, ຫລວງພະບາງ, 10000, ປະເທດລາວ",07/25/1967,19.8887438,102.135898
-"Kekaha, Kauaʻi County, Hawaii, 96752, United States",07/25/1969,21.970833,-159.715
+"Kekaha, Kauaʻi County, Hawaii, 96752, United States",07/25/1969,21.9672815,-159.71360256911737
 "Manila, Capital District, Metro Manila, Pilipinas",07/25/1971,14.5906346,120.9799964
 "Иркутская область, Сибирский федеральный округ, Россия",07/25/1971,56.6370122,104.719221
 "Yoro, Honduras",07/25/1977,15.2994474,-87.29169807731974
@@ -2215,11 +2323,11 @@ Madagasikara / Madagascar,07/24/1981,-18.9249604,46.4416422
 "Biskra, Algérie ⵍⵣⵣⴰⵢⴻⵔ الجزائر",07/26/1969,34.784563500000004,5.812435334419206
 "Imlay City, Lapeer County, Michigan, United States",07/26/1975,43.0247496,-83.0777153
 "Morristown, Morris County, New Jersey, 07960, United States",07/26/1988,40.7970382,-74.4809868
-"Chana, Avenida 21 de Janeiro, Gamek, Distrito Urbano da Samba, Luanda, Município de Luanda, Luanda, Angola",07/26/1989,-8.88507135,13.205464476367537
+"Chana, Avenida Comandante Fidel Castro, Município do Belas, Luanda, Angola",07/26/1989,-8.977120849999999,13.203834417474756
 "해남군, 전라남도, 59043, 대한민국",07/26/1993,34.5734106,126.5989275
 "Kalimantan Timur, Kalimantan, Indonesia",07/26/1994,0.7884397,116.2419977
 "المفرق, الأردن",07/26/2000,32.5362071,38.13096682788351
-"Amöneburg, Landkreis Marburg-Biedenkopf, Hessen, Deutschland",07/27/1927,50.79946485,8.941291794880504
+"Amöneburg, Landkreis Marburg-Biedenkopf, Hessen, 35287, Deutschland",07/27/1927,50.7975562,8.9231329
 "Tuttlingen, Verwaltungsgemeinschaft Tuttlingen, Landkreis Tuttlingen, Baden-Württemberg, 78532, Deutschland",07/27/1934,47.9844315,8.8186606
 "Kisumu, City of Kisumu, Kisumu, Nyanza, 40100, Kenya",07/27/1938,-0.1029109,34.7541761
 "Port Logan, Dumfries and Galloway, Alba / Scotland, DG9 9NL, United Kingdom",07/27/1944,54.7234041,-4.9546277
@@ -2232,7 +2340,7 @@ Madagasikara / Madagascar,07/24/1981,-18.9249604,46.4416422
 "東京都, 日本",07/27/1970,35.6821936,139.762221
 "Greensburg, Kiowa Rural Township, Kiowa County, Kansas, 67054, United States",07/27/1976,37.6031884,-99.2929639
 "Chihuahua, México",07/27/1981,28.5000001,-106.0000001
-"울릉도, 사동리, 울릉군, 경상북도, 대한민국",07/27/1989,37.5011143,130.8586063801417
+"울릉도, 울릉읍, 울릉군, 경상북도, 대한민국",07/27/1989,37.5011143,130.8586063801417
 "طرابلس, ليبيا",07/27/1989,32.896672,13.1777923
 "فرودگاه میمنه, جاده سبزی مندوی به سربلاق, میمنه, ولسوالی ميمنه, ولایت فاریاب, افغانستان",07/27/1990,35.9304371,64.76118060946182
 "Ciudad de México, Cuauhtémoc, Ciudad de México, México",07/27/1992,19.4326296,-99.1331785
@@ -2246,15 +2354,15 @@ Madagasikara / Madagascar,07/24/1981,-18.9249604,46.4416422
 "Recife, Região Geográfica Imediata do Recife, Região Metropolitana do Recife, Região Geográfica Intermediária do Recife, Pernambuco, Região Nordeste, Brasil",07/28/1968,-8.0584933,-34.8848193
 "Iguape, Região Imediata de Registro, Região Geográfica Intermediária de Sorocaba, São Paulo, Região Sudeste, 11920-000, Brasil",07/28/1992,-24.7042692,-47.5563733
 "Barcelona, Barcelonès, Barcelona, Catalunya, 08001, España",07/28/1998,41.3828939,2.1774322
-"Москва, Центральный федеральный округ, Россия",07/28/2002,55.7505412,37.6174782
+"Москва, Центральный федеральный округ, Россия",07/28/2002,55.625578,37.6063916
 "Buenos Aires, Comuna 1, Ciudad Autónoma de Buenos Aires, Argentina",07/29/1948,-34.6037181,-58.38153
 "青岛市, 山东省, 266000, 中国",07/29/1948,36.0637967,120.3192081
-"Cochabamba, Cercado, Cochabamba, Bolivia",07/29/1951,-17.3936114,-66.1568983
+"Cochabamba, Villa Coronilla, Cochabamba, Cercado, Cochabamba, Bolivia",07/29/1951,-17.401245799999998,-66.16756808852
 "Villavicencio, Meta, RAP (Especial) Central, Colombia",07/29/1972,4.11145945,-73.4967836258948
 "Adjuntas, Puerto Rico, United States",07/29/1992,18.1625596,-66.7231363
 "Calabar, Calabar Municipal, Cross River, 540281, Nigeria",07/29/1997,4.9795999,8.3373597
 "Ononge Airport, Central, Southern Region, Papua Niugini",07/29/2004,-8.673149500000001,147.2621270017873
-"Москва, Центральный федеральный округ, Россия",07/29/2007,55.7505412,37.6174782
+"Москва, Центральный федеральный округ, Россия",07/29/2007,55.625578,37.6063916
 "Chesterfield Township, Burlington County, New Jersey, 08515, United States",07/30/1949,40.1153966,-74.6412727
 "Coulommiers, Meaux, Seine-et-Marne, Île-de-France, France métropolitaine, 77120, France",07/30/1962,48.8121301,3.0843818
 "Grand Canyon, Coconino County, Arizona, United States",07/30/1969,36.0980405,-112.0962787
@@ -2269,7 +2377,7 @@ Madagasikara / Madagascar,07/24/1981,-18.9249604,46.4416422
 "Quiberon, Lorient, Morbihan, Bretagne, France métropolitaine, 56170, France",07/30/1998,47.4874,-3.12152
 "Haines, Alaska, 99827, United States",07/30/2001,59.0831232,-135.3430573
 "Channel Islands, Jersey",07/31/1936,49.21230655,-2.1255999596428845
-"玉门市, 酒泉市, 甘肃省, 735200, 中国",07/31/1947,40.2355108,97.4322482
+"玉门市, 新市区街道, 玉门市, 酒泉市, 甘肃省, 735200, 中国",07/31/1947,40.2916528,97.0448526
 "Rimini, Emilia-Romagna, Italia",07/31/1960,43.946503899999996,12.631031715742981
 "Santiago, Provincia de Santiago, Región Metropolitana de Santiago, Chile",07/31/1975,-33.4377756,-70.6504502
 "臺北市, 臺灣",07/31/1975,25.0375198,121.5636796
@@ -2292,7 +2400,7 @@ United States,08/01/1924,39.7837304,-100.445882
 "Encino, Los Angeles, California, 91436, United States",08/01/1977,34.1591324,-118.5016166
 "Mazamet, Castres, Tarn, Occitanie, France métropolitaine, 81200, France",08/02/1936,43.4902317,2.3764363
 "وادي حلفا, أ 1, وادي حلفا, الولاية الشمالية, السودان",08/02/1937,21.7960994,31.3718673
-"Andes, Ostende, Partido de Pinamar, Buenos Aires, 7167, Argentina",08/02/1947,-37.1295139,-56.9000149
+"Andes, Juan Felipe Ibarra, Santiago del Estero, Municipio de Santiago del Estero, Departamento Juan Francisco Borges, Santiago del Estero, G4200, Argentina",08/02/1947,-27.7902825,-64.2824312
 "Jaquirana, Região Geográfica Imediata de Vacaria, Região Geográfica Intermediária de Caxias do Sul, Rio Grande do Sul, Região Sul, Brasil",08/02/1949,-28.8836757,-50.3580098
 "Willow, Matanuska-Susitna, Alaska, 99688, United States",08/02/1964,61.7472222,-150.0375
 "Milano, Lombardia, Italia",08/02/1968,45.4641943,9.1896346
@@ -2304,16 +2412,16 @@ United States,08/01/1924,39.7837304,-100.445882
 "Reykjavíkurborg, Höfuðborgarsvæðið, Ísland",08/02/1988,64.145981,-21.9422367
 "Johannesburg, City of Johannesburg Metropolitan Municipality, Gauteng, 2001, South Africa",08/02/1995,-26.205,28.049722
 "Cubatão, Região Imediata de Santos, Região Metropolitana da Baixada Santista, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, Brasil",08/02/2000,-23.8857982,-46.4241869
-"Toronto, Golden Horseshoe, Ontario, Canada",08/02/2005,43.6534817,-79.3839347
-"Ciudad de México, Cuauhtémoc, Ciudad de México, México",08/03/1936,19.4326296,-99.1331785
+"Old Toronto, Toronto, Golden Horseshoe, Ontario, Canada",08/02/2005,43.6534817,-79.3839347
+"Ciudad de México, México",08/03/1936,19.4326296,-99.1331785
 "Cristóbal, Distrito Colón, Colón, 9851, Panamá",08/03/1937,9.3530018,-79.9045593
 "Naper, Boyd County, Nebraska, United States",08/03/1944,42.9636101,-99.0967626
 "Fort-de-France, Martinique, France",08/03/1945,14.6027962,-61.0676724
 "الشارقة, الإمارات العربية المتحدة",08/03/1953,25.2311534,54.21900831355923
-"Bolivia, Colonia Benito Juárez, Poza Rica, Poza Rica de Hidalgo, Veracruz, 93310, México",08/03/1966,20.5427484,-97.4592819
+"Bolivia, Colonia Benito Juárez, Poza Rica, Poza Rica de Hidalgo, Veracruz, 93320, México",08/03/1966,20.5403701,-97.4597321
 "Uli, Isoko South, Delta, Nigeria",08/03/1969,5.4624508,6.1474935
 "Las Vegas, Clark County, Nevada, United States",08/03/1970,36.1672559,-115.148516
-"Cascades d'Immouzer, Tamrout ⵜⴰⵎⵔⵓⵜ تمروت, Imouzzer ⵉⵎⵓⵣⴰⵔ ايموزار, caïdat d'Imouzzer, cercle d'Agadir-Atlantique, Préfecture d'Agadir Ida-Outanane ⵍⵄⴰⵎⴰⵍⴰ ⵏ ⴰⴳⴰⴷⵉⵔ ⵉⴷⴰ ⵡⵜⴰⵏⴰⵏ عمالة أكادير إدا وتنان, Souss-Massa ⵙⵓⵙⵙ-ⵎⴰⵙⵙⴰ سوس-ماسة, 80303, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",08/03/1975,30.6775889,-9.4808672
+"Cascades d'Immouzer, Tamrout ⵜⴰⵎⵔⵓⵜ تمروت, Imouzzer ⵉⵎⵓⵣⴰⵔ ايموزار, caïdat d'Imouzzer, cercle d'Agadir-Atlantique, Préfecture d'Agadir Ida-Outanane ⵍⵄⴰⵎⴰⵍⴰ ⵏ ⴰⴳⴰⴷⵉⵔ ⵉⴷⴰ ⵡⵜⴰⵏⴰⵏ عمالة أكادير إدا وتنان, Souss-Massa ⵙⵓⵙⵙ-ⵎⴰⵙⵙⴰ سوس-ماسة, 80303, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",08/03/1975,30.6782489,-9.4811856
 "Amapala, Valle, Honduras",08/03/1975,13.3424588,-87.61858201432186
 "Togiak, Unorganized Borough, Alaska, 99678, United States",08/03/1980,59.0619444,-160.3763889
 "Σάμος, Περιφερειακή Ενότητα Σάμου, Περιφέρεια Βόρειου Αιγαίου, Αποκεντρωμένη Διοίκηση Αιγαίου, Ελλάς",08/03/1989,37.72461615,26.819291891109838
@@ -2383,7 +2491,7 @@ United States,08/01/1924,39.7837304,-100.445882
 "بنغازي, ليبيا",08/09/1958,32.1060708,20.0666748
 "Sola, Rogaland, Norge",08/09/1961,58.882082249999996,5.356254245388384
 "Pfaffenhofen, Burgbernheim, Burgbernheim (VGem), Landkreis Neustadt an der Aisch-Bad Windsheim, Bayern, 91465, Deutschland",08/09/1968,49.5007042,10.3069832
-"Ciudad del Cusco, Cusco, Distrito de Cusco, Cusco, 08001, Perú",08/09/1970,-13.51695415,-71.97927120704406
+"Cusco, Distrito de Cusco, Cusco, 08001, Perú",08/09/1970,-13.5170887,-71.9785356
 "Flushing, Queens County, City of New York, New York, 11354, United States",08/09/1979,40.7654301,-73.8174291
 "Kaimana, Papua Barat, Western New Guinea, 98665, Indonesia",08/09/1995,-3.51583585,134.3165746374882
 "Burlington Township, Burlington County, New Jersey, United States",08/09/2000,40.072587,-74.88700755838619
@@ -2409,20 +2517,20 @@ United States,08/01/1924,39.7837304,-100.445882
 "Memphis, Shelby County, West Tennessee, Tennessee, United States",08/11/1984,35.1460249,-90.0517638
 "Port Alsworth, Lake and Peninsula, Alaska, 99653, United States",08/11/1994,60.2036369,-154.3171268
 "Saurimo, Lunda Sul, Angola",08/11/1998,-9.6589303,20.3981118
-"بيروت, البسطة التحتا, باشورة, محافظة بيروت, لبنان",08/12/1932,33.88922645,35.50255852895232
-"Altenkirchen, Altenkirchen (Westerwald), Altenkirchen-Flammersfeld, Landkreis Altenkirchen (Westerwald), Rheinland-Pfalz, 57610, Deutschland",08/12/1936,50.6880109,7.6477412
+"بيروت, محافظة بيروت, 2034 1111, لبنان",08/12/1932,33.8959203,35.47843
+"Altenkirchen (Westerwald), Altenkirchen-Flammersfeld, Landkreis Altenkirchen (Westerwald), Rheinland-Pfalz, 57610, Deutschland",08/12/1936,50.6883603,7.6377853203074615
 "Blythburgh, East Suffolk, Suffolk, England, United Kingdom",08/12/1944,52.3209345,1.5979437
 "Fazenda Palmeira, Quirinópolis, Região Geográfica Imediata de Quirinópolis, Região Geográfica Intermediária de Rio Verde, Goiás, Região Centro-Oeste, Brasil",08/12/1952,-18.5994673,-50.43641859762603
 Việt Nam,08/12/1954,15.9266657,107.9650855
 "Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, France métropolitaine, France",08/12/1963,45.7578137,4.8320114
 "Cuiabá, Região Geográfica Imediata de Cuiabá, Região Geográfica Intermediária de Cuiabá, Mato Grosso, Região Centro-Oeste, Brasil",08/12/1965,-15.5986686,-56.0991301
 "臺北市, 臺灣",08/12/1970,25.0375198,121.5636796
-"Valdez, Unorganized Borough, Alaska, 99686, United States",08/12/1971,61.1396165,-146.3841484864219
+"Valdez, Unorganized Borough, Alaska, 99686, United States",08/12/1971,61.1299396,-146.349363
 "Delhi, India",08/12/1972,28.6273928,77.1716954
-"Perímetro Urbano Santiago de Cali, Cali, Sur, Valle del Cauca, RAP Pacífico, Colombia",08/12/1974,3.4519238,-76.5328732
+"Cali, Sur, Valle del Cauca, RAP Pacífico, Colombia",08/12/1974,3.4108435,-76.58121271109312
 "Parkersburg, Wood County, West Virginia, United States",08/12/1977,39.2667309,-81.5620755
 "မင်းတပ်, ချင်းပြည်နယ်, မြန်မာ",08/12/1982,21.371757,93.973654
-"Mulia, Teluk Keramat, Sambas, Kalimantan Barat, Kalimantan, Indonesia",08/12/1985,1.5645945,109.2036524
+"Mulia, Pohuwato, Gorontalo, Sulawesi, Indonesia",08/12/1985,0.65,121.8604
 "Whiting, Manchester Township, Ocean County, New Jersey, United States",08/12/1994,39.9545613,-74.3784815
 "Markham Bay, ᕿᑭᖅᑖᓗᒃ Qikiqtaaluk Region, ᓄᓇᕗᑦ Nunavut, Canada",08/12/1996,63.5885692,-71.92275487815604
 "Sept-Îles, Sept-Rivières, Côte-Nord, Québec, Canada",08/12/1999,50.2109579,-66.3790642
@@ -2443,7 +2551,7 @@ Việt Nam,08/12/1954,15.9266657,107.9650855
 "Toulouse, Haute-Garonne, Occitanie, France métropolitaine, France",08/14/1921,43.6044622,1.4442469
 "Gilmer, Upshur County, Texas, United States",08/14/1935,32.7312256,-94.9469309
 "Ayr, South Ayrshire, Alba / Scotland, KA7 1NE, United Kingdom",08/14/1941,55.4628044,-4.6302502
-"Parkeġġ ta 'l-ajruport internazzjonali ta' Malta, Vjal L-Avjazzjoni Civili, Ħal Luqa, Nofsinhar, LQA 1511, Malta",08/14/1946,35.84983375,14.496802781338893
+"100 years Aviation Malta, Vjal L-Avjazzjoni Civili, Ħal Luqa, Nofsinhar, LQA 1511, Malta",08/14/1946,35.8527094,14.4946038
 "کراچی ڈویژن, سندھ, پاکستان",08/14/1959,24.8546842,67.0207055
 "Great Falls, Cascade County, Montana, United States",08/14/1963,47.5048851,-111.29189
 "Compton, California, United States",08/14/1968,33.894927,-118.226624
@@ -2451,7 +2559,7 @@ Việt Nam,08/12/1954,15.9266657,107.9650855
 "Managua (Municipio), Managua, 10000 (codigo maestro), Nicaragua",08/14/1982,12.1544035,-86.2737642
 "Wampusirpi, Gracias a Dios, Honduras",08/14/1986,15.1648913,-84.6202279
 "Uricani, Miroslava, Zona Metropolitană Iași, Iași, 707316, România",08/14/1991,47.156943,27.4861112
-"Gustavus, Unorganized Borough, Alaska, 99826, United States",08/14/1991,58.422398799999996,-135.7462276690827
+"Gustavus, Unorganized Borough, Alaska, 99826, United States",08/14/1991,58.4128377,-135.7375654
 "Kenai, Kenai Peninsula, Alaska, United States",08/14/1994,60.5544444,-151.258333
 "Bronson Creek, Area D (Iskut/Big Raven), Regional District of Kitimat-Stikine, British Columbia, Canada",08/14/1996,56.655885,-131.0532193
 "Tindal, Town of Katherine, Northern Territory, Australia",08/14/1997,-14.4986496,132.3969334
@@ -2478,17 +2586,18 @@ Việt Nam,08/12/1954,15.9266657,107.9650855
 "Hebron, Union Township, Licking County, Ohio, 43025, United States",08/16/1966,39.9617305,-82.4912676
 "သံတွဲ, သံတွဲခရိုင, ရခိုင်ပြည်နယ်, 07171, မြန်မာ",08/16/1972,18.4664443,94.3668616
 "Sudan Interior Church Primary School, Nyikango Road, Malakal, Makal Shilluk Island, Malakal, Upper Nile, South Sudan جنوب السودان",08/16/1986,9.5200246,31.65972249667214
+"Romulus, Wayne County, Michigan, United States",08/16/1987,42.2222614,-83.3965995
 "Imphal, Lamphelpat, Imphal West District, Manipur, 795001, India",08/16/1991,24.7991162,93.9364419
 "Ketchikan, Ketchikan Gateway, Alaska, 99901, United States",08/16/2007,55.3430696,-131.6466819
 "Ubatuba, Região Imediata de Caraguatatuba-Ubatuba-São Sebastião, Região Metropolitana do Vale do Paraíba e Litoral Norte, Região Geográfica Intermediária de São José dos Campos, São Paulo, Região Sudeste, Brasil",08/17/1951,-23.433162,-45.083415
-"El Kelaa, Bni Selmane بني سلمان, Caïdat d'Assifane, cercle de Bou Ahmed دائرة بو أحمد, Province de Chefchaouen ⵜⵛⴻⴼⵜⵛⴰⵡⴻⵏ إقليم شفشاون, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",08/17/1960,35.2463781,-5.015545
+"El Kelaa, Talambote تلمبوط, Caïdat de Talambote قيادة تلمبوط, cercle de Bou Ahmed دائرة بو أحمد, Province de Chefchaouen ⵜⵛⴻⴼⵜⵛⴰⵡⴻⵏ إقليم شفشاون, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 91000, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",08/17/1960,35.2102654,-5.2509391
 "八丈島, 東京都, 日本",08/17/1963,33.1024935,139.8076939278656
-"Đường sắt cao tốc Bắc - Nam, Đường Tránh Nam Hải Vân-Túy Loan, Xã Hòa Sơn, Huyện Hòa Vang, Thành phố Đà Nẵng, Việt Nam",08/17/1966,16.0321703,108.1145398
+"Đường sắt cao tốc Bắc - Nam, Hoàng Văn Thái, Phường Hòa Khánh Nam, Xã Hòa Sơn, Huyện Hòa Vang, Thành phố Đà Nẵng, 84236, Việt Nam",08/17/1966,16.0321703,108.1145398
 "Grand Canyon, Coconino County, Arizona, United States",08/17/1983,36.0980405,-112.0962787
 "تحصیل بہاولپور شہر, ضلع بہاولپور, بہاولپور ڈویژن, پنجاب, پاکستان",08/17/1988,29.394644,71.6638747
 "Jackson Hole, Wyoming, United States",08/17/1996,43.684017,-110.44366292631179
 "Great Falls, Cascade County, Montana, United States",08/17/2004,47.5048851,-111.29189
-"Peckham Hurst, West Peckham, Tonbridge and Malling, Kent, England, United Kingdom",08/18/1926,51.25723415,0.34610224921640875
+"Hurst Wood, Mereworth, Tonbridge and Malling, Kent, England, United Kingdom",08/18/1926,51.26307435,0.34333074999999974
 "București, România",08/18/1938,44.4361414,26.1027202
 "São Paulo, Região Imediata de São Paulo, Região Metropolitana de São Paulo, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, Brasil",08/18/1941,-23.5506507,-46.6333824
 "San Diego, San Diego County, California, United States",08/18/1953,32.7174202,-117.162772
@@ -2513,7 +2622,7 @@ Việt Nam,08/12/1954,15.9266657,107.9650855
 "Deadhorse, North Slope, Alaska, 99734, United States",08/20/1977,70.1999496,-148.461816
 "San José, Hospital, Cantón San José, Provincia San José, 10103, Costa Rica",08/20/1977,9.9325427,-84.0795782
 "Castries, LC04 101, Saint Lucia",08/20/1982,14.0095966,-60.9902359
-"Gulkana, Glennallen, Unorganized Borough, Alaska, United States",08/20/1985,62.2062625,-145.45317825491605
+"Gulkana, Unorganized Borough, Alaska, United States",08/20/1985,62.2062625,-145.45317825491605
 "Ketchikan, Ketchikan Gateway, Alaska, 99901, United States",08/20/1991,55.3430696,-131.6466819
 "полуостров Камчатка, Дальневосточный федеральный округ, Россия",08/20/2003,55.8680319,158.8025311585243
 "Madrid, Comunidad de Madrid, España",08/20/2008,40.4167047,-3.7035825
@@ -2522,7 +2631,7 @@ Việt Nam,08/12/1954,15.9266657,107.9650855
 "Hanksville, Wayne County, Utah, 84734, United States",08/21/1947,38.3737755,-110.706401
 "Bigstone Lake, Unorganized Division No. 22, Manitoba, Canada",08/21/1949,53.6925973,-95.68923615252069
 "Trapani, Sicilia, 91100, Italia",08/21/1952,38.0173961,12.5160225
-"Санкт-Петербург, Северо-Западный федеральный округ, Россия",08/21/1963,59.938732,30.316229
+"Санкт-Петербург, Северо-Западный федеральный округ, Россия",08/21/1963,59.9606739,30.1586551
 "Juneau, Alaska, United States",08/21/1966,58.3019496,-134.419734
 "Frenchglen, Harney County, Oregon, United States",08/21/1986,42.8269977,-118.9144659
 "Gold Beach, Curry County, Oregon, 97444, United States",08/21/1989,42.4074459,-124.4217418
@@ -2533,7 +2642,7 @@ Việt Nam,08/12/1954,15.9266657,107.9650855
 "Ghorepani, Annapurna, म्याग्दी, गण्डकी प्रदेश, 33200, नेपाल",08/21/1998,28.4024938,83.6999277
 "Maracay, Parroquia José Casanova Godoy, Municipio Girardot, Aragua, 2104, Venezuela",08/21/2004,10.2375144,-67.5890216
 "Sevenoaks, Kent, England, United Kingdom",08/22/1927,51.27452185,0.1961165562194977
-"Mirabella Apartments, Γεώργιου Μαμιδάκη, Όρμος, Κατσίκια, Κοινότητα Αγίου Νικολάου, Δημοτική Ενότητα Αγίου Νικολάου, Δήμος Αγίου Νικολάου, Περιφερειακή Ενότητα Λασιθίου, Περιφέρεια Κρήτης, Αποκεντρωμένη Διοίκηση Κρήτης, 721 00, Ελλάς",08/22/1936,35.214743,25.71206331915061
+"Mirabella Hills, Αγίου Νικολάου - Ελούντας, Χαβάνια, Κατσίκια, Κοινότητα Αγίου Νικολάου, Δημοτική Ενότητα Αγίου Νικολάου, Δήμος Αγίου Νικολάου, Περιφερειακή Ενότητα Λασιθίου, Περιφέρεια Κρήτης, Αποκεντρωμένη Διοίκηση Κρήτης, 721 00, Ελλάς",08/22/1936,35.2180313,25.709029491716315
 "Trinidad, Couva-Tabaquite-Talparo, Trinidad and Tobago",08/22/1942,10.443024300000001,-61.26130538878063
 "Mason City, Cerro Gordo County, Iowa, United States",08/22/1954,43.1524574,-93.2017941
 "Tipuani, Municipio Tipuani, Provincia Larecaja, La Paz, Bolivia",08/22/1964,-15.5648946,-68.0187987
@@ -2581,7 +2690,7 @@ Việt Nam,08/12/1954,15.9266657,107.9650855
 "Hot Springs, Black River Road, Greenlee County, Arizona, United States",08/25/1992,33.0479902,-109.4410421
 "Hilo Bay, Waiākea, Hilo, Hawaiʻi County, Hawaii, 96720, United States",08/25/2000,19.7259603,-155.0786659
 "Marsh Harbour, Central Abaco, The Bahamas",08/25/2001,26.5382728,-77.0610382
-"Москва, Центральный федеральный округ, Россия",08/26/1969,55.7505412,37.6174782
+"Москва, Центральный федеральный округ, Россия",08/26/1969,55.625578,37.6063916
 "Daerah Khusus Jakarta, Jawa, Indonesia",08/26/1980,-6.175247,106.8270488
 "Иркутская область, Сибирский федеральный округ, Россия",08/26/1988,56.6370122,104.719221
 "городское поселение Алдан, Алданский улус, Республика Саха (Якутия), Дальневосточный федеральный округ, Россия",08/26/1993,58.608414,125.388222
@@ -2594,10 +2703,10 @@ North Sea / Nordsee / Noordzee / Nordsøen / Nordsjøen / Mer du Nord,08/27/1943
 "Rio de Janeiro, Região Geográfica Imediata do Rio de Janeiro, Região Metropolitana do Rio de Janeiro, Região Geográfica Intermediária do Rio de Janeiro, Rio de Janeiro, Região Sudeste, Brasil",08/27/1943,-22.9110137,-43.2093727
 "Kinshasa, Aketi, Kinshasa, République démocratique du Congo",08/27/1949,-4.3217055,15.3125974
 "Asunción, Distrito Capital, Región Oriental, Paraguay / Paraguái",08/27/1959,-25.2800459,-57.6343814
-"Canaima, Parroquia Santa Rosa, Municipio Bermúdez, Sucre, Venezuela",08/27/1972,10.6268452,-63.1794655
+"Canaima, Parroquia Carlos Soublette, Municipio Vargas, La Guaira, 1161, Venezuela",08/27/1972,10.5944288,-66.9730425
 "Bogotá, Bogotá, Distrito Capital, RAP (Especial) Central, Colombia",08/27/1973,4.6533816,-74.0836333
 "Dundo, Lunda Norte, Angola",08/27/1983,-7.381086,20.833799
-"Beale Air Force Base, Monarch Trail Drive, Yuba County, California, 95903, United States",08/27/1985,39.1087605,-121.35668977731362
+"Beale Air Force Base, Kapaka Lane, Yuba County, California, 95903, United States",08/27/1985,39.1087605,-121.35668977731362
 "Elkhorn, Walworth County, Wisconsin, 53121, United States",08/27/1990,42.6719206,-88.543494
 El Salvador,08/27/1992,13.8000382,-88.9140683
 "Iquitos, Maynas, Loreto, Perú",08/27/1992,-3.749365,-73.2444145
@@ -2634,6 +2743,26 @@ El Salvador,08/27/1992,13.8000382,-88.9140683
 "Spitsbergen, 9170, Norge",08/29/1996,78.3109714,17.230591713971776
 "Quito, Pichincha, 170130, Ecuador",08/29/1998,-0.2201641,-78.5123274
 "Málaga, Málaga-Costa del Sol, Málaga, Andalucía, España",08/29/2001,36.7213028,-4.4216366
+"Аян, сельское поселение Село Аян, Аяно-Майский район, Хабаровский край, Дальневосточный федеральный округ, 682571, Россия",08/29/2002,56.4609007,138.1817339
+"Hannover, Region Hannover, Niedersachsen, Deutschland",08/30/1939,52.3744779,9.7385532
+"São Paulo, Região Imediata de São Paulo, Região Metropolitana de São Paulo, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, Brasil",08/30/1944,-23.5506507,-46.6333824
+"Simara, Jitpur Simara, बारा, मधेश प्रदेश, 44417, नेपाल",08/30/1955,27.1604122,84.9765794
+"Haringvreter, Veere, Zeeland, Nederland",08/30/1970,51.54499055,3.6899884664233786
+"Punta de Amapala, Municipio de La Unión, Departamento de La Unión, El Salvador",08/30/1975,13.1586896,-87.896195
+"Gambell, Unorganized Borough, Alaska, United States",08/30/1975,63.7779847,-171.7279493
+"Las Vegas, Clark County, Nevada, United States",08/30/1978,36.1672559,-115.148516
+"Douala, Douala II, Communauté urbaine de Douala, Wouri, Littoral, Cameroun",08/30/1984,4.0429408,9.706203
+"Kokoda, Oro, Southern Region, Papua Niugini",08/30/1985,-8.8783894,147.7365453
+"Lexington, Fayette County, Kentucky, United States",08/30/2002,38.0464066,-84.4970393
+"Rio Branco, Região Geográfica Imediata de Rio Branco, Região Geográfica Intermediária de Rio Branco, Acre, Região Norte, Brasil",08/30/2002,-9.9765362,-67.8220778
+"Toacaso, Latacunga, Cotopaxi, Ecuador",08/30/2008,-0.7142358,-78.7622864003921
+"Amazonia, Andrew County, Missouri, United States",08/31/1934,39.8870003,-94.892021
+"Lovettsville, Loudoun County, Virginia, United States",08/31/1940,39.2747722,-77.6393091
+"شارع الوادى, وادي النطرون, البحيرة, 22856, مصر",08/31/1950,30.3751783,30.348223
+"Spitsbergen, 9170, Norge",08/31/1967,78.3109714,17.230591713971776
+"Odda, Ullensvang, Vestland, 5750, Norge",08/31/1968,60.0679248,6.5469316
+"Newton, Jasper County, Iowa, 50208, United States",08/31/1969,41.6997139,-93.0538852
+"Магнитогорск, Магнитогорский городской округ, Челябинская область, Уральский федеральный округ, 455000, Россия",08/31/1972,53.4242184,58.983136
 "Cerritos, California, 90715, United States",08/31/1986,33.8644291,-118.0539323
 "Cerro de la Calera, Mocorito, Sinaloa, México",08/31/1988,25.6046501,-107.5991106
 "Mérida, Yucatán, México",08/31/1988,20.9670759,-89.6237402
@@ -2657,8 +2786,8 @@ El Salvador,08/27/1992,13.8000382,-88.9140683
 "Needles, San Bernardino County, California, 92363, United States",09/02/1929,34.8383236,-114.603872
 "Музеј Југославије, 6, Михаила Мике Јанковића, МЗ Четврти Јули, Београд (Савски венац), Градска општина Савски венац, Београд, Град Београд, Централна Србија, 11000, Србија",09/02/1944,44.788029449999996,20.452235589959628
 "Quirindi, Liverpool Plains Shire Council, New South Wales, 2343, Australia",09/02/1948,-31.5021772,150.6804062
-"London, Greater London, England, United Kingdom",09/02/1958,51.5074456,-0.1277653
-"Guam, United States",09/02/1958,13.4499943,144.7651677
+"London, Greater London, England, United Kingdom",09/02/1958,51.4893335,-0.14405508452768728
+"Guam, Chalan Pago-Ordot Municipality, Guam, United States",09/02/1958,13.45011745,144.7577087765826
 "Abilene, Taylor County, Texas, United States",09/02/1959,32.44645,-99.7475905
 "РСФСР и УССР, Вокзальная улица, Новый Ургал, Новоургальское городское поселение, Верхнебуреинский район, Хабаровский край, Дальневосточный федеральный округ, 682071, Россия",09/02/1962,51.0776217,132.6099881
 "ປາກເຊ, ເມືອງປາກເຊ, ຈຳປາສັກ, 16000, ປະເທດລາວ",09/02/1969,15.1201461,105.8043971
@@ -2666,10 +2795,10 @@ El Salvador,08/27/1992,13.8000382,-88.9140683
 "香港島 Hong Kong Island, 香港 Hong Kong, 中国",09/02/1977,22.2793278,114.1628131
 "Paipa, Tundama, Boyacá, RAP (Especial) Central, Colombia",09/02/1981,5.7812701,-73.1176532
 "Smithers, Regional District of Bulkley-Nechako, British Columbia, Canada",09/02/1983,54.7792074,-127.1760991
-"Old Toronto, Toronto, Golden Horseshoe, Ontario, Canada",09/02/1995,43.6534817,-79.3839347
+"Toronto, Golden Horseshoe, Ontario, Canada",09/02/1995,43.6534817,-79.3839347
 "Beaver Dam, Mohave County, Arizona, United States",09/02/1995,36.8997989,-113.9359348
 Angola,09/02/1998,-11.8775768,17.5691241
-"Peggy's Cove Trail, Greenfield, Region of Queens Municipality, Queens County, Nova Scotia, B0T 1E0, Canada",09/02/1998,44.2937327,-64.8545692
+"Peggy's Cove Trail, Greenfield, Region of Queens Municipality, Queens County, Nova Scotia, B0T 1E0, Canada",09/02/1998,44.2929282,-64.84961
 "西昌市 ꀒꎂꏃ, 凉山彝族自治州 ꆃꎭꆈꌠꊨꏦꏱꅉꍏ, 四川省, 615000, 中国",09/02/2002,27.8458993,102.124224
 "کندهار, کندهار ولسوالۍ, کندهار ولايت, 3801, افغانستان",09/02/2006,31.6205738,65.7157573
 "Landkreis Cuxhaven, Niedersachsen, Deutschland",09/03/1915,53.58724195,8.88407915140169
@@ -2690,7 +2819,7 @@ Angola,09/02/1998,-11.8775768,17.5691241
 "Kaltag, Unorganized Borough, Alaska, 99748, United States",09/03/1990,64.3176675,-158.74209777549208
 "Long Seridan, Bario, Miri, Bahagian Miri, Sarawak, Malaysia",09/03/1991,3.977604,115.0689841
 "Sampit, Kotawaringin Timur, Kalimantan Tengah, Kalimantan, 74322, Indonesia",09/03/1991,-2.5389113,112.949389
-"រាជធានីភ្នំពេញ, ខណ្ឌដូនពេញ, រាជធានីភ្នំពេញ, 120203, ព្រះរាជាណាចក្រ​កម្ពុជា",09/03/1997,11.568271,104.9224426
+"រាជធានីភ្នំពេញ, ព្រះរាជាណាចក្រ​កម្ពុជា",09/03/1997,11.5730391,104.857807
 "Glasgow, Glasgow City, Alba / Scotland, G2 1DY, United Kingdom",09/03/1999,55.861155,-4.2501687
 "دبي, الإمارات العربية المتحدة",09/03/2008,25.2653471,55.2924914
 "Adelaide Hills Council, South Australia, Australia",09/04/1928,-34.90135105,138.82932020091445
@@ -2705,7 +2834,7 @@ Angola,09/02/1998,-11.8775768,17.5691241
 "Thành phố Bảo Lộc, Tỉnh Lâm Đồng, Việt Nam",09/04/1967,11.5506941,107.8092511
 "Juneau, Alaska, United States",09/04/1971,58.3019496,-134.419734
 "Gary, Calumet Township, Lake County, Indiana, United States",09/04/1973,41.6020962,-87.3370646
-"Cuenca, Azuay, Ecuador",09/04/1977,-2.8974072,-79.0041726
+"Cuenca, Luis Cordero, Alcaldia, El Sagrario, Cuenca, Azuay, 010101, Ecuador",09/04/1977,-2.8974072,-79.0041726
 "Rio Branco, Região Geográfica Imediata de Rio Branco, Região Geográfica Intermediária de Rio Branco, Acre, Região Norte, Brasil",09/04/1982,-9.9765362,-67.8220778
 "کندهار, کندهار ولسوالۍ, کندهار ولايت, 3801, افغانستان",09/04/1985,31.6205738,65.7157573
 "Burketown, Burke Shire, Queensland, 4830, Australia",09/04/2000,-17.7400597,139.5465396
@@ -2715,11 +2844,11 @@ Angola,09/02/1998,-11.8775768,17.5691241
 "Gander, Newfoundland, Newfoundland and Labrador, Canada",09/05/1967,48.9592291,-54.6187879
 "Montélimar, Nyons, Drôme, Auvergne-Rhône-Alpes, France métropolitaine, 26200, France",09/05/1980,44.5579391,4.750318
 "کراچی ڈویژن, سندھ, پاکستان",09/05/1986,24.8546842,67.0207055
-"Sitka, Alaska, 99835, United States",09/05/1988,57.4086082,-135.4596206
+"Sitka, Alaska, 99835, United States",09/05/1988,57.0524973,-135.337612
 "काठमाडौं, काठमाडौँ महानगरपालिका, काठमाडौं, बाग्मती प्रदेश, 46000, नेपाल",09/05/1999,27.708317,85.3205817
 "Westerly, Railroad Avenue, Westerly, South County, Rhode Island, 06379, United States",09/05/1999,41.3812001,-71.829886
 "Kota Medan, Sumatera Utara, Sumatera, Indonesia",09/05/2005,3.5896654,98.6738261
-"Paris, Île-de-France, France métropolitaine, France",09/06/1921,48.8588897,2.3200410217200766
+"Paris, Île-de-France, France métropolitaine, 70075, France",09/06/1921,48.8534951,2.3483915
 "بندر جاسک, دهستان جاسک, بخش مرکزی شهرستان جاسک, شهرستان جاسک, استان هرمزگان, ایران",09/06/1929,25.6436156,57.7745644
 "Banjul, Kombo North/Saint Mary, Gambia",09/06/1946,13.45535,-16.575646
 "กองทัพอากาศ กองบิน 1 นครราชสีมา, 304, นครราชสีมา, ปรุใหญ่, จังหวัดนครราชสีมา, 30000, ประเทศไทย",09/06/1969,14.935865100000001,102.08457401016435
@@ -2731,13 +2860,13 @@ Angola,09/02/1998,-11.8775768,17.5691241
 "Colton, Washington Township, Henry County, Ohio, 43510, United States",09/07/1923,41.4647742,-83.9524442
 "Toul, Meurthe-et-Moselle, Grand Est, France métropolitaine, 54200, France",09/07/1925,48.6762624,5.8941759
 "Mossman, Douglas Shire, Queensland, 4873, Australia",09/07/1944,-16.4614455,145.3726649
-"Florence, Florence County, South Carolina, United States",09/07/1945,34.174608750000004,-79.78017904453355
+"Florence, Florence County, South Carolina, 29502, United States",09/07/1945,34.1984435,-79.7671658
 "Nome, Unorganized Borough, Alaska, United States",09/07/1946,64.4975098,-165.4061701
 "Salto, 50000, Uruguay",09/07/1960,-31.38889,-57.9608876
 "Trinidad, Provincia de Cercado, Beni, Bolivia",09/07/1972,-14.8349438,-64.9044936
 "Naples, Collier County, Florida, United States",09/07/1984,26.1421976,-81.7942944
 "Hinckley, Squaw Grove Township, DeKalb County, Illinois, 60520, United States",09/07/1992,41.7689183,-88.640913
-"Salt Flats Circle, Ritchie, Waco, McLennan County, Texas, 76712, United States",09/08/1932,31.4756594,-97.2278236
+"Salt Flats Trail, Western Trails, Arlington, Tarrant County, Texas, 76002, United States",09/08/1932,32.6336265,-97.0780706
 "São Paulo, Região Imediata de São Paulo, Região Metropolitana de São Paulo, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, Brasil",09/08/1951,-23.5506507,-46.6333824
 "San Andrés, Lempira, Honduras",09/08/1953,14.2217534,-88.5507877
 "Burbank, California, United States",09/08/1955,34.1812089,-118.307201
@@ -2748,7 +2877,7 @@ Angola,09/02/1998,-11.8775768,17.5691241
 "City of New York, New York, United States",09/08/1970,40.7127281,-74.0060152
 "King Cove, Aleutians East, Alaska, 99612, United States",09/08/1973,55.0609607,-162.318406
 "Carajas, Belo Monte do Pará, Novo Repartimento, Região Geográfica Imediata de Tucuruí, Região Geográfica Intermediária de Marabá, Pará, Região Norte, Brasil",09/08/1987,-4.5658733,-50.2776717
-"HVDC Skagerrak pole 4, Hobro Landevej, Viborg Kommune, Region Midtjylland, Danmark",09/08/1989,56.478836,9.564432106726073
+"Cross-Skagerrak Pole 1+2, Hobro Landevej, Viborg Kommune, Region Midtjylland, 8830, Danmark",09/08/1989,56.47972835,9.566561118074372
 "Aliquippa, Beaver County, Pennsylvania, United States",09/08/1994,40.6102386,-80.267726
 "عمان, ناحية عمان, لواء قصبة عمان, عمان, 11118, الأردن",09/09/1956,31.9515694,35.9239625
 "Bartlesville, Washington County, Oklahoma, United States",09/09/1956,36.7421089,-95.9528877
@@ -2782,16 +2911,16 @@ Angola,09/02/1998,-11.8775768,17.5691241
 "Charlotte, Mecklenburg County, North Carolina, United States",09/11/1974,35.2272086,-80.8430827
 "Bahir Dar Special Zone, አማራ ክልል / Amhara, ኢትዮጵያ",09/11/1975,11.5949663,37.3882251
 "臺北市, 臺灣",09/11/1979,25.0375198,121.5636796
-"Wasserturm der Pfalzmühle Mannheim, Rheinrottstraße, Industriehafen (Hafen 4), Friesenheimer Insel, Neckarstadt-West, Mannheim, Baden-Württemberg, 68169, Deutschland",09/11/1982,49.5094554,8.4556655
+"Wasserturm am alten Klärwerk Mannheim, Einsteinstraße, Industriehafen (Hafen 4), Friesenheimer Insel, Neckarstadt-West, Mannheim, Baden-Württemberg, 68169, Deutschland",09/11/1982,49.51836565,8.459473204691358
 "Island of Newfoundland, Canada",09/11/1990,49.12119115,-56.64032459262498
 "Eagle Lake, Colorado County, Texas, 77434, United States",09/11/1991,29.5895382,-96.331239
 "جلال اباد, ننگرهار ولايت, افغانستان",09/11/1995,34.430195,70.460128
 "City of New York, New York, United States",09/11/2001,40.7127281,-74.0060152
 "City of New York, New York, United States",09/11/2001,40.7127281,-74.0060152
-"Arlington County, Virginia, United States",09/11/2001,38.8769326,-77.0893094
+"Arlington, Arlington County, Virginia, United States",09/11/2001,38.8903961,-77.0841585
 "Shanksville, Somerset County, Pennsylvania, 15560, United States",09/11/2001,40.0175017,-78.9071878
 "Summer Beaver Airport, Nibinamik Winter Road, ᓂᐱᓇᒥᐠ Nibinamik, Unorganized Kenora District, Kenora District, Northwestern Ontario, Ontario, Canada",09/11/2003,52.70772085,-88.54191711088025
-"Holy Executive οf the Holy Mount Athos Pilgrims' bureau, 109, Εγνατία, Θεσσαλονίκη, Δημοτική Ενότητα Θεσαλονίκης, Δήμος Θεσσαλονίκης, Μητροπολιτική Ενότητα Θεσσαλονίκης, Περιφέρεια Κεντρικής Μακεδονίας, Αποκεντρωμένη Διοίκηση Μακεδονίας - Θράκης, 546 35, Ελλάς",09/11/2004,40.6330037,22.9502972
+"Αγιορείτικη εστία, 109, Εγνατία, Θεσσαλονίκη, Δημοτική Ενότητα Θεσαλονίκης, Δήμος Θεσσαλονίκης, Μητροπολιτική Ενότητα Θεσσαλονίκης, Περιφέρεια Κεντρικής Μακεδονίας, Αποκεντρωμένη Διοίκηση Μακεδονίας - Θράκης, 546 35, Ελλάς",09/11/2004,40.6330663,22.9502109
 "Владикавказ, городской округ Владикавказ, Северная Осетия — Алания, Северо-Кавказский федеральный округ, Россия",09/11/2006,43.024593,44.68211
 "Redwood City, San Mateo County, California, United States",09/12/1951,37.4863239,-122.232523
 "Rio de Janeiro, Região Geográfica Imediata do Rio de Janeiro, Região Metropolitana do Rio de Janeiro, Região Geográfica Intermediária do Rio de Janeiro, Rio de Janeiro, Região Sudeste, Brasil",09/12/1954,-22.9110137,-43.2093727
@@ -2804,9 +2933,9 @@ Angola,09/02/1998,-11.8775768,17.5691241
 "Козыревск, Козыревское сельское поселение, Усть-Камчатский район, Камчатский край, Дальневосточный федеральный округ, Россия",09/12/1992,56.0498765,159.8703005
 "Colombo, Colombo District, Western Province, ශ්‍රී ලංකාව இலங்கை",09/12/1995,6.9388614,79.8542005
 "Uvira, Bavira (chefferie), Uvira, Sud-Kivu, République démocratique du Congo",09/12/1997,-3.4055866,29.1375509
-"Chichen Itzá, Grupo de las Mil Columnas, San Felipe Nuevo, Tinum, Yucatán, 97751, México",09/12/2001,20.68285195,-88.5687196355205
+"Chichen Itzá, San Felipe Nuevo, Pisté, Tinum, Yucatán, México",09/12/2001,20.68285195,-88.5687196355205
 "Dhulikhel, काभ्रेपलाञ्चोक, बाग्मती प्रदेश, नेपाल",09/13/1972,27.61765575,85.56349552503448
-"Whittier, Unorganized Borough, Alaska, 99693, United States",09/13/1978,60.7730556,-148.6838889
+"Whittier, Unorganized Borough, Alaska, 99693, United States",09/13/1978,60.7894935,-148.62765258953334
 "Málaga, Málaga-Costa del Sol, Málaga, Andalucía, España",09/13/1982,36.7213028,-4.4216366
 "ولایت قندوز, افغانستان",09/13/1987,36.8707187,68.7563528
 "Abuja, Municipal Area Council, Federal Capital Territory, 223140, Nigeria",09/13/1994,9.0643305,7.4892974
@@ -2836,8 +2965,116 @@ Angola,09/02/1998,-11.8775768,17.5691241
 "Pemberville, Wood County, Ohio, United States",09/15/1920,41.4108855,-83.46104
 "Kansas City, Jackson County, Missouri, United States",09/15/1945,39.100105,-94.5781416
 "Estevan, Saskatchewan, Canada",09/15/1946,49.1428076,-102.991075
-"Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, 560001, India",09/15/1951,12.9767936,77.590082
+"Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India",09/15/1951,12.98815675,77.62260003796
 "وادي حلفا, أ 1, وادي حلفا, الولاية الشمالية, السودان",09/15/1952,21.7960994,31.3718673
+"القاهرة, مصر",09/15/1954,30.0443879,31.2357257
+"Triel, Le Bouchage, La Tour-du-Pin, Isère, Auvergne-Rhône-Alpes, France métropolitaine, 38510, France",09/15/1958,45.6657801,5.5524835
+"Condoto, San Juan, Chocó, RAP Pacífico, Colombia",09/15/1964,5.09567995,-76.51148371740939
+"Jackson, Hinds County, Mississippi, United States",09/15/1971,32.2998686,-90.1830408
+"Thành phố Phan Rang–Tháp Chàm, Tỉnh Ninh Thuận, Việt Nam",09/15/1974,11.5769829,108.9865391
+"المدينة المنورة, محافظة المدينة المنورة, منطقة المدينة المنورة, 41419, السعودية",09/15/1980,24.471153,39.6111216
+"Cheney, Clarence-Rockland, Prescott and Russell Counties, Eastern Ontario, Ontario, K0A 2A0, Canada",09/15/1988,45.4111537,-75.2424251
+"Bahir Dar Special Zone, አማራ ክልል / Amhara, ኢትዮጵያ",09/15/1988,11.5949663,37.3882251
+"Mayfield, Graves County, Kentucky, 42066, United States",09/15/1989,36.7413624,-88.6352595
+"Tawau, Tawau Division, Sabah, 91007, Malaysia",09/15/1995,4.2435206,117.885331
+"Belo Horizonte, Região Geográfica Imediata de Belo Horizonte, Região Metropolitana de Belo Horizonte, Região Geográfica Intermediária de Belo Horizonte, Minas Gerais, Região Sudeste, Brasil",09/15/2001,-19.9227318,-43.9450948
+"Alto da Boa Vista, Coremas, Região Geográfica Imediata de Patos, Região Metropolitana do Vale do Piancó, Região Geográfica Intermediária de Patos, Paraíba, Região Nordeste, Brasil",09/15/2005,-7.0204676,-37.9446596
+"Oakland, Alameda County, California, United States",09/16/1931,37.8044557,-122.271356
+"City of Albany, Albany County, New York, United States",09/16/1953,42.6511674,-73.754968
+"Pastaza, Ecuador",09/16/1965,-1.916667,-77.0
+"Opole, województwo opolskie, Polska",09/16/1984,50.678792900000005,17.929884436033525
+"Baranquilla Cuidad Educadora, Calle 58, Modelo, Localidad Norte - Centro Histórico, Perímetro Urbano Barranquilla, Barranquilla, Atlántico, RAP Caribe, 080003, Colombia",09/16/1991,10.99773435,-74.7911478441537
+"Hana, Maui County, Hawaii, United States",09/16/1992,20.7671042,-155.990751995403
+"Tamworth, Tamworth Regional Council, New South Wales, 2340, Australia",09/16/1995,-31.0900743,150.9290159
+"San Juan de Manapiare, Parroquia Medio Ventuari, Municipio Autónomo Manapiare, Amazonas, Venezuela",09/16/2005,5.3282413,-66.0569024
+"จังหวัดภูเก็ต, ประเทศไทย",09/16/2007,7.9366015,98.3529292
+"North Fort Myer Drive, Rosslyn, Arlington, Arlington County, Virginia, 22209, United States",09/17/1908,38.8967386,-77.0724024
+"Hadley Avenue, Clifton, Passaic County, New Jersey, 07011, United States",09/17/1927,40.8719153,-74.1398801
+"Jacumba, Jacumba Hot Springs, San Diego County, California, United States",09/17/1929,32.61858505,-116.18746639559517
+"Lamentation Drive, Berlin, Capitol Planning Region, Connecticut, 06037, United States",09/17/1929,41.5992992,-72.7434078
+"Larache العرائش, Pachalik de Larache باشوية العرائش, Province de Larache إقليم العرائش, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",09/17/1929,35.1952327,-6.152913
+"Selsdon Recreation Ground, Selsdon, London Borough of Croydon, London, Greater London, England, CR2 8AU, United Kingdom",09/17/1932,51.34175785,-0.05548302700014919
+"Ville de Bruxelles - Stad Brussel, Brussel-Hoofdstad - Bruxelles-Capitale, Région de Bruxelles-Capitale - Brussels Hoofdstedelijk Gewest, België / Belgique / Belgien",09/17/1946,50.8550018,4.3512333761166175
+"Thorhild County, Alberta, Canada",09/17/1955,54.2507824,-113.0570669
+"Chicago, Cook County, Illinois, United States",09/17/1961,41.8755616,-87.6244212
+"Ndola, Ndola District, Copperbelt Province, Zambia",09/17/1961,-12.9693056,28.6365894
+"Villa Montserrat, 15, Kristina Infantaren kalea, Ondarreta, Antiguo, Mendebaldea, Donostia/San Sebastián, Gipuzkoa, Euskadi, 20008, España",09/17/1965,43.3146184,-2.004074
+"Campbell River, Strathcona Regional District, British Columbia, Canada",09/17/1969,50.023071,-125.244153
+"Kailo, Maniema, République démocratique du Congo",09/17/1980,-2.9493766,25.9184499
+"Fish Egg Inlet, Area A (Ocean Falls/Outer Coast), Central Coast Regional District, British Columbia, Canada",09/17/1994,51.62226405,-127.7778120623353
+"Hidalgo, Coahuila, México",09/17/1999,27.7876639,-99.8757684
+"Vandeikya, Benue, Nigeria",09/17/2006,6.833444350000001,9.045834371061535
+"Byron Bay, Byron Shire Council, New South Wales, 2481, Australia",09/18/1932,-28.6483333,153.6177778
+"Alaska, United States",09/18/1944,64.4459613,-149.680909
+"Puncak Jaya, Mimika, Papua Tengah, Western New Guinea, Indonesia",09/18/1945,-4.0786047,137.1586126
+"Gander, Newfoundland, Newfoundland and Labrador, Canada",09/18/1946,48.9592291,-54.6187879
+"Montevideo, Uruguay",09/18/1957,-34.9058916,-56.1913095
+"Почта России, улица Мира, городской округ Железногорск, Железногорск, Курская область, Центральный федеральный округ, 307177, Россия",09/18/1981,52.3287909,35.376691
+"Quito, Pichincha, 170130, Ecuador",09/18/1984,-0.2201641,-78.5123274
+"Nederlandse Cariben, Curaçao, Nederland",09/18/1992,12.1845,-68.6607922625
+"Tamanrasset, Algérie ⵍⵣⵣⴰⵢⴻⵔ الجزائر",09/18/1994,24.3753438,4.3208436
+"Nuiqsut, North Slope, Alaska, 99789, United States",09/18/2000,70.2168364,-151.0029678
+"Ciudad de Guatemala, Departamento de Guatemala, Guatemala",09/18/2001,14.6424667,-90.5131361
+"طرابلس, ليبيا",09/19/1946,32.896672,13.1777923
+"Mariana Islands, Chalan Pago-Ordot Municipality, Guam, United States",09/19/1960,13.45011745,144.7577087765826
+"Riverside County, California, United States",09/19/1974,33.7219991,-116.0372472
+"Merced County, California, United States",09/19/1979,37.1641544,-120.7678602
+"Mantiqueira, Santos Dumont, Região Geográfica Imediata de Juiz de Fora, Região Geográfica Intermediária de Juiz de Fora, Minas Gerais, Região Sudeste, Brasil",09/19/1986,-21.42484955,-43.648827535060036
+"Bilma, Agadez, Niger",09/19/1989,18.69293,12.91872
+"Bogotá, Bogotá, Distrito Capital, RAP (Especial) Central, Colombia",09/19/1992,4.6533816,-74.0836333
+"Del Rio, Val Verde County, Texas, United States",09/19/2003,29.357515,-100.8987707
+"La Quemada (Hacienda la Quemada), Villanueva, Zacatecas, México",09/19/2003,22.4230703,-102.8412614
+"Columbia, Richland County, South Carolina, United States",09/19/2008,34.0003117,-81.0331309
+"Maxton, Robeson County, North Carolina, United States",09/20/1943,34.7351615,-79.3489317
+"Kuwajleen, Ṃajeḷ",09/20/1950,9.1257934,167.5740472
+"Thành phố Hội An, Tỉnh Quảng Nam, Việt Nam",09/20/1969,15.8795863,108.3319406
+"Natchitoches, Natchitoches Parish, Louisiana, United States",09/20/1973,31.7606732,-93.0860209
+"Fairbanks, Fairbanks North Star, Alaska, 99703, United States",09/20/1989,64.837845,-147.716675
+"LaGuardia Airport, 94th Street, Queens County, City of New York, New York, 11371, United States",09/20/1989,40.7757145,-73.87336398511545
+"Fernando de Noronha, Região Geográfica Imediata do Recife, Pernambuco, Região Nordeste, 53990-000, Brasil",09/20/1990,-3.8548681,-32.42089413898326
+"Meadview, Mohave County, Arizona, United States",09/20/2003,36.0022091,-114.0682936
+"Rio Doce, Região Geográfica Imediata de Ponte Nova, Região Geográfica Intermediária de Juiz de Fora, Minas Gerais, Região Sudeste, Brasil",09/21/1944,-20.2447972,-42.8970432
+"شارع الإمام محمد بن إدريس الشافعي, بني وليد, محافظة بني وليد, ليبيا",09/21/1955,31.7282311,13.9943376
+"Sela, Maharajpur Tahsil, Chhatarpur District, Madhya Pradesh, India",09/21/1962,24.9570273,79.76260005217132
+"Ciudad de México, Cuauhtémoc, Ciudad de México, México",09/21/1969,19.4326296,-99.1331785
+"Nellis Air Force Base, Clark County, Nevada, 89115, United States",09/21/1981,36.2423056,-115.0463031
+"الأقصر, 85951, مصر",09/21/1987,25.702096,32.647186
+"Hailey, Blaine County, Idaho, 83333, United States",09/21/1987,43.519629,-114.315325
+"باغران ولسوالۍ, هلمند ولايت, افغانستان",09/21/1989,33.014064,65.042082
+"Кулар, Омолойский национальный наслег, Усть-Янский улус, Республика Саха (Якутия), Дальневосточный федеральный округ, Россия",09/21/1992,70.639252,134.349777
+"Аҟәа - Сухум, აფხაზეთის ავტონომიური რესპუბლიკა - Аҧсны Автономтә Республика, Абхазия - Аԥсны, საქართველო",09/21/1993,43.0033629,41.0192741
+"Мөрөн ᠮᠥᠷᠡᠨ, Хөвсгөл ᠬᠥᠪᠰᠦᠭᠦᠯ, Монгол улс ᠮᠤᠩᠭᠤᠯ ᠤᠯᠤᠰ",09/21/1995,49.6284811,100.1745571
+"Saale, Feilitzsch, Verwaltungsgemeinschaft Feilitzsch, Landkreis Hof, Bayern, 95183, Deutschland",09/22/1927,50.3544747,11.869887437781646
+"Kolkata, Kolkata District, West Bengal, India",09/22/1943,22.5726459,88.3638953
+"那覇市, 沖縄県, 900-8585, 日本",09/22/1960,26.2122345,127.6791452
+"Deleware Drive, Dover, Tuscarawas County, Ohio, 44622, United States",09/22/1963,40.5492823,-81.4875424
+"Bogotá, Bogotá, Distrito Capital, RAP (Especial) Central, Colombia",09/22/1966,4.6533816,-74.0836333
+"Winton, Winton Shire, Queensland, Australia",09/22/1966,-22.3845163,143.0364812
+"Cranbrook, Regional District of East Kootenay, British Columbia, Canada",09/22/1970,49.5107477,-115.7672772
+"Fairbanks, Fairbanks North Star, Alaska, 99703, United States",09/22/1974,64.837845,-147.716675
+"Mosher Creek, Area E (Beaverdell/West Boundary), Regional District of Kootenay Boundary, British Columbia, Canada",09/22/1976,49.5043714,-118.9483566
+"San Bernardino County, California, United States",09/22/1976,34.8253019,-116.0833144
+"București, România",09/22/1977,44.4361414,26.1027202
+"Babaeski, Kırklareli, Marmara Bölgesi, Türkiye",09/22/1981,41.4302616,27.0917789
+افغانستان,09/22/1985,33.7680065,66.2385139
+"Аҟәа - Сухум, აფხაზეთის ავტონომიური რესპუბლიკა - Аҧсны Автономтә Республика, Абхазия - Аԥсны, საქართველო",09/22/1993,43.0033629,41.0192741
+"Anchorage, Alaska, 99501, United States",09/22/1995,61.2163129,-149.894852
+"Schleiz, Saale-Orla-Kreis, Thüringen, Deutschland",09/23/1927,50.5590505,11.8040013
+"Karlstad, Karlstads kommun, Värmlands län, 652 24, Sverige",09/23/1950,59.3809146,13.5027631
+"São Paulo, Região Imediata de São Paulo, Região Metropolitana de São Paulo, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, Brasil",09/23/1959,-23.5506507,-46.6333824
+"Ankara, Çankaya, Ankara, İç Anadolu Bölgesi, 06420, Türkiye",09/23/1961,39.9207759,32.8540497
+"Salida, Chaffee County, Colorado, United States",09/23/1977,38.5371195,-105.990968
+"شارع مينا جبل علي, جبل علي, دبي, الإمارات العربية المتحدة",09/23/1983,24.9873441,55.0844069
+"Flagstaff, Coconino County, Arizona, United States",09/23/1983,35.1987522,-111.651822
+"Хатанга, сельское поселение Хатанга, Таймырский Долгано-Ненецкий район, Красноярский край, Сибирский федеральный округ, Россия",09/23/1991,71.9819205,102.4714765
+"Аҟәа - Сухум, აფხაზეთის ავტონომიური რესპუბლიკა - Аҧсны Автономтә Республика, Абхазия - Аԥсны, საქართველო",09/23/1993,43.0033629,41.0192741
+"九龍灣 Kowloon Bay, 觀塘道 Kwun Tong Road, 牛頭角下 Lower Ngau Tau Kok, 牛頭角 Ngau Tau Kok, 觀塘區 Kwun Tong District, 九龍 Kowloon, 香港 Hong Kong, 000000, 中国",09/23/1994,22.3231377,114.21412352083235
+"Anchorage, Alaska, 99501, United States",09/23/1996,61.2163129,-149.894852
+"Hāʻena, Kauaʻi County, Hawaii, United States",09/23/2005,22.224685,-159.5579039
+"Billericay, Basildon, Essex, England, United Kingdom",09/24/1916,51.6284395,0.4218142
+"Great Sitkin Island, Aleutians West Census Area, Alaska, United States",09/24/1959,52.04217505,-176.10210446029208
+"Bordeaux, Gironde, Nouvelle-Aquitaine, France métropolitaine, France",09/24/1959,44.841225,-0.5800364
+"Wake Island, United States",09/24/1968,19.28988935,166.64921739111432
 "Sacramento, Sacramento County, California, United States",09/24/1972,38.5810606,-121.493895
 "Eagleville, Yuba County, California, United States",09/24/1973,39.5793348,-121.096346
 "Palembang, Sumatera Selatan, Sumatera, Indonesia",09/24/1975,-2.9888243,104.7568507
@@ -2845,8 +3082,8 @@ Angola,09/02/1998,-11.8775768,17.5691241
 "Malemba-Nkulu, Haut-Lomami, République démocratique du Congo",09/24/2007,-8.0413219,26.7909208
 "Southesk Street, Whitewood, Saskatchewan, S0G 5C0, Canada",09/25/1930,50.3272537,-102.2639568
 English Channel / La Manche,09/25/1936,50.4924668,1.054682
-"香港國際機場 Hong Kong International Airport, 南環路 South Perimeter Road, 赤鱲角 Chek Lap Kok, 離島區 Islands District, 新界 New Territories, 香港 Hong Kong, 中国",09/25/1946,22.3125986,113.91729986640615
-"Ankara, İç Anadolu Bölgesi, Türkiye",09/25/1953,39.7160439,32.7059948
+"香港國際機場 Hong Kong International Airport, 赤鱲角南路 Chek Lap Kok South Road, 赤鱲角 Chek Lap Kok, 黃家圍, 離島區 Islands District, 新界 New Territories, 香港 Hong Kong, 中国",09/25/1946,22.3125986,113.91729986640615
+"Ankara, Çankaya, Ankara, İç Anadolu Bölgesi, 06420, Türkiye",09/25/1953,39.9207759,32.8540497
 "Lincoln, Lancaster County, Nebraska, United States",09/25/1973,40.8088861,-96.7077751
 "Monroe, Franklin County, Massachusetts, 01350, United States",09/25/1978,42.7215364,-72.9412839
 "San Diego, San Diego County, California, United States",09/25/1978,32.7174202,-117.162772
@@ -2855,9 +3092,9 @@ English Channel / La Manche,09/25/1936,50.4924668,1.054682
 "Mauna Loa Observatory, Hawaiʻi County, Hawaii, United States",09/25/1999,19.5357926,-155.57622565805838
 "City of New York, New York, United States",09/26/1926,40.7127281,-74.0060152
 North Sea / Nordsee / Noordzee / Nordsøen / Nordsjøen / Mer du Nord,09/26/1939,56.0026997,2.8144672799047834
-"Popocatepetl, Etzatlán, Región Valles, Jalisco, 46500, México",09/26/1949,20.7614711,-104.0983638
+"Popocatepetl, Hacienda Las Cumbres, Montemorelos, Nuevo León, 67512, México",09/26/1949,25.2073874,-99.8453888
 "九州, 日本",09/26/1950,32.48214205,131.10089656440624
-"Москва, Центральный федеральный округ, Россия",09/26/1960,55.7505412,37.6174782
+"Москва, Центральный федеральный округ, Россия",09/26/1960,55.625578,37.6063916
 "La Paz, Pedro Domingo Murillo, La Paz, Bolivia",09/26/1969,-16.4955455,-68.1336229
 "Uli, Isoko South, Delta, Nigeria",09/26/1969,5.4624508,6.1474935
 "Alpena County, Michigan, United States",09/26/1976,45.0176181,-83.6670019
@@ -2872,7 +3109,7 @@ North Sea / Nordsee / Noordzee / Nordsøen / Nordsjøen / Mer du Nord,09/26/1939
 "Castilla, General Fernández Oro, Municipio de General Fernández Oro, Departamento General Roca, Río Negro, Argentina",09/27/1949,-38.9593821,-67.933243
 "Rich Mountain, Benton County, Arkansas, 72732, United States",09/27/1973,36.4250721,-93.9293655
 "Kuala Lumpur, Malaysia",09/27/1977,3.1516964,101.6942371
-"Grand Canyon National Park Airport, Forest Service Road 222, Tusayan, Coconino County, Arizona, 86023, United States",09/27/1989,35.9525161,-112.14520362936864
+"Grand Canyon National Park Airport, State Highway 64, Tusayan, Coconino County, Arizona, 86023, United States",09/27/1989,35.9525161,-112.14520362936864
 "Guadalcanal Island, Guadalcanal, Solomon Islands",09/27/1991,-9.59842095,160.1485117018448
 "Campbell River, Strathcona Regional District, British Columbia, Canada",09/27/1995,50.023071,-125.244153
 "Gaspé, La Côte-de-Gaspé, Gaspésie–Îles-de-la-Madeleine, Québec, Canada",09/27/2003,48.8317223,-64.4837569
@@ -2903,7 +3140,7 @@ North Sea / Nordsee / Noordzee / Nordsøen / Nordsjøen / Mer du Nord,09/26/1939
 "بيروت, البسطة التحتا, باشورة, محافظة بيروت, لبنان",09/30/1975,33.88922645,35.50255852895232
 "Porpoise Bay, Area B (Halfmoon Bay), Sunshine Coast Regional District, British Columbia, Canada",09/30/1979,49.501606249999995,-123.76048158456592
 "Potters Bar, Hertsmere, Hertfordshire, England, EN6 1QG, United Kingdom",10/01/1916,51.6958889,-0.1848935
-"Nittany Drive, Summitville, Columbiana County, Ohio, 43962, United States",10/01/1925,40.6782759,-80.8881376
+"Nittany Drive, Summitville, Columbiana County, Ohio, 43962, United States",10/01/1925,40.6799498,-80.8880137
 "Graubünden/Grischun/Grigioni, Schweiz/Suisse/Svizzera/Svizra",10/01/1938,46.6960615,9.6027351
 "Banjul, Kombo North/Saint Mary, Gambia",10/01/1938,13.45535,-16.575646
 "昆明市, 云南省, 中国",10/01/1942,25.0363006,102.7086139
@@ -2939,12 +3176,12 @@ North Sea / Nordsee / Noordzee / Nordsøen / Nordsjøen / Mer du Nord,09/26/1939
 "Stephenville, Newfoundland, Newfoundland and Labrador, Canada",10/03/1946,48.5452022,-58.5871146
 "بيروت, البسطة التحتا, باشورة, محافظة بيروت, لبنان",10/03/1957,33.88922645,35.50255852895232
 "Denver, Colorado, United States",10/03/1969,39.7392364,-104.984862
-"Kuopio, Kuopion seutukunta, Pohjois-Savo, Itä-Suomen aluehallintovirasto, Manner-Suomi, Suomi / Finland",10/03/1978,62.8924601,27.6781839
+"Kuopio, Manner-Suomi, Suomi / Finland",10/03/1978,62.82411705,27.593200574793077
 "မန္တလေး, မန္တလေးခရိုင်, မန္တလေးတိုင်း, 05024, မြန်မာ",10/03/1978,21.9596834,96.0948743
 "Juneau, Alaska, United States",10/03/1979,58.3019496,-134.419734
 "Manado, Sulawesi Utara, Sulawesi, Indonesia",10/03/1986,1.4900578,124.8408708
 "Cape Canaveral, Brevard County, Florida, United States",10/03/1990,28.4513556,-80.5283059
-"Gunung Burni Bah, Rusip Antara, Aceh Tengah, Aceh, Sumatera, Indonesia",10/03/1995,4.7135,96.615
+"Gunung Pucuk Alue Sane, Burlah, Rusip Antara, Aceh Tengah, Aceh, Sumatera, Indonesia",10/03/1995,4.717,96.5749
 "Kahemba, Kwango, République démocratique du Congo",10/03/1996,-7.2919121,18.9582005
 "Decatur Island, San Juan County, Washington, United States",10/03/2001,48.50296005,-122.80833000964158
 "Waikanae, Kāpiti Coast District, Wellington, 5036, New Zealand / Aotearoa",10/03/2003,-40.8758432,175.0643045
@@ -2952,7 +3189,7 @@ North Sea / Nordsee / Noordzee / Nordsøen / Nordsjøen / Mer du Nord,09/26/1939
 "Thị xã An Khê, Tỉnh Gia Lai, Việt Nam",10/04/1966,14.0221216,108.69422150756694
 "Mahaffey, Clearfield County, Pennsylvania, 15757, United States",10/04/1970,40.8728411,-78.724196
 "Itaituba, Região Geográfica Imediata de Itaituba, Região Geográfica Intermediária de Santarém, Pará, Região Norte, Brasil",10/04/1973,-4.2625218,-55.9878139
-"Nairobi, Starehe, Nairobi, Kenya",10/04/1976,-1.3026148499999999,36.82884201813725
+"Central Business District, CBD division, Starehe, Nairobi, 46464, Kenya",10/04/1976,-1.2832533,36.8172449
 "San Antonio, Bexar County, Texas, United States",10/04/1986,29.4246002,-98.4951405
 "Батагай, городское поселение Батагай, Верхоянский улус, Республика Саха (Якутия), Дальневосточный федеральный округ, Россия",10/04/1988,67.654907,134.635071
 "Perth County, Ontario, Canada",10/04/1989,43.4935991,-81.0164111
@@ -2969,7 +3206,7 @@ North Sea / Nordsee / Noordzee / Nordsøen / Nordsjøen / Mer du Nord,09/26/1939
 "كادوقلي‎, Kadugli, ولاية جنوب كردفان, السودان",10/05/2004,11.0085934,29.7155751
 "Dresden, Sachsen, Deutschland",10/06/1930,51.0493286,13.7381437
 "Ciudad de México, Cuauhtémoc, Ciudad de México, México",10/06/1936,19.4326296,-99.1331785
-"Lebuh Melayu, New Jetty, Timur Laut, George Town, Central George Town, Pulau Pinang, 10100, Malaysia",10/06/1946,5.4132031,100.3353802
+"Lebuh Melayu, New Jetty, George Town, Timur Laut, Central George Town, Pulau Pinang, 10100, Malaysia",10/06/1946,5.4132031,100.3353802
 "Centennial, Albany County, Wyoming, 82055, United States",10/06/1955,41.297896,-106.139369
 "Germiston, City of Ekurhuleni Metropolitan Municipality, Gauteng, 1401, South Africa",10/06/1970,-26.229444,28.180556
 "Bridgetown, Saint Michael, Barbados",10/06/1976,13.0977832,-59.6184184
@@ -2989,7 +3226,7 @@ North Sea / Nordsee / Noordzee / Nordsøen / Nordsjøen / Mer du Nord,09/26/1939
 "Bath (Berkeley Springs), Morgan County, West Virginia, United States",10/07/1992,39.6267975,-78.2279514
 "Santa Cruz do Sul, Região Geográfica Imediata de Santa Cruz do Sul, Região Geográfica Intermediária de Santa Cruz do Sul - Lajeado, Rio Grande do Sul, Região Sul, Brasil",10/07/2002,-29.714209,-52.4285807
 "White Pass, Chelan County, Washington, United States",10/07/2007,48.0332093,-121.1485456
-"Büren, Kreis Paderborn, Nordrhein-Westfalen, 33142, Deutschland",10/08/1926,51.5525333,8.5591919
+"Büren, Kreis Paderborn, Nordrhein-Westfalen, 33142, Deutschland",10/08/1926,51.5497446,8.573474968213432
 "Cheyenne, Laramie County, Wyoming, United States",10/08/1946,41.139981,-104.820246
 "El Paso, El Paso County, Texas, United States",10/08/1947,31.7601164,-106.4870404
 "Cerro Blanco, Terrenos de la Ex-hacienda ""San Miguel del Rincón"", Papantla, Veracruz, 93544, México",10/08/1951,20.261111,-97.166667
@@ -3000,7 +3237,7 @@ North Sea / Nordsee / Noordzee / Nordsøen / Nordsjøen / Mer du Nord,09/26/1939
 "Kenai, Kenai Peninsula, Alaska, United States",10/08/1978,60.5544444,-151.258333
 "Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 105 57, Ελλάς",10/08/1979,37.9755648,23.7348324
 "Covington, Kenton County, Kentucky, United States",10/08/1979,39.0831712,-84.5107548
-"Anchorage, Alaska, United States",10/08/1979,61.1758781,-149.1107333
+"Anchorage, Alaska, 99501, United States",10/08/1979,61.2163129,-149.894852
 "Katapang, Bandung, Jawa Barat, Jawa, 40921, Indonesia",10/08/1991,-7.0050463,107.5499739
 "定西市, 安定区, 定西市, 甘肃省, 中国",10/08/1992,35.5810207,104.6229826
 "Mitú, Vaupés, RAP Amazonía, Colombia",10/08/1994,1.2523268,-70.2308883
@@ -3073,11 +3310,62 @@ Bosna i Hercegovina / Босна и Херцеговина,10/10/1944,44.3053476
 "Rua Humaitá, Aparecida de Goiânia, Região Geográfica Imediata de Goiânia, Região Geográfica Intermediária de Goiânia, Goiás, Região Centro-Oeste, 74946-360, Brasil",10/13/2001,-16.777548,-49.3307896
 Brasil,10/14/1931,-10.3333333,-53.2
 "Frankfurt am Main, Hessen, Deutschland",10/14/1953,50.1106444,8.6820917
+"Isola d'Elba, Livorno, Toscana, Italia",10/14/1960,42.790216599999994,10.340278678735025
+"Jamaica, 148-02, Queens County, City of New York, New York, 11435, United States",10/14/1963,40.7029134,-73.8006429
+"Halifax, Halifax Regional Municipality, Halifax County, Nova Scotia, Canada",10/14/2004,44.648618,-63.5859487
+"Jefferson City, Cole County, Missouri, United States",10/14/2004,38.577359,-92.1724265
+"Batavia, Batavia Township, Kane County, Illinois, 60510, United States",10/15/1920,41.8500284,-88.3125738
+"Centerville, Hickman County, Middle Tennessee, Tennessee, United States",10/15/1943,35.7789565,-87.4669587
+"East Griqualand & Usher Memorial Hospital, The Avenue, Greater Kokstad Ward 3, Kokstad, Greater Kokstad Local Municipality, Sisonke District Municipality, KwaZulu-Natal, 4700, South Africa",10/15/1951,-30.54658735,29.414574787240888
+"North Atlantic, 346, O'Connell Drive, Corner Brook, Newfoundland, Newfoundland and Labrador, A2H 4M9, Canada",10/15/1951,48.9398406,-57.9746466
+"Villa Montes, Gran Chaco, Tarija, Bolivia",10/15/1958,-21.2589001,-63.4722606
+"Plain City, Weber County, Utah, United States",10/15/1960,41.3044817,-112.09050693826414
+"Kufstein, Bezirk Kufstein, Tirol, 6330, Österreich",10/15/1981,47.582996,12.1692134
+"شیراز, بخش مرکزی شیراز, شهرستان شیراز, استان فارس, ایران",10/15/1986,29.6060218,52.5378041
+"Crezzo, Barni, Como, Lombardia, 22030, Italia",10/15/1987,45.8992118,9.2832264
+"Medellín, Valle de Aburrá, Antioquia, RAP del Agua y la Montaña, 0500, Colombia",10/15/2004,6.2697018,-75.60252574475943
+"Aurora, Aurora Township, Kane County, Illinois, United States",10/15/2008,41.7571701,-88.3147539
+"Telemark, Norge",10/16/1944,59.39626765,8.66266000194867
+"北京市, 中国",10/16/1945,40.190632,116.412144
+"Sylva, Jackson County, North Carolina, United States",10/16/1947,35.3737111,-83.2259803
+"강릉 하키센터, 강릉대로419번길, 포남동, 포남2동, 강릉시, 강원특별자치도, 25472, 대한민국",10/16/1952,37.77614065,128.90118805063213
+"Crown King, Yavapai County, Arizona, 86343, United States",10/16/1964,34.2055857,-112.3384991
+"New Castle County, Delaware, United States",10/16/1970,39.6159851,-75.662956
+"Colorado City, Mohave County, Arizona, 86021, United States",10/16/1971,36.9899107,-112.9765425
+"Hot Springs, Bath County, Virginia, 24445, United States",10/16/1971,37.9995703,-79.8317193
+"Fishers Island, Town of Southold, Suffolk County, New York, 06390, United States",10/16/1986,41.2570434,-72.0239626
+"Sedona, Yavapai County, Arizona, 86336, United States",10/16/1988,34.8629426,-111.8137097
+"Hillsboro, Central Township, Jefferson County, Missouri, United States",10/16/2000,38.2322766,-90.5629034
+"Coron Island, Coron, Palawan, Mimaropa, Pilipinas",10/16/2004,11.897307000000001,120.23823232497713
+"Johannisthal, Treptow-Köpenick, Berlin, 12487, Deutschland",10/17/1913,52.4459114,13.504547
+Magyarország,10/17/1944,47.1817585,19.5060937
+"Chitral Lines, Delhi Cantonment, New Delhi District, Delhi, India",10/17/1946,28.60243195,77.12285924569545
+"Laramie, Albany County, Wyoming, United States",10/17/1946,41.3087527,-105.61518386177721
+"London, Greater London, England, United Kingdom",10/17/1950,51.5074456,-0.1277653
+"Mount Benson, Area C (Arrowsmith-Benson), Regional District of Nanaimo, British Columbia, Canada",10/17/1951,49.1494522,-124.0498441
+"Tỉnh Lai Châu, Việt Nam",10/17/1953,22.2921668,103.1798662
+"городской округ Канаш, Чувашия, Приволжский федеральный округ, Россия",10/17/1958,55.5113818,47.5067782
+"Bucaramanga, Metropolitana, Santander, RAP Gran Santander, Colombia",10/17/1965,7.16698415,-73.1047294009737
+"Mohanbari, Nawalgarh Tehsil, Jhunjhunu District, Rajasthan, India",10/17/1965,27.7385042,75.3292608
+"San Vicente del Caguán, Caquetá, RAP Amazonía, 182010, Colombia",10/17/1971,2.1131213,-74.7697347
+"Kassan Islands, Unorganized Borough, Alaska, United States",10/17/1974,55.92392265,-133.28144281964515
+"Roma, Roma Capitale, Lazio, Italia",10/17/1988,41.8933203,12.4829321
+"Polk, Venango County, Pennsylvania, United States",10/18/1928,41.3670014,-79.9292233
+"Birkenhead, Wirral, Liverpool City Region, England, CH41 2XU, United Kingdom",10/18/1944,53.3895177,-3.0248007
+"Porto Alegre, Região Geográfica Imediata de Porto Alegre, Região Metropolitana de Porto Alegre, Região Geográfica Intermediária de Porto Alegre, Rio Grande do Sul, Região Sul, Brasil",10/18/1957,-30.0324999,-51.2303767
+"Placentia Bay, Newfoundland and Labrador, Canada",10/18/1958,47.12013185,-54.58116716827228
+"أسوان, 81511, مصر",10/18/1963,24.091071,32.897306
+"Thành phố Hà Nội, Việt Nam",10/18/1965,21.0283334,105.854041
+"Garut, Jawa Barat, Jawa, Indonesia",10/18/1992,-7.2162543,107.9014912
+"Anchorage, Alaska, United States",10/18/2001,61.1758781,-149.1107333
+"Bass Strait, Kiama, The Council of the Municipality of Kiama, New South Wales, 2533, Australia",10/19/1934,-34.6786951,150.8539645
+"Saint-Donat, Matawinie, Lanaudière, Québec, J0T 2C0, Canada",10/19/1943,46.318718,-74.221916
+"City of New York, New York, United States",10/19/1953,40.7127281,-74.0060152
 "Monterrey, Nuevo León, México",10/19/1953,25.6802019,-100.315258
 "Agartala, Mohanpur, West Tripura District, Tripura, 799001, India",10/19/1956,23.8312377,91.2823821
 "Windsor Locks, Capitol Planning Region, Connecticut, 06096, United States",10/19/1962,41.9281305,-72.643631
 "Музеј Југославије, 6, Михаила Мике Јанковића, МЗ Четврти Јули, Београд (Савски венац), Градска општина Савски венац, Београд, Град Београд, Централна Србија, 11000, Србија",10/19/1964,44.788029449999996,20.452235589959628
-"İzmir, Ege Bölgesi, Türkiye",10/19/1968,38.23166,27.02997
+"İzmir, Konak, İzmir, Ege Bölgesi, 35240, Türkiye",10/19/1968,38.4237433,27.1428019
 "Calapan, Oriental Mindoro, Mimaropa, 5200, Pilipinas",10/19/1974,13.4145513,121.179543
 "Комсомольск-на-Амуре, городской округ Комсомольск-на-Амуре, Хабаровский край, Дальневосточный федеральный округ, Россия",10/19/1987,50.5497277,137.0099189
 "Ahmedabad, Ahmedabad District, Gujarat, 380001, India",10/19/1988,23.0216238,72.5797068
@@ -3114,7 +3402,7 @@ English Channel / La Manche,10/21/1926,50.4924668,1.054682
 "Rennell and Bellona, Solomon Islands",10/22/1978,-12.1134266,160.3170523328619
 "Bloomington, Monroe County, Indiana, United States",10/22/1979,39.1670396,-86.5342881
 "Juneau, Alaska, United States",10/22/1985,58.3019496,-134.419734
-"Manhattan, New York County, City of New York, New York, United States",10/22/1986,40.7896239,-73.9598939
+"Manhattan Island, City of New York, New York, United States",10/22/1986,40.788655250000005,-73.9603027827792
 "New Guinea, Southern Region, Papua Niugini",10/22/1995,-5.5226203,142.08711943819077
 "Manta, Manabí, Ecuador",10/22/1996,-1.0321137999999999,-80.82236849673265
 "Lisa, Odeda, Ogun, Nigeria",10/22/2005,7.25,3.6
@@ -3142,7 +3430,7 @@ English Channel / La Manche,10/21/1926,50.4924668,1.054682
 "Mount Dandenong, Melbourne, Shire of Yarra Ranges, Victoria, 3767, Australia",10/25/1938,-37.8271036,145.3530093
 "Москва, Центральный федеральный округ, Россия",10/25/1962,55.7505412,37.6174782
 "Hanover, Grafton County, New Hampshire, United States",10/25/1968,43.703622,-72.288666
-"Yopal, Casanare, RAP Llanos, Colombia",10/25/1976,5.3356662,-72.3936931
+"Perímetro Urbano Yopal, Yopal, Casanare, RAP Llanos, Colombia",10/25/1976,5.3356662,-72.3936931
 "Juliaca, San Román, Puno, Perú",10/25/1988,-15.4932314,-70.1356177
 "Tumbang Miri, Gunung Mas, Kalimantan Tengah, Kalimantan, Indonesia",10/25/1991,-0.9160201,113.5526778
 "Vallejo, Solano County, California, United States",10/25/1991,38.1040864,-122.2566367
@@ -3151,6 +3439,80 @@ English Channel / La Manche,10/21/1926,50.4924668,1.054682
 "Aberdeen, Aberdeen Township, Brown County, South Dakota, 57401, United States",10/25/1999,45.4649805,-98.487813
 "Eveleth, Saint Louis County, Minnesota, United States",10/25/2002,47.462761,-92.538824
 "Spezia, Via Nizza, Nizza Millefonti, Circoscrizione 8, Torino, Piemonte, 10126, Italia",10/26/1929,45.0381379,7.6694758
+"Bolivia, Villa América, Lo Chacón, El Monte, Provincia de Talagante, Región Metropolitana de Santiago, Chile",10/26/1932,-33.6899965,-71.035406
+"Annette Island, Unorganized Borough, Alaska, 99926, United States",10/26/1947,55.1407297,-131.44598064067569
+"Περιφερειακή Υμηττού, Λεοντάριο, Κοινότητα Παλλήνης, Δημοτική Ενότητα Παλλήνης, Δήμος Παλλήνης, Περιφερειακή Ενότητα Ανατολικής Αττικής, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 153 51, Ελλάς",10/26/1947,37.9961292,23.8678532
+"Santa Maria, Santa Barbara County, California, United States",10/26/1959,34.9531295,-120.435857
+"Zephyr Cove, Douglas County, Nevada, 89448, United States",10/26/1975,39.0060103,-119.947238
+"Saint Thomas, Charlotte Amalie, Saint Thomas - Saint John District, United States Virgin Islands, United States",10/26/1981,18.34290815,-64.91889970060265
+"抚州市, 江西省, 344000, 中国",10/26/1993,27.502232,116.415177
+"Cuíto, Bié, Angola",10/26/1994,-12.3831319,16.9425484
+"Ханты-Мансийский автономный округ — Югра, Уральский федеральный округ, Россия",10/26/1996,61.8793428,68.6418156
+"Buenos Aires, Comuna 1, Ciudad Autónoma de Buenos Aires, Argentina",10/26/2003,-34.6037181,-58.38153
+"Edmonton, Division No. 11, Alberta, Canada",10/27/1948,53.5462055,-113.491241
+"Flores, Petén, Guatemala",10/27/1951,16.9298524,-89.8914817
+"London, Greater London, England, United Kingdom",10/27/1965,51.5074456,-0.1277653
+"Noirétable, Montbrison, Loire, Auvergne-Rhône-Alpes, France métropolitaine, 42440, France",10/27/1972,45.817108,3.7661111
+"San Ysidro, San Diego, San Diego County, California, 92173, United States",10/27/1979,32.5520013,-117.0430813
+"کابل, کابل ښاروالۍ, ولایت كابل, 1001, افغانستان",10/27/1984,34.5260109,69.1776838
+"Namsos, Trøndelag, Norge",10/27/1993,64.46663724999999,11.334504720494646
+"Tampico, Tamaulipas, 89080, México",10/27/2003,22.2157619,-97.8577713
+"Prince Rupert, North Coast Regional District, British Columbia, Canada",10/28/1930,54.3126572,-130.32549
+"Madrid, Comunidad de Madrid, España",10/28/1957,40.4167047,-3.7035825
+"Missoula, Missoula County, Montana, United States",10/28/1960,46.8701049,-113.995267
+"Pointe-à-Pitre, Guadeloupe, 97110, France",10/28/1970,16.2408636,-61.5334077
+"Pagosa Springs, Archuleta County, Colorado, 81157, United States",10/28/1974,37.2695661,-107.010816
+"Tijuana, Municipio de Tijuana, Baja California, 22320, México",10/28/1979,32.5317397,-117.019529
+"Middletown Township, Bucks County, Pennsylvania, United States",10/28/1983,40.1701367,-74.8851959
+"کابل, کابل ښاروالۍ, ولایت كابل, 1001, افغانستان",10/28/1984,34.5260109,69.1776838
+"Mount Vernon, Knox County, Ohio, 43050, United States",10/29/1929,40.3933956,-82.4857181
+"Ramsgate, Broadstairs, Thanet, Kent, England, United Kingdom",10/29/1932,51.3334726,1.4196476
+"Berlin, Deutschland",10/29/1940,52.5170365,13.3888599
+"昌邑市, 潍坊市, 山东省, 中国",10/29/1940,36.8394346,119.4013261
+"Flagstaff, Coconino County, Arizona, United States",10/29/1952,35.1987522,-111.651822
+"Half Moon Bay, San Mateo County, California, 94019, United States",10/29/1953,37.4635519,-122.428586
+"Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 105 57, Ελλάς",10/29/1959,37.9755648,23.7348324
+"Toledo, Lucas County, Ohio, United States",10/29/1960,41.6529143,-83.5378173
+"Saint Lucia, Castries, Saint Lucia",10/29/1973,13.90904385,-60.97792414113452
+"Чита, городской округ Чита, Забайкальский край, Дальневосточный федеральный округ, 672000, Россия",10/29/1992,52.033409,113.500893
+"Батагай, городское поселение Батагай, Верхоянский улус, Республика Саха (Якутия), Дальневосточный федеральный округ, Россия",10/29/1994,67.654907,134.635071
+"Усть-Илимск, городской округ Усть-Илимск, Иркутская область, Сибирский федеральный округ, Россия",10/29/1994,57.959473,102.734192
+"Jalal Afghan Travel 2, Bih Sud Road, Police Station Zone # 1, جلال اباد, ننگرهار ولايت, 0039, افغانستان",10/29/1997,34.4305303,70.4612956
+"Cody, Park County, Wyoming, United States",10/29/2003,44.5263107,-109.056392
+"Abuja, Municipal Area Council, Federal Capital Territory, 223140, Nigeria",10/29/2006,9.0643305,7.4892974
+"Long Valley, Washington Township, Morris County, New Jersey, United States",10/30/1919,40.78168135,-74.75923279813415
+"New Brunswick, Middlesex County, New Jersey, United States",10/30/1927,40.4862174,-74.4518173
+"Brookston, White County, Indiana, United States",10/30/1930,40.6028144,-86.8672339
+"Neufchâtel, L'Isle-Jourdain, Auch, Gers, Occitanie, France métropolitaine, 32600, France",10/30/1930,43.5771243,1.0932789
+"Cheyenne, Laramie County, Wyoming, United States",10/30/1935,41.139981,-104.820246
+"Moorhead, Clay County, Minnesota, United States",10/30/1941,46.8739081,-96.7538674
+"St. Thomas, Ontario, Canada",10/30/1941,42.779022,-81.1929882
+Norge,10/30/1942,64.5731537,11.52803643954819
+"Ocean City, Worcester County, Maryland, United States",10/30/1954,38.3348728,-75.0847659
+"Campeche, México",10/30/1957,19.0,-90.5
+"Poggiorsini, Bari, Puglia, Italia",10/30/1972,40.917126,16.254774
+"Managua (Municipio), Managua, 10000 (codigo maestro), Nicaragua",10/30/1986,12.1544035,-86.2737642
+"Valence, Drôme, Auvergne-Rhône-Alpes, France métropolitaine, 26000, France",10/31/1928,44.9332277,4.8920811
+"Bremerton, Kitsap County, Washington, United States",10/31/1929,47.5653663,-122.6246836
+"Étobon, Lure, Haute-Saône, Bourgogne-Franche-Comté, France métropolitaine, 70400, France",10/31/1933,47.6441521,6.6750345
+"Srinagar, Srinagar (South), Srinagar District, Jammu and Kashmir, 190001, India",10/31/1947,34.0747444,74.8204443
+"London Heathrow Airport, Western Perimeter Road, London Borough of Hillingdon, London, Greater London, England, TW6 2GD, United Kingdom",10/31/1950,51.46773895,-0.4587800741571181
+"Mangalore, Shire of Strathbogie, Victoria, 3663, Australia",10/31/1954,-36.924626,145.17083142450304
+"La Verne, California, 91750, United States",10/31/1973,34.1008426,-117.7678355
+"Belém, Região Geográfica Imediata de Belém, Região Geográfica Intermediária de Belém, Pará, Região Norte, Brasil",10/31/1978,-1.45056,-48.4682453
+"Ciudad de México, Cuauhtémoc, Ciudad de México, México",10/31/1979,19.4326296,-99.1331785
+"Bafoussam, Bafoussam I, Mifi, Ouest, Cameroun",10/31/1981,5.4758844,10.4217852
+"Davao City, Davao Region, Pilipinas",10/31/1984,7.0648306,125.6080623
+"Grand Junction, Mesa County, Colorado, United States",10/31/1992,39.0672568,-108.56448
+"Roselawn, Newton County, Indiana, United States",10/31/1994,41.1534665,-87.288704
+"Piedras Negras, Coahuila, México",10/31/1995,28.704596,-100.5167137
+"São Paulo, Região Imediata de São Paulo, Região Metropolitana de São Paulo, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, Brasil",10/31/1996,-23.5506507,-46.6333824
+"Nantucket Island, Nantucket, Massachusetts, United States",10/31/1999,41.315731400000004,-70.00901408779944
+"臺北市, 臺灣",10/31/2000,25.0375198,121.5636796
+"Bad Tabarz, Landkreis Gotha, Thüringen, Deutschland",11/01/1936,50.8768383,10.5143784
+"Herrenalb, Bad Herrenalb, Verwaltungsgemeinschaft Bad Herrenalb, Landkreis Calw, Baden-Württemberg, 76332, Deutschland",11/01/1945,48.7822431,8.447167860541505
+"Saint-Léger-la-Montagne, Limoges, Haute-Vienne, Nouvelle-Aquitaine, France métropolitaine, 87340, France",11/01/1946,46.0292761,1.4188089
+"Arlington County, Virginia, United States",11/01/1949,38.8769326,-77.0893094
 "Longmont, Boulder County, Colorado, United States",11/01/1955,40.1672117,-105.101928
 "Bahía de Nipe, Holguín, Cuba",11/01/1958,20.76888495,-75.69373651243038
 "Recife, Região Geográfica Imediata do Recife, Região Metropolitana do Recife, Região Geográfica Intermediária do Recife, Pernambuco, Região Nordeste, Brasil",11/01/1961,-8.0584933,-34.8848193
@@ -3166,11 +3528,11 @@ English Channel / La Manche,10/21/1926,50.4924668,1.054682
 "Villavicencio, Meta, RAP (Especial) Central, Colombia",11/02/1973,4.11145945,-73.4967836258948
 "Greenville, Greenville County, South Carolina, United States",11/02/1979,34.851354,-82.3984882
 "شهر زاهدان, بخش مرکزی, شهرستان زاهدان, استان سیستان و بلوچستان, ایران",11/02/1986,29.4928874,60.8503017
-"Rzeszów, województwo podkarpackie, Polska",11/02/1988,50.0374531,22.0047174
+"Rzeszów, województwo podkarpackie, Polska",11/02/1988,50.013064,22.016143457294312
 "شط الحاصي, جبل, ناحية الدراجي, قضاء الخضر, محافظة المثنى, العراق",11/02/2003,31.187817,45.7416201
 "Chuka Pahār, Gobindpur(Rajnagar), Seraikela-Kharsawan District, Jharkhand, India",11/03/1945,22.6090836,86.0195589
 "Glossop, High Peak, Derbyshire, England, SK13 8BP, United Kingdom",11/03/1948,53.4433552,-1.9499173
-"Mont Blanc / Monte Bianco, Chamonix-Mont-Blanc, Bonneville, Haute-Savoie, Auvergne-Rhône-Alpes, France métropolitaine, 74400, France",11/03/1950,45.8327056,6.8651706
+"Mont Blanc / Monte Bianco, Les Bosses, Chamonix-Mont-Blanc, Bonneville, Haute-Savoie, Auvergne-Rhône-Alpes, France métropolitaine, 74400, France",11/03/1950,45.8327056,6.8651706
 "Potosí, Bolivia",11/03/1953,-20.666667,-66.666667
 "Roccatamburo, Poggiodomo, Perugia, Umbria, 06040, Italia",11/03/1958,42.7372457,12.9363761
 "Branson, Las Animas County, Colorado, 81027, United States",11/03/1964,37.014568999999995,-103.88213117785236
@@ -3203,7 +3565,7 @@ Golfo de México,11/03/1975,25.2834459,-89.9066163
 "الإسكندرية, 21519, مصر",11/05/1978,31.1991806,29.8951716
 "Cabrerolles, Béziers, Hérault, Occitanie, France métropolitaine, 34480, France",11/06/1924,43.5445,3.12514
 "Godstone, Tandridge, Surrey, England, United Kingdom",11/06/1929,51.221863,-0.05653818525930047
-"Москва, Центральный федеральный округ, Россия",11/06/1936,55.7505412,37.6174782
+"Москва, Центральный федеральный округ, Россия",11/06/1936,55.625578,37.6063916
 "Butte, Silver Bow County, Montana, United States",11/06/1950,46.0131505,-112.536508
 "Lac Tchad بحيرة تشاد, Hadjer-Lamis حجر لميس, Tchad تشاد",11/06/1952,13.020858050000001,14.580180631435823
 "Bristol, City of Bristol, West of England, England, United Kingdom",11/06/1957,51.4538022,-2.5972985
@@ -3227,7 +3589,7 @@ Golfo de México,11/03/1975,25.2834459,-89.9066163
 "Richmond, Virginia, United States",11/08/1961,37.5385087,-77.43428
 "Boqueron, Sonsón, Oriente, Antioquia, RAP del Agua y la Montaña, Colombia",11/08/1965,5.7101749,-75.3644636
 "Lubango, Huíla, Angola",11/08/1983,-14.9195617,13.4897509
-"Kiana, Northwest Arctic, Alaska, 99749, United States",11/08/1992,66.9721715,-160.4388711
+"Kiana, Northwest Arctic, Alaska, 99749, United States",11/08/1992,66.970399,-160.43845255182214
 "Point Barrow, North Slope, Alaska, United States",11/08/1997,71.3865172,-156.4741383
 "Taos, Taos County, New Mexico, 87571, United States",11/08/2002,36.4072377,-105.573284
 "Ogle, Industry - Plaisance, Demerara-Mahaica, Guyana",11/08/2003,6.8040807999999995,-58.1052186736072
@@ -3245,7 +3607,7 @@ Golfo de México,11/03/1975,25.2834459,-89.9066163
 "Uruapan, Michoacán, México",11/09/1999,19.4060961,-102.03430719292024
 "Fort Wayne, Allen County, Indiana, United States",11/09/2000,41.0799898,-85.1386015
 "Moriarty, Torrance County, New Mexico, 87035, United States",11/10/1933,34.9972037,-106.0494876
-"Đường sắt cao tốc Bắc - Nam, Đường Tránh Nam Hải Vân-Túy Loan, Xã Hòa Sơn, Huyện Hòa Vang, Thành phố Đà Nẵng, Việt Nam",11/10/1962,16.0321703,108.1145398
+"Đường sắt cao tốc Bắc - Nam, Hoàng Văn Thái, Phường Hòa Khánh Nam, Xã Hòa Sơn, Huyện Hòa Vang, Thành phố Đà Nẵng, 84236, Việt Nam",11/10/1962,16.0304869,108.1157125
 "Мурманск, городской округ Мурманск, Мурманская область, Северо-Западный федеральный округ, Россия",11/10/1965,68.970665,33.07497
 "Padang, Sabtang, Batanes, Cagayan Valley, 3904, Pilipinas",11/10/1971,20.3033809,121.874122
 "Ross River, Yukon, Y0B 1S0, Canada",11/10/1987,61.9720449,-132.45068048959385
@@ -3264,8 +3626,8 @@ Golfo de México,11/03/1975,25.2834459,-89.9066163
 "Chatham, Barnstable County, Massachusetts, United States",11/11/1966,41.6820563,-69.9597376
 "Новосибирск, Новосибирская область, Сибирский федеральный округ, 630000, Россия",11/11/1990,54.96781445,82.95159894278376
 "Recife, Região Geográfica Imediata do Recife, Região Metropolitana do Recife, Região Geográfica Intermediária do Recife, Pernambuco, Região Nordeste, Brasil",11/11/1991,-8.0584933,-34.8848193
-"городской округ Тверь, Тверская область, Центральный федеральный округ, Россия",11/11/1992,56.858675,35.9208284
-"Mumbai, Mumbai Suburban District, Maharashtra, India",11/11/1992,19.08157715,72.88662753964906
+"Тверь, Тверская область, Центральный федеральный округ, Россия",11/11/1992,56.8596713,35.89524161906262
+"Mumbai City District, Maharashtra, India",11/11/1992,18.9733536,72.82810491917377
 "Красноярск, Красноярск+Солонцы, городской округ Красноярск, Красноярский край, Сибирский федеральный округ, 660000, Россия",11/11/1998,56.0091173,92.872586
 "Manila, Capital District, Metro Manila, Pilipinas",11/11/2002,14.5906346,120.9799964
 "Mannheim, Baden-Württemberg, Deutschland",11/12/1937,49.4892913,8.4673098
@@ -3287,7 +3649,7 @@ Golfo de México,11/03/1975,25.2834459,-89.9066163
 "Ngong, Ngong ward, Kajiado North, Rift Valley, Kenya",11/13/1996,-1.3666,36.65
 "الفلوجة, ناحية مرکز قضاء الفلوجة, قضاء الفلوجة, محافظة الأنبار, 31002, العراق",11/13/2008,33.3532137,43.7875674
 "Boulogne-sur-Mer, Pas-de-Calais, Hauts-de-France, France métropolitaine, 62200, France",11/14/1925,50.7259985,1.6118771
-"Amsterdam-Bataviaweg, Schiphol-Oost, Schiphol, Haarlemmermeer, Noord-Holland, Nederland, 1432 CB, Nederland",11/14/1938,52.3054367,4.804168
+"Amsterdam-Bataviaweg, Schiphol-Oost, Schiphol, Haarlemmermeer, Noord-Holland, Nederland, 1117 EW, Nederland",11/14/1938,52.3025593,4.7984687
 "Amsterdam, Noord-Holland, Nederland",11/14/1946,52.3730796,4.8924534
 "서울특별시, 대한민국",11/14/1952,37.5666791,126.9782914
 "Palm Springs, Riverside County, California, United States",11/14/1965,33.8246269,-116.540303
@@ -3301,8 +3663,8 @@ Gibraltar,11/15/1928,36.1285933,-5.3474761
 "Longreach, Longreach Regional, Queensland, 4730, Australia",11/15/1934,-23.4378387,144.2586898
 "Longreach, Shoalhaven City Council, New South Wales, 2540, Australia",11/15/1934,-34.8713889,150.5227778
 "Amazonia, Calle 12, Manila, Comuna 14 - El Poblado, Perímetro Urbano Medellín, Medellín, Valle de Aburrá, Antioquia, RAP del Agua y la Montaña, 050021, Colombia",11/15/1934,6.2135235,-75.5711578
-"Łódź, województwo łódzkie, Polska",11/15/1951,51.7728245,19.478485931307937
-"Anchorage, Alaska, United States",11/15/1952,61.1758781,-149.1107333
+"Łódź, województwo łódzkie, Polska",11/15/1951,51.7687323,19.4569911
+"Anchorage, Alaska, 99501, United States",11/15/1952,61.2163129,-149.894852
 "Palma, Illes Balears, España",11/15/1957,39.5695818,2.6500745
 "Las Vegas, Clark County, Nevada, United States",11/15/1964,36.1672559,-115.148516
 "Dallgow-Döberitz, Havelland, Brandenburg, 14624, Deutschland",11/15/1966,52.5406496,13.0602956
@@ -3344,10 +3706,10 @@ Golfo de México,11/16/1959,25.2834459,-89.9066163
 "La Caoba, Fray Bartolomé de las Casas, Alta Verapaz, Guatemala",11/18/1975,15.9787884,-89.5613336
 "Granger, West Valley City, Salt Lake County, Utah, 84119, United States",11/18/1979,40.6966132,-111.967438
 "Montluçon, Allier, Auvergne-Rhône-Alpes, France métropolitaine, 03100, France",11/18/1988,46.3400296,2.6073963
-"Medellín, Valle de Aburrá, Antioquia, RAP del Agua y la Montaña, 0500, Colombia",11/18/1990,6.2697018,-75.60252574475943
+"Perímetro Urbano Medellín, Medellín, Valle de Aburrá, Antioquia, RAP del Agua y la Montaña, Colombia",11/18/1990,6.2443382,-75.573553
 "Caracas, Parroquia Catedral, Municipio Libertador, Distrito Capital, Venezuela",11/18/2004,10.5060934,-66.9146008
-"Leticia, Amazonas, RAP Amazonía, Colombia",11/18/2006,-4.2129211,-69.9425963
-"London, Greater London, England, United Kingdom",11/19/1936,51.5074456,-0.1277653
+"Leticia, Amazonas, RAP Amazonía, 910001, Colombia",11/18/2006,-4.20825605,-69.93929336889462
+"London, Greater London, England, United Kingdom",11/19/1936,51.4893335,-0.14405508452768728
 "昆明市, 云南省, 中国",11/19/1943,25.0363006,102.7086139
 "昆明市, 云南省, 中国",11/19/1943,25.0363006,102.7086139
 "Lewes, East Sussex, England, United Kingdom",11/19/1944,50.8746139,0.005115324110936268
@@ -3370,7 +3732,7 @@ Golfo de México,11/16/1959,25.2834459,-89.9066163
 "New Bern, Craven County, North Carolina, United States",11/20/1966,35.1084931,-77.0441143
 "Ikeja, Lagos, Nigeria",11/20/1969,6.5960605,3.340787
 "Soddu, East Wellega, ኦሮሚያ ክልል / Oromia, ኢትዮጵያ",11/20/1974,8.9,36.93333
-"Nairobi, Starehe, Nairobi, Kenya",11/20/1974,-1.3026148499999999,36.82884201813725
+"Central Business District, CBD division, Starehe, Nairobi, 46464, Kenya",11/20/1974,-1.2832533,36.8172449
 "Loja, Limabamba, Rodríguez de Mendoza, Amazonas, Perú",11/20/1984,-6.4947245,-77.5236429
 "Davis, Yolo County, California, United States",11/20/1991,38.5435526,-121.739005
 "Охрид, Општина Охрид, Југозападен СР, 6000, Северна Македонија",11/20/1993,41.1170203,20.8017387
@@ -3386,9 +3748,9 @@ Golfo de México,11/16/1959,25.2834459,-89.9066163
 "Rubio, Parroquia Rubio, Municipio Junín, Táchira, 5030, Venezuela",11/21/1978,7.6951055,-72.3646525
 "เกาะสมุย, จังหวัดสุราษฎร์ธานี, ประเทศไทย",11/21/1990,9.50139445,99.99561927320003
 "Palencia, Departamento de Guatemala, Guatemala",11/21/1993,14.68356905,-90.31109872732664
-"Edgewater, Anne Arundel County, Maryland, 21037, United States",11/21/1998,38.9344805,-76.5575862
+"Edgewater, Anne Arundel County, Maryland, United States",11/21/1998,38.9358105,-76.55301414304145
 "包头市 ᠪᠤᠭᠤᠲᠤ ᠬᠣᠲᠠ, 内蒙古自治区 ᠦᠪᠦᠷ ᠮᠣᠩᠭᠤᠯ ᠤᠨ ᠥᠪᠡᠷᠲᠡᠭᠡᠨ ᠵᠠᠰᠠᠬᠣ ᠣᠷᠣᠨ, 014000, 中国",11/21/2004,40.6174777,109.944912
-"White's Farm, Matching, Epping Forest, Essex, England, United Kingdom",11/22/1945,51.773206,0.19038733143637482
+"White's Farm, Noak Bridge, Basildon, Essex, England, United Kingdom",11/22/1945,51.596273800000006,0.4499184921449846
 "Mount Gannett, Unorganized Borough, Alaska, United States",11/22/1952,61.242416,-148.1972325
 "محافظة عدن, اليمن",11/22/1966,12.833333,44.916667
 "San Francisco, California, United States",11/22/1968,37.7792588,-122.4193286
@@ -3401,7 +3763,7 @@ Papua Niugini,11/22/1994,-5.6816069,144.2489081
 "Pittsburgh, Allegheny County, Pennsylvania, United States",11/22/2001,40.4416941,-79.9900861
 "Houston, Harris County, Texas, United States",11/22/2004,29.7589382,-95.3676974
 "Salt Lake City, Salt Lake County, Utah, United States",11/23/1931,40.7596198,-111.886797
-"Ciudad del Cusco, Cusco, Distrito de Cusco, Cusco, 08001, Perú",11/23/1950,-13.51695415,-71.97927120704406
+"Cusco, Distrito de Cusco, Cusco, 08001, Perú",11/23/1950,-13.5170887,-71.9785356
 "Manila, Capital District, Metro Manila, Pilipinas",11/23/1960,14.5906346,120.9799964
 "São Tomé, Água Grande, São Tomé e Príncipe",11/23/1961,0.3389242,6.7313031
 "Campinas, Região Imediata de Campinas, Região Metropolitana de Campinas, Região Geográfica Intermediária de Campinas, São Paulo, Região Sudeste, Brasil",11/23/1961,-22.9056391,-47.059564
@@ -3413,7 +3775,7 @@ Papua Niugini,11/22/1994,-5.6816069,144.2489081
 "Santa Ana, Orange County, California, United States",11/23/1968,33.7494951,-117.873221
 "Κοζάνη, Δήμος Κοζάνης, Περιφερειακή Ενότητα Κοζάνης, Περιφέρεια Δυτικής Μακεδονίας, Αποκεντρωμένη Διοίκηση Ηπείρου - Δυτικής Μακεδονίας, 501 00, Ελλάς",11/23/1976,40.3007259,21.7883119
 "Cullman County, Alabama, United States",11/23/1982,34.1335332,-86.8779268
-"Homer, Kenai Peninsula, Alaska, United States",11/23/1987,59.639059,-151.53168855491697
+"Homer, Kenai Peninsula, Alaska, United States",11/23/1987,59.6440876,-151.540147
 "Albania, La Guajira, RAP Caribe, Colombia",11/23/1989,11.244803399999999,-72.51609706675976
 "Moroni موروني, Ngazidja القمر الكبرى, Comores Komori جزر القمر",11/23/1996,-11.6931255,43.2543044
 "Victoria, Capital Regional District, British Columbia, Canada",11/23/1998,48.4283182,-123.364953
@@ -3425,7 +3787,7 @@ Papua Niugini,11/22/1994,-5.6816069,144.2489081
 "Eglisau, Bezirk Bülach, Zürich, 8193, Schweiz/Suisse/Svizzera/Svizra",11/24/1956,47.5733207,8.5239827
 "Paris, Île-de-France, France métropolitaine, France",11/24/1956,48.8588897,2.3200410217200766
 "Chicago, Cook County, Illinois, United States",11/24/1959,41.8755616,-87.6244212
-"Medellín, Valle de Aburrá, Antioquia, RAP del Agua y la Montaña, 0500, Colombia",11/24/1980,6.2697018,-75.60252574475943
+"Perímetro Urbano Medellín, Medellín, Valle de Aburrá, Antioquia, RAP del Agua y la Montaña, Colombia",11/24/1980,6.2443382,-75.573553
 "Ħal Luqa, Nofsinhar, Malta",11/24/1985,35.859653,14.4892913
 "流塘, 流山镇, 柳南区, 柳州市, 广西壮族自治区, 中国",11/24/1992,24.4642415,109.1074595
 "Birchwil, Nürensdorf, Bezirk Bülach, Zürich, 8309, Schweiz/Suisse/Svizzera/Svizra",11/24/2001,47.4586072,8.6349201
@@ -3444,7 +3806,7 @@ Papua Niugini,11/22/1994,-5.6816069,144.2489081
 "Pasco, Franklin County, Washington, 99301, United States",11/26/1931,46.2306739,-119.0921
 "London Borough of Croydon, London, Greater London, England, United Kingdom",11/26/1937,51.3550556,-0.0643103753173489
 "Banjul, Kombo North/Saint Mary, Gambia",11/26/1938,13.45535,-16.575646
-"University of Papua New Guinea, Waigani Campus, 3, Waigani, Port Moresby, National Capital District, Southern Region, 000, Papua Niugini",11/26/1943,-9.40997445,147.17343971106237
+"University of Papua New Guinea, Waigani Campus, Seventh Street, Waigani, Port Moresby, National Capital District, Southern Region, 000, Papua Niugini",11/26/1943,-9.40997445,147.17343971106237
 "San José, Hospital, Cantón San José, Provincia San José, 10103, Costa Rica",11/26/1946,9.9325427,-84.0795782
 "وہاڑی, ملتان ڈویژن, پنجاب, 61100, پاکستان",11/26/1948,30.0,72.333333
 "Paraibuna, Região Imediata de São José dos Campos, Região Metropolitana do Vale do Paraíba e Litoral Norte, Região Geográfica Intermediária de São José dos Campos, São Paulo, Região Sudeste, 12260-000, Brasil",11/26/1962,-23.3864203,-45.6626797
@@ -3453,11 +3815,11 @@ Papua Niugini,11/22/1994,-5.6816069,144.2489081
 "Takla Narrows Airport, Area C (Stuart Lake/Omineca Valley), Regional District of Bulkley-Nechako, British Columbia, Canada",11/26/1979,55.1632338,-125.7055688
 "Midland County, Texas, United States",11/26/1983,31.83688,-102.0103767
 "Бугульма, городское поселение Бугульма, Бугульминский район, Татарстан, Приволжский федеральный округ, Россия",11/26/1991,54.5384152,52.7955953
-"Bethel, Pope County, Arkansas, 72801, United States",11/26/1996,35.2489731,-93.1090627
+"Bethel, Russellville, Pope County, Arkansas, 72801, United States",11/26/1996,35.2489731,-93.1090627
 "Nairobi, Starehe, Nairobi, Kenya",11/26/1999,-1.3026148499999999,36.82884201813725
 "بغداد, بلدية المنطقة الخضراء, محافظة بغداد, العراق",11/27/1938,33.3061701,44.3872213
 Mediterranean Sea,11/27/1940,35.0000035,19.9999957
-"Yakutat, Alaska, United States",11/27/1947,59.6391781,-139.3429439
+"Yakutat, Alaska, United States",11/27/1947,59.5520005,-139.7325742
 "San Luis Acatlán, Guerrero, México",11/27/1951,16.870085449999998,-98.72220741144672
 "Caracas, Parroquia Catedral, Municipio Libertador, Distrito Capital, Venezuela",11/27/1956,10.5060934,-66.9146008
 "Lima Metropolitana, Lima, Perú",11/27/1962,-12.0621065,-77.0365256
@@ -3479,8 +3841,8 @@ Mediterranean Sea,11/27/1940,35.0000035,19.9999957
 "Chaleyssin, Lotissement de La Sévenne, Saint-Just-Chaleyssin, Vienne, Isère, Auvergne-Rhône-Alpes, France métropolitaine, 38540, France",11/28/1949,45.587131,4.9952268
 "Tacoma, Pierce County, Washington, United States",11/28/1952,47.2455013,-122.438329
 "Đường sắt cao tốc Bắc - Nam, Đường Phan Kế Bính, Phường Thủy Xuân, Thành phố Huế, Tỉnh Thừa Thiên Huế, 54000, Việt Nam",11/28/1971,16.4377388,107.5542596
-"Москва, Центральный федеральный округ, Россия",11/28/1972,55.7505412,37.6174782
-"Москва, Центральный федеральный округ, Россия",11/28/1976,55.7505412,37.6174782
+"Москва, Центральный федеральный округ, Россия",11/28/1972,55.625578,37.6063916
+"Москва, Центральный федеральный округ, Россия",11/28/1976,55.625578,37.6063916
 "Hartford, Capitol Planning Region, Connecticut, United States",11/28/1978,41.764582,-72.6908547
 "First Baptist Church of Pecos City, South Hickory Street, Pecos, Reeves County, Texas, United States",11/28/1980,31.4227654,-103.4977375
 "Enugu, Nigeria",11/28/1983,6.5536094,7.4143061
@@ -3502,7 +3864,7 @@ Kenya,11/29/1944,1.4419683,38.4313975
 "Pinehurst, Moore County, North Carolina, 28374, United States",11/29/1977,35.1951981,-79.4692796
 "Lubango, Huíla, Angola",11/29/1982,-14.9195617,13.4897509
 "Guaratinguetá, Região Imediata de Guaratinguetá, Região Metropolitana do Vale do Paraíba e Litoral Norte, Região Geográfica Intermediária de São José dos Campos, São Paulo, Região Sudeste, Brasil",11/29/1991,-22.8057839,-45.1908926
-"Labuan, Malaysia",11/29/1995,5.3174030000000005,115.21894081832471
+"Labuan, Malaysia",11/29/1995,5.3168336,115.2198613
 "Spokane, Spokane County, Washington, United States",11/29/2003,47.6571934,-117.42351
 "Boende, Tshuapa, République démocratique du Congo",11/29/2003,-0.2836634,20.8826368
 "Vancouver, Clark County, Washington, United States",11/30/1929,45.6306954,-122.6744557
@@ -3513,7 +3875,7 @@ Kenya,11/29/1944,1.4419683,38.4313975
 "Sydney, Council of the City of Sydney, New South Wales, Australia",11/30/1961,-33.8698439,151.2082848
 "City of New York, New York, United States",11/30/1962,40.7127281,-74.0060152
 "Elko County, Nevada, United States",11/30/1975,41.1958128,-115.3272864
-"Saint Andrew, La Loma, Archipelago of Saint Andrew, Providence and Saint Catherine, Colombia",11/30/1979,12.537597850000001,-81.72041550499901
+"Saint Andrew, San Luis, Archipelago of Saint Andrew, Providence and Saint Catherine, Colombia",11/30/1979,12.537597850000001,-81.72041550499901
 "Saint Lucia, Castries, Saint Lucia",11/30/1981,13.90904385,-60.97792414113452
 "Quetame, Oriente, RAP (Especial) Central, Colombia",11/30/1982,4.33002875,-73.84979608261497
 "Harlem, Blaine County, Montana, United States",11/30/1992,48.532501,-108.784903
@@ -3533,10 +3895,10 @@ Kenya,11/29/1944,1.4419683,38.4313975
 "Bessemer, Jefferson County, Alabama, United States",12/01/2001,33.4017766,-86.954437
 "Новая Иня, Инское сельское поселение, Охотский муниципальный округ, Хабаровский край, Дальневосточный федеральный округ, Россия",12/01/2001,59.375946,144.862259
 "Chagrin Falls, Cuyahoga County, Ohio, United States",12/02/1929,41.436589,-81.3855058
-"Москва, Центральный федеральный округ, Россия",12/02/1966,55.7505412,37.6174782
+"Москва, Центральный федеральный округ, Россия",12/02/1966,55.625578,37.6063916
 "Pedro Bay, Lake and Peninsula, Alaska, 99647, United States",12/02/1968,59.7872222,-154.1061111
 "ঢাকা, ঢাকা মহানগর, ঢাকা জেলা, ঢাকা বিভাগ, 1215, বাংলাদেশ",12/02/1970,23.7644025,90.389015
-"شارع 59, فيردان, عين التينة, رأس بيروت, بيروت, محافظة بيروت, 1102, لبنان",12/02/1977,33.8870751,35.4792813
+"شارع 59, فيردان, عين التينة, رأس بيروت, بيروت, محافظة بيروت, 1102, لبنان",12/02/1977,33.8869007,35.4801019
 "Umpire, Howard County, Arkansas, 71971, United States",12/02/1998,34.2789981,-94.0507527
 "Fès ⴼⴰⵙ فاس, Pachalik du Fes باشوية فاس, Préfecture de Fès عمالة فاس, Fès-Meknès ⴼⴰⵙ-ⵎⴽⵏⴰⵙ فاس-مكناس, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",12/03/1922,34.0346534,-5.0161926
 Brasil,12/03/1928,-10.3333333,-53.2
@@ -3571,12 +3933,107 @@ Brasil,12/03/1928,-10.3333333,-53.2
 "Columbus, Franklin County, Ohio, United States",12/05/2007,39.9622601,-83.0007065
 "Castalia, Margaretta Township, Erie County, Ohio, United States",12/06/1923,41.4000523,-82.8085204
 "กรุงเทพมหานคร, ประเทศไทย",12/06/1931,13.7524938,100.4935089
+"Milano, Lombardia, Italia",12/06/1948,45.4641943,9.1896346
+"Bermuda Post Office, Kindley Field Road, St. George's, GE 01, Bermuda",12/06/1952,32.364576549999995,-64.70328538169379
+"Saint Thomas, Charlotte Amalie, Saint Thomas - Saint John District, United States Virgin Islands, United States",12/06/1968,18.34290815,-64.91889970060265
+"Jacksonville, Duval County, Florida, United States",12/06/1984,30.3321838,-81.655651
+"Bandar Udara Matak, Tarempa, Kepulauan Anambas, Kepulauan Riau, Sumatera, Indonesia",12/06/1990,3.3479824,106.25797339911207
+"Johannesburg, City of Johannesburg Metropolitan Municipality, Gauteng, 2001, South Africa",12/06/1999,-26.205,28.049722
+"Bellevue, Blaine County, Idaho, 83313, United States",12/06/2004,43.463518,-114.2606
+"شهر تهران, بخش مرکزی شهرستان تهران, شهرستان تهران, استان تهران, ایران",12/06/2005,35.6892523,51.3896004
+"Wüstung Salchau, Letzlingen, Gardelegen, Altmarkkreis Salzwedel, Sachsen-Anhalt, 39638, Deutschland",12/07/1934,52.4440003,11.575701331840104
+"Vallejo, Solano County, California, United States",12/07/1949,38.1040864,-122.2566367
+"Cachimbo, Jatobá, Região Geográfica Imediata de Colinas, Região Geográfica Intermediária de Presidente Dutra, Maranhão, Região Nordeste, Brasil",12/07/1960,-5.90883,-44.302785
+"Nederland, Boulder County, Colorado, 80466, United States",12/07/1963,39.9613759,-105.510831
+"Tenerife, Canarias, España",12/07/1965,28.2935785,-16.621447121144122
+"Constanța, Zona Metropolitană Constanța, Constanța, România",12/07/1970,44.172889600000005,28.621515355297706
+"Москва, Центральный федеральный округ, Россия",12/07/1973,55.7505412,37.6174782
+"Michigan City, LaPorte County, Indiana, United States",12/07/1980,41.7075394,-86.8950297
+"Pueblo, Pueblo County, Colorado, United States",12/07/1982,38.2544472,-104.609141
+"Madrid, Comunidad de Madrid, España",12/07/1983,40.4167047,-3.7035825
+"San Luis Obispo County, California, United States",12/07/1987,35.3540209,-120.375716
+"Кодинск, городское поселение Кодинск, Кежемский район, Красноярский край, Сибирский федеральный округ, 663491, Россия",12/07/1988,58.6027015,99.1887515
+"Гроссевичи, Советско-Гаванский район, Хабаровский край, Дальневосточный федеральный округ, 682800, Россия",12/07/1995,47.985031,139.533112
+"Banjarmasin, Kalimantan Selatan, Kalimantan, Indonesia",12/07/1996,-3.3247398500000003,114.59750526571096
+"Baie-Comeau, Manicouagan, Côte-Nord, Québec, Canada",12/07/1998,49.2118373,-68.1801406
+"Bayombang, Magsaysay, Occidental Mindoro, Mimaropa, Pilipinas",12/07/1999,12.3118659,121.1867925
+"Bethel, Unorganized Borough, Alaska, 99559, United States",12/07/1999,60.794479,-161.79298329257313
+"La Macarena, Sibaté, Soacha, RAP (Especial) Central, Colombia",12/07/2004,4.4689022,-74.2579817
+"Columbia, Columbia Township, Boone County, Missouri, United States",12/08/1934,38.951883,-92.3337366
+"Saint-Sauveur, Dijon, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21270, France",12/08/1937,47.35727,5.41413
+"久場島, 座間味村, 島尻郡, 沖縄県, 日本",12/08/1938,26.172516,127.23811994199059
+"Billings, Yellowstone County, Montana, United States",12/08/1945,45.7874957,-108.49607
+"Caquetá, RAP Amazonía, Colombia",12/08/1956,1.1153385,-74.1056838
+"Bolívar, Avenida Presidente Julio A. Roca, Monserrat, Buenos Aires, Comuna 1, Ciudad Autónoma de Buenos Aires, C1067AAC, Argentina",12/08/1957,-34.6097193,-58.374119
+"Cartagena de Indias, Dique, Bolívar, RAP Caribe, Colombia",12/08/1959,10.4265566,-75.5441671
+"Elkton, Cecil County, Maryland, 21922, United States",12/08/1963,39.6065073,-75.8330934
+"Wolf Creek, Lewis and Clark County, Montana, 59648, United States",12/08/1968,47.0060833,-112.0692749
+"Κερατέα, Δημοτική Ενότητα Κερατέας, Δήμος Λαυρεωτικής, Περιφερειακή Ενότητα Ανατολικής Αττικής, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 190 01, Ελλάς",12/08/1969,37.8083817,23.9776656
+"راولپنڈی, تحصیل راولپنڈی چھاؤنی, راولپنڈی ڈویژن, پنجاب, 23451, پاکستان",12/08/1972,33.5914237,73.0535122
+"Intracostal City Drydock & Shipbuilding, Live Oak Road, Bancker, Vermilion Parish, Louisiana, United States",12/08/1977,29.875833450000002,-92.12879458264925
+"Kanabea, Gulf, Southern Region, Papua Niugini",12/08/1987,-7.5365407,145.9055827
+"Lima Metropolitana, Lima, Perú",12/08/1987,-12.0621065,-77.0365256
+"بئر أم قرين, تيرس زمور, موريتانيا",12/08/1988,25.2311431,-11.5810134
+"Belle-Anse, Commune Belle Anse, Arrondissement Belle-Anse, Département du Sud-Est, Ayiti",12/08/1995,18.2383019,-72.0661883
+"Chicago, Cook County, Illinois, United States",12/08/2005,41.8755616,-87.6244212
+"上海市, 黄浦区, 上海市, 200001, 中国",12/09/1930,31.2323437,121.4691024
+"Alger ⴷⵣⴰⵢⴻⵔ الجزائر, Alger-Centre, Daïra Sidi M'Hamed, Alger, 16007, Algérie ⵍⵣⵣⴰⵢⴻⵔ الجزائر",12/09/1931,36.7753606,3.0601882
+"Croydon, Greater London, England, CR0 1SZ, United Kingdom",12/09/1936,51.3713049,-0.101957
+"Amsterdam, Noord-Holland, Nederland",12/09/1938,52.3730796,4.8924534
+"Chilliwack, Fraser Valley Regional District, British Columbia, Canada",12/09/1956,49.135656850000004,-121.8629725649783
+"Chinnamanur, Uthamapalayam, Theni District, Tamil Nadu, 626515, India",12/09/1971,9.8415861,77.3849422
+"Churchill Falls, Labrador, Newfoundland and Labrador, Canada",12/09/1973,53.5328972,-64.009959
+"Черский, зимник «Арктика», городское поселение Черский, Нижнеколымский улус, Республика Саха (Якутия), Дальневосточный федеральный округ, 678830, Россия",12/09/1979,68.7427218,161.33244351843064
+"La Serena, Provincia de Elqui, Región de Coquimbo, Chile",12/09/1982,-29.902631,-71.2520253
+"San Andrés de Bocay, Wiwilí de Jinotega (Municipio), Jinotega, 66700, Nicaragua",12/09/1982,14.2999606,-85.1510757
+"Put-in-Bay, Put-in-Bay Township, Ottawa County, Ohio, United States",12/09/1983,41.6518884,-82.8186814
+"Uruapan, Michoacán, México",12/09/1992,19.4060961,-102.03430719292024
+"Dakar, Région de Dakar, Sénégal",12/09/1993,14.693425,-17.447938
+"Boise, Ada County, Idaho, United States",12/09/1996,43.6166163,-116.200886
+"Mishi-baawitigong / Little Grand Rapids, Division No. 19, Manitoba, Canada",12/09/1997,52.0196462,-95.4547602
+"Sundsvall, Sundsvalls kommun, Västernorrlands län, Sverige",12/09/1999,62.3907552,17.3071024
+"Branson, Taney County, Missouri, United States",12/09/1999,36.6440772,-93.2169256
+"Mena, Polk County, Arkansas, 72953, United States",12/09/2002,34.5837324,-94.2376664
+"Київ, Україна",12/09/2007,50.4500336,30.5241361
+"Palma Soriano, Santiago de Cuba, 92610, Cuba",12/10/1934,20.2126686,-75.9973941
+"Croydon, Greater London, England, CR0 1SZ, United Kingdom",12/10/1935,51.3713049,-0.101957
+"Toledo, Lewis County, Washington, United States",12/10/1946,46.4401007,-122.8467555
+"大阪, Bデッキ, グランフロント大阪, 北区, 大阪市, 大阪府, 530-8558, 日本",12/10/1946,34.7021912,135.4955866
+"Goose Bay, Happy Valley-Goose Bay, Labrador, Newfoundland and Labrador, Canada",12/10/1947,53.333333,-60.416667
+"Madison, Dane County, Wisconsin, United States",12/10/1967,43.074761,-89.3837613
+"Passadumkeag, Penobscot County, Maine, 04475, United States",12/10/1969,45.1850947,-68.6132762
+"Tyonek, Kenai Peninsula, Alaska, 99682, United States",12/10/1981,61.0684293,-151.1409141
+افغانستان,12/10/1988,33.7680065,66.2385139
+"Las Vegas, Clark County, Nevada, United States",12/10/1991,36.1672559,-115.148516
+"مدينة الكويت, العاصمة, 15005, الكويت",12/10/1999,29.3796532,47.9734174
+"Sierra Blanca, Hudspeth County, Texas, 79851, United States",12/10/2001,31.1778312,-105.357627
+"El Junquito, Caracas, Parroquia El Junquito, Municipio Libertador, Distrito Capital, Venezuela",12/10/2004,10.4614338,-67.0806217
+"Port-Harcourt, Rivers, Nigeria",12/10/2005,4.7676576,7.0188527
+"Cajon Pass, San Bernardino County, California, United States",12/10/2006,34.3252897,-117.4286824
+"Letzlingen, Gardelegen, Altmarkkreis Salzwedel, Sachsen-Anhalt, Deutschland",12/11/1928,52.4480374,11.4852603
+"Hamburg, Deutschland",12/11/1933,53.550341,10.000654
+"Miami, Miami-Dade County, Florida, United States",12/11/1941,25.7741728,-80.19362
+"Memphis, Shelby County, West Tennessee, Tennessee, United States",12/11/1947,35.1460249,-90.0517638
+"Ozamiz-Pagadian Road, Tambulig, Zamboanga del Sur, Zamboanga Peninsula, 7025, Pilipinas",12/11/1957,8.0738983,123.5284942
+"San Andrés de Giles, Partido de San Andrés de Giles, Buenos Aires, 6720, Argentina",12/11/1960,-34.4423682,-59.4475148
+"Đường sắt cao tốc Bắc - Nam, Đường Tránh Nam Hải Vân-Túy Loan, Xã Hòa Sơn, Huyện Hòa Vang, Thành phố Đà Nẵng, Việt Nam",12/11/1964,16.0321703,108.1145398
+"Đường sắt cao tốc Bắc - Nam, Đường Tránh Nam Hải Vân-Túy Loan, Xã Hòa Sơn, Huyện Hòa Vang, Thành phố Đà Nẵng, Việt Nam",12/11/1965,16.0321703,108.1145398
+"Little Sitkin Island, Unorganized Borough, Alaska, United States",12/11/1973,51.9430085,178.50962087585077
+"Hierro, Tías, Las Palmas, Canarias, 35518, España",12/11/1977,28.9209147,-13.6704952
+"Pontiac, Oakland County, Michigan, United States",12/11/1984,42.6389216,-83.2910468
+"Rome, Floyd County, Georgia, United States",12/11/1991,34.257038,-85.1646726
+"จังหวัดสุราษฎร์ธานี, ประเทศไทย",12/11/1998,9.4674663,98.830042
+"Ilha de São Jorge, Açores, Portugal",12/11/1999,38.64453055,-28.052794030066295
+"Sumacal, Canton Exaltación, Municipio Exaltación, Yacuma, Beni, Bolivia",12/11/2000,-12.9482581,-65.1120651
+"جدة, محافظة جدة, منطقة مكة المكرمة, 23434, السعودية",12/11/2004,21.5810088,39.1653612
+"Uberaba, Região Geográfica Imediata de Uberaba, Região Geográfica Intermediária de Uberaba, Minas Gerais, Região Sudeste, Brasil",12/11/2004,-19.750833,-47.936666
+"Sabine Pass, Port Arthur, Jefferson County, Texas, 77655, United States",12/11/2008,29.7329013,-93.8956445
 "Darwin, City of Darwin, Northern Territory, 0800, Australia",12/12/1938,-12.46044,130.8410469
 "臺北市, 臺灣",12/12/1948,25.0375198,121.5636796
 "Washington, District of Columbia, United States",12/12/1949,38.8950368,-77.0365427
 "Jungshahi, تعلقہ ٹھٹہ, ضلع ٹھٹہ, سندھ, پاکستان",12/12/1949,24.85710585,67.7745938462678
 "Nagpur City, Nagpur Urban Taluka, Nagpur District, Maharashtra, India",12/12/1953,21.1498134,79.0820556
-"Bratislava, Bratislavský kraj, Slovensko",12/12/1954,48.1516988,17.1093063
+"Bratislava, Bratislavský kraj, Slovensko",12/12/1954,48.15926025,17.139658691421687
 "Dannemois, Évry, Essonne, Île-de-France, France métropolitaine, 91490, France",12/12/1956,48.4538873,2.4778402
 "Chièvres, Ath, Hainaut, Wallonie, België / Belgique / Belgien",12/12/1961,50.56999985,3.7793461759110007
 "ولایت غزنی, افغانستان",12/12/1963,33.3149631,67.828989
