@@ -1,3 +1,4 @@
+import os
 import time
 
 import matplotlib.pyplot as plt
@@ -9,6 +10,7 @@ import warnings
 
 import requests
 from PIL import Image
+from geopy import Nominatim
 from matplotlib.animation import PillowWriter
 from wordcloud import WordCloud, STOPWORDS
 from collections import Counter
@@ -53,8 +55,9 @@ class Data:
             ('Ground', np.int32),  # Number of ground fatalities as integer
             ('Summary', 'U1000')  # Summary as string
         ]
+        self.module_dir = os.path.dirname(os.path.abspath(__file__))
 
-        with open("podatki\\Airplane_Crashes_and_Fatalities_Since_1908.csv", 'r', encoding='utf-8') as file:
+        with open(os.path.join(self.module_dir, "podatki","Airplane_Crashes_and_Fatalities_Since_1908.csv"), 'r', encoding='utf-8') as file:
             csv_reader = DictReader(file)
             for row in csv_reader:
                 date = row['Date']
@@ -75,7 +78,7 @@ class Data:
                      ground, summary))
         self.podatki = np.sort(np.array(self.podatki, dtype=dtype), order='Date')
 
-        with open("podatki\\aeroflot_accidents_1970s.csv", 'r', encoding='utf-8') as file:
+        with open(os.path.join(self.module_dir, "podatki","aeroflot_accidents_1970s.csv"), 'r', encoding='utf-8') as file:
             csv_reader = DictReader(file)
             for row in csv_reader:
                 date = row['Date']
@@ -92,7 +95,6 @@ class Data:
                      refs)
                 )
         self.aeroflot_podatki = np.sort(np.array(self.aeroflot_podatki, dtype=adtype), order='Date')
-
 
         self.years = np.unique([entry['Date'][-4:] for entry in self.podatki])
         self.years_numeric = np.array([int(year) for year in self.years])
@@ -242,7 +244,7 @@ class Data:
         plt.tight_layout()
         plt.show()
 
-    def fatilities_vs_ratio(self):
+    def fatalities_vs_ratio(self):
         fig = plt.figure(figsize=(12, 6))
         ax1 = fig.subplots()
         ax1.plot(self.years, self.ratio, color='orange', marker=".", linewidth=1)
@@ -262,6 +264,13 @@ class Data:
             label.set_visible(True)
         for label in ax1.xaxis.get_ticklabels()[1::5]:
             label.set_visible(False)
+
+        # Adding vertical lines for important year intervals
+        important_years = [("1917", "1920"), ("1942", "1947"), ("1960", "1970"), ("1970", "1990"), ("1990", "2009")]
+        for start, end in important_years:
+            ax1.axvline(x=start, color='gray', linestyle='--', linewidth=1)
+            ax1.axvline(x=end, color='gray', linestyle='--', linewidth=1)
+            ax1.axvspan(start, end, color='lightgray', alpha=0.3)
 
         fig.tight_layout()
         plt.show()
@@ -333,7 +342,7 @@ class Data:
 
         for airplane in top_10_airplanes:
             count = counts[np.where(unique_registrations == airplane)[0][0]]
-            print(airplane, ":", count)
+            #print(airplane, ":", count)
             top_10_dict[airplane] = count
 
         airplanes = list(top_10_dict.keys())
@@ -458,9 +467,9 @@ class Data:
     def passanger_and_fatalities_over_time(self):
 
         plt.figure(figsize=(10, 6))
-        plt.bar(self.years, self.num_passengers, color='black')
+        plt.bar(self.years, self.num_passengers, color='tab:red',width=1.0)
         plt.bar(self.years, self.num_passengers - self.num_fatalities,
-                color=[(np.random.random(), np.random.random(), np.random.random()) for _ in range(len(self.years))])
+                color='tab:blue', width=1.0)
         plt.title('Passangers and Fatalities over time')
         plt.xlabel('Year')
         plt.ylabel('Number of Accidents')
@@ -470,7 +479,7 @@ class Data:
 
     def wordcloud(self, field):
         text = str(self.podatki[field])
-        plane_mask = np.array(Image.open('assets/airplane_mask.jpg'))
+        plane_mask = np.array(Image.open(os.path.join(self.module_dir, "assets",'airplane_mask.jpg')))
 
         stopwords = set(STOPWORDS)
 
@@ -494,7 +503,7 @@ class Data:
                 countries.append(country)
 
         text = ' '.join(countries)
-        plane_mask = np.array(Image.open('assets/airplane_mask.jpg'))
+        plane_mask = np.array(Image.open(os.path.join(self.module_dir, "assets",'airplane_mask.jpg')))
 
         stopwords = set(STOPWORDS)
         stopwords.add('nan')
@@ -764,15 +773,11 @@ class Data:
             plt.text(X_pca[kmeans.labels_ == i, 0].mean(), X_pca[kmeans.labels_ == i, 1].mean(),
                      f'Cluster {i}: {keywords_str}', color='black', fontsize=10)
 
-        for label, examples in examples_per_cluster.items():
+        """for label, examples in examples_per_cluster.items():
             print(f"Cluster {label}:")
             for example in examples[:5]:  # Print up to 5 examples per cluster
                 print(example)
-            print()
+            print()"""
 
         plt.tight_layout()
         plt.show()
-
-
-#data = Data()
-#data.get_geolocations()
