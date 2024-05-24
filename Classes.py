@@ -19,8 +19,6 @@ import seaborn as sns
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 import numpy as np
-from geopy.geocoders import Nominatim
-
 
 warnings.filterwarnings("ignore")
 
